@@ -815,14 +815,14 @@ ConvectiveTransport light_source_to_lower_inlet_disp from light_source_store to 
     fixed flow : True
     area : 1
     velocity : 48 / 1000 / 3600 | 13e-6 m3/s
-    |activation_times : 0, 120, 120.1
-    |activation_response : 1, 0, 1
+    activation_times : 0, 10, 10.1
+    activation_response : 1, 0, 1
 
-|ConvectiveTransport light_tracer_to_lower_inlet_disp from light_pulse_source to lowerInlet_light_disp
-    |fixed flow : True
-    |area : 1
-    |velocity : 48 / 1000 / 3600 | 13e-6 m3/s
-    |activation_times : 0, 120, 120.1
-    |activation_response : 0, 1, 0
-|
+ConvectiveTransport light_tracer_to_lower_inlet_disp from light_pulse_source to lowerInlet_light_disp
+    fixed flow : True
+    area : 1
+    velocity : 48 / 1000 / 3600 | 13e-6 m3/s
+    activation_times : 0, 10, 10.1
+    activation_response : 0, 1, 0
+
 end
