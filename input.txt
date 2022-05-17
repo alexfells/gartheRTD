@@ -70,7 +70,7 @@ Surroundings light_sink_store of continuous phase light_phase
 
 Compartment upper_inlet_light_disp of continuous phase light_phase   
     volume : 1.13*10**-3 * 0.09 
-    IncompressiblePhase light_phase to stage26_light_disp
+    IncompressiblePhase light_phase to upper_inlet_light_disp
         |light : 0
         light : 0.15
         tracer_light : 0
