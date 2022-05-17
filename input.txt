@@ -682,70 +682,136 @@ Surroundings light_pulse_source of continuous phase light_phase
 |
 |ConvectiveTransport stage10_coal_to_stage11_disp from stage10_light_coal to stage11_light_disp
 ConvectiveTransport stage10_coal_to_stage11_disp from stage10_light_coal to light_sink_store
-
+    fixed flow : True
+    area : 1
+    velocity : 48 / 1000 / 3600 | 13e-6 m3/s
+    
 ConvectiveTransport stage10_disp_to_stage10_coal from stage10_light_disp to stage10_light_coal
-        
+    fixed flow : True
+    area : 1
+    velocity : 48 / 1000 / 3600 | 13e-6 m3/s
+            
 ||| stage 9
 
 ConvectiveTransport stage9_coal_to_stage10_disp from stage9_light_coal to stage10_light_disp
-
+    fixed flow : True
+    area : 1
+    velocity : 48 / 1000 / 3600 | 13e-6 m3/s
+    
 ConvectiveTransport stage9_disp_to_stage9_coal from stage9_light_disp to stage9_light_coal
-        
+    fixed flow : True
+    area : 1
+    velocity : 48 / 1000 / 3600 | 13e-6 m3/s
+            
 ||| stage 8
 
 ConvectiveTransport stage8_coal_to_stage9_disp from stage8_light_coal to stage9_light_disp
-
+    fixed flow : True
+    area : 1
+    velocity : 48 / 1000 / 3600 | 13e-6 m3/s
+    
 ConvectiveTransport stage8_disp_to_stage8_coal from stage8_light_disp to stage8_light_coal
-        
+    fixed flow : True
+    area : 1
+    velocity : 48 / 1000 / 3600 | 13e-6 m3/s
+            
 ||| stage 7
 
 ConvectiveTransport stage7_coal_to_stage8_disp from stage7_light_coal to stage8_light_disp
-
+    fixed flow : True
+    area : 1
+    velocity : 48 / 1000 / 3600 | 13e-6 m3/s
+    
 ConvectiveTransport stage7_disp_to_stage7_coal from stage7_light_disp to stage7_light_coal
-        
+    fixed flow : True
+    area : 1
+    velocity : 48 / 1000 / 3600 | 13e-6 m3/s
+            
 ||| stage 6
 
 ConvectiveTransport stage6_coal_to_stage7_disp from stage6_light_coal to stage7_light_disp
-
+    fixed flow : True
+    area : 1
+    velocity : 48 / 1000 / 3600 | 13e-6 m3/s
+    
 ConvectiveTransport stage6_disp_to_stage6_coal from stage6_light_disp to stage6_light_coal
-        
+    fixed flow : True
+    area : 1
+    velocity : 48 / 1000 / 3600 | 13e-6 m3/s
+            
 ||| stage 5
 
 ConvectiveTransport stage5_coal_to_stage6_disp from stage5_light_coal to stage6_light_disp
-
+    fixed flow : True
+    area : 1
+    velocity : 48 / 1000 / 3600 | 13e-6 m3/s
+    
 ConvectiveTransport stage5_disp_to_stage5_coal from stage5_light_disp to stage5_light_coal
-        
+    fixed flow : True
+    area : 1
+    velocity : 48 / 1000 / 3600 | 13e-6 m3/s
+            
 ||| stage 4
 
 ConvectiveTransport stage4_coal_to_stage5_disp from stage4_light_coal to stage5_light_disp
-
+    fixed flow : True
+    area : 1
+    velocity : 48 / 1000 / 3600 | 13e-6 m3/s
+    
 ConvectiveTransport stage4_disp_to_stage4_coal from stage4_light_disp to stage4_light_coal
-        
+    fixed flow : True
+    area : 1
+    velocity : 48 / 1000 / 3600 | 13e-6 m3/s
+            
 ||| stage 3
 
 ConvectiveTransport stage3_coal_to_stage4_disp from stage3_light_coal to stage4_light_disp
-
+    fixed flow : True
+    area : 1
+    velocity : 48 / 1000 / 3600 | 13e-6 m3/s
+    
 ConvectiveTransport stage3_disp_to_stage3_coal from stage3_light_disp to stage3_light_coal
-        
+    fixed flow : True
+    area : 1
+    velocity : 48 / 1000 / 3600 | 13e-6 m3/s
+            
 ||| stage 2
 
 ConvectiveTransport stage2_coal_to_stage3_disp from stage2_light_coal to stage3_light_disp
-
+    fixed flow : True
+    area : 1
+    velocity : 48 / 1000 / 3600 | 13e-6 m3/s
+    
 ConvectiveTransport stage2_disp_to_stage2_coal from stage2_light_disp to stage2_light_coal
-        
+    fixed flow : True
+    area : 1
+    velocity : 48 / 1000 / 3600 | 13e-6 m3/s
+            
 ||| stage 1
 
 ConvectiveTransport stage1_coal_to_stage2_disp from stage1_light_coal to stage2_light_disp
-
+    fixed flow : True
+    area : 1
+    velocity : 48 / 1000 / 3600 | 13e-6 m3/s
+    
 ConvectiveTransport stage1_disp_to_stage1_coal from stage1_light_disp to stage1_light_coal
-
+    fixed flow : True
+    area : 1
+    velocity : 48 / 1000 / 3600 | 13e-6 m3/s
+    
 ||| lower inlet
 
 ConvectiveTransport lower_inlet_coal_to_stage1_light_disp from lowerInlet_light_coal to stage1_light_disp
-
+    fixed flow : True
+    area : 1
+    velocity : 48 / 1000 / 3600 | 13e-6 m3/s
+    
 ConvectiveTransport lower_inlet_disp_to_lower_inlet_coal from lowerInlet_light_disp to lowerInlet_light_coal
+    fixed flow : True
+    area : 1
+    velocity : 48 / 1000 / 3600 | 13e-6 m3/s
 
-onvectiveTransport light_source_to_lower_inlet_disp from light_source_store to lowerInlet_light_disp
+ConvectiveTransport light_source_to_lower_inlet_disp from light_source_store to lowerInlet_light_disp
     fixed flow : True
     area : 1
     velocity : 48 / 1000 / 3600 | 13e-6 m3/s
