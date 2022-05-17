@@ -66,6 +66,16 @@ Surroundings light_sink_store of continuous phase light_phase
         tracer_light : 0
         density : 867 
 
+||| upper inlet
+
+Compartment upper_inlet_light_disp of continuous phase light_phase   
+    volume : 1.13*10**-3 * 0.09 
+    IncompressiblePhase light_phase to stage26_light_disp
+        |light : 0
+        light : 0.15
+        tracer_light : 0
+        density : 867 
+
 ||| stage 26
 
 Compartment stage26_light_coal of continuous phase light_phase  
@@ -582,9 +592,17 @@ Surroundings light_pulse_source of continuous phase light_phase
 
 |||     Light phase
 
+||| upper inlet
+
+ConvectiveTransport upper_inlet_light_disp_to_light_sink from upper_inlet_light_disp to light_sink_store
+    fixed flow : True
+    area : 1
+    velocity : 48 / 1000 / 3600 | 13e-6 m3/s
+
 ||| stage 26
 
-ConvectiveTransport stage26_coal_to_stage27_disp from stage26_light_coal to light_sink_store
+|ConvectiveTransport stage26_coal_to_stage27_disp from stage26_light_coal to light_sink_store
+ConvectiveTransport stage26_coal_to_stage27_disp from stage26_light_coal to upper_inlet_light_disp
     fixed flow : True
     area : 1
     velocity : 48 / 1000 / 3600 | 13e-6 m3/s
