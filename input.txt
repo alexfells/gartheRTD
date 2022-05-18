@@ -12,8 +12,6 @@ Solver Tsit5() |Rosenbrock23	| For julia see https://diffeq.sciml.ai/stable/solv
 
 Defaults 
     |model name : PSEC with pulse
-    |flow_tau : 10**-2
-    |flow_tau : 10**4
     flow_tau : 10**6
 
 DefineComponents | name : molecular weight (kg/mole)
@@ -69,7 +67,7 @@ Surroundings light_sink_store of continuous phase light_phase
 ||| upper separator
 
 Compartment upperSep_light_coal of continuous phase light_phase  
-    volume : 1.22*10**-2   |h=0.32, d=0.22
+    volume : 1.22*10**-2 * 0.1  |h=0.32, d=0.22
     IncompressiblePhase light_phase to upperSep_light_coal 
         light : 114.5
         tracer_light : 0
