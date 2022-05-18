@@ -2,7 +2,7 @@
 |||     Cofiguration     |||
 |||----------------------|||
 
-Solver Tsit5() |Rosenbrock23	| For julia see https://tinyurl.com/w2fzwmhf
+Solver Tsit5() |Rosenbrock23	| For julia see https://diffeq.sciml.ai/stable/solvers/ode_solve/ and https://github.com/SciML/diffeqpy
 |Solver BDF 	|Radau |BDF |LSODA
     t_start : 0
     t_final : 360
