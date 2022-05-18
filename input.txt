@@ -88,7 +88,7 @@ Compartment upperSep_light_disp of continuous phase light_phase
 Compartment upper_inlet_light_disp of continuous phase light_phase   
     volume : 1.13*10**-3 * 0.09 * 0.3		|h=0.225, d=0.08 
     IncompressiblePhase light_phase to upper_inlet_light_disp
-        light : 0.21
+        light : 0.28
         tracer_light : 0
         density : 867 
 
