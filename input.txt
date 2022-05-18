@@ -88,8 +88,7 @@ Compartment upperSep_light_disp of continuous phase light_phase
 Compartment upper_inlet_light_disp of continuous phase light_phase   
     volume : 1.13*10**-3 * 0.09 * 0.3		|h=0.225, d=0.08 
     IncompressiblePhase light_phase to upper_inlet_light_disp
-        |light : 0
-        light : 0.15
+        light : 0.21
         tracer_light : 0
         density : 867 
 
@@ -98,16 +97,14 @@ Compartment upper_inlet_light_disp of continuous phase light_phase
 Compartment stage26_light_coal of continuous phase light_phase  
     volume : 5.03*10**-4 * 0.09 * 0.5
     IncompressiblePhase light_phase to stage26_light_coal 
-        |light : 0
-        light : 0.15
+        light : 0.21
         tracer_light : 0
         density : 867 
 
 Compartment stage26_light_disp of continuous phase light_phase   
     volume : 5.03*10**-4 * 0.09 * 0.5
     IncompressiblePhase light_phase to stage26_light_disp
-        |light : 0
-        light : 0.15
+        light : 0.21
         tracer_light : 0
         density : 867 
 
@@ -116,16 +113,14 @@ Compartment stage26_light_disp of continuous phase light_phase
 Compartment stage25_light_coal of continuous phase light_phase  
     volume : 5.03*10**-4 * 0.09 * 0.5
     IncompressiblePhase light_phase to stage25_light_coal 
-        |light : 0
-        light : 0.15
+        light : 0.21
         tracer_light : 0
         density : 867 
 
 Compartment stage25_light_disp of continuous phase light_phase   
     volume : 5.03*10**-4 * 0.09 * 0.5
     IncompressiblePhase light_phase to stage25_light_disp
-        |light : 0
-        light : 0.15
+        light : 0.21
         tracer_light : 0
         density : 867 
 
@@ -134,16 +129,14 @@ Compartment stage25_light_disp of continuous phase light_phase
 Compartment stage24_light_coal of continuous phase light_phase  
     volume : 5.03*10**-4 * 0.09 * 0.5
     IncompressiblePhase light_phase to stage24_light_coal 
-        |light : 0
-        light : 0.15
+        light : 0.21
         tracer_light : 0
         density : 867 
 
 Compartment stage24_light_disp of continuous phase light_phase   
     volume : 5.03*10**-4 * 0.09 * 0.5
     IncompressiblePhase light_phase to stage24_light_disp
-        |light : 0
-        light : 0.15
+        light : 0.21
         tracer_light : 0
         density : 867 
 
@@ -152,16 +145,14 @@ Compartment stage24_light_disp of continuous phase light_phase
 Compartment stage23_light_coal of continuous phase light_phase  
     volume : 5.03*10**-4 * 0.09 * 0.5
     IncompressiblePhase light_phase to stage23_light_coal 
-        |light : 0
-        light : 0.15
+        light : 0.21
         tracer_light : 0
         density : 867 
 
 Compartment stage23_light_disp of continuous phase light_phase   
     volume : 5.03*10**-4 * 0.09 * 0.5
     IncompressiblePhase light_phase to stage23_light_disp
-        |light : 0
-        light : 0.15
+        light : 0.21
         tracer_light : 0
         density : 867 
 
@@ -170,16 +161,14 @@ Compartment stage23_light_disp of continuous phase light_phase
 Compartment stage22_light_coal of continuous phase light_phase  
     volume : 5.03*10**-4 * 0.09 * 0.5
     IncompressiblePhase light_phase to stage22_light_coal 
-        |light : 0
-        light : 0.15
+        light : 0.21
         tracer_light : 0
         density : 867 
 
 Compartment stage22_light_disp of continuous phase light_phase   
     volume : 5.03*10**-4 * 0.09 * 0.5
     IncompressiblePhase light_phase to stage22_light_disp
-        |light : 0
-        light : 0.15
+        light : 0.21
         tracer_light : 0
         density : 867 
         
@@ -188,16 +177,14 @@ Compartment stage22_light_disp of continuous phase light_phase
 Compartment stage21_light_coal of continuous phase light_phase  
     volume : 5.03*10**-4 * 0.09 * 0.5
     IncompressiblePhase light_phase to stage21_light_coal 
-        |light : 0
-        light : 0.15
+        light : 0.21
         tracer_light : 0
         density : 867 
 
 Compartment stage21_light_disp of continuous phase light_phase   
     volume : 5.03*10**-4 * 0.09 * 0.5
     IncompressiblePhase light_phase to stage21_light_disp
-        |light : 0
-        light : 0.15
+        light : 0.21
         tracer_light : 0
         density : 867 
 
@@ -206,16 +193,14 @@ Compartment stage21_light_disp of continuous phase light_phase
 Compartment stage20_light_coal of continuous phase light_phase  
     volume : 5.03*10**-4 * 0.09 * 0.5
     IncompressiblePhase light_phase to stage20_light_coal 
-        |light : 0
-        light : 0.15
+        light : 0.21
         tracer_light : 0
         density : 867 
 
 Compartment stage20_light_disp of continuous phase light_phase   
     volume : 5.03*10**-4 * 0.09 * 0.5
     IncompressiblePhase light_phase to stage20_light_disp
-        |light : 0
-        light : 0.15
+        light : 0.21
         tracer_light : 0
         density : 867 
 
@@ -224,16 +209,14 @@ Compartment stage20_light_disp of continuous phase light_phase
 Compartment stage19_light_coal of continuous phase light_phase  
     volume : 5.03*10**-4 * 0.09 * 0.5
     IncompressiblePhase light_phase to stage19_light_coal 
-        |light : 0
-        light : 0.15
+        light : 0.21
         tracer_light : 0
         density : 867 
 
 Compartment stage19_light_disp of continuous phase light_phase   
     volume : 5.03*10**-4 * 0.09 * 0.5
     IncompressiblePhase light_phase to stage19_light_disp
-        |light : 0
-        light : 0.15
+        light : 0.21
         tracer_light : 0
         density : 867 
 
@@ -242,16 +225,14 @@ Compartment stage19_light_disp of continuous phase light_phase
 Compartment stage18_light_coal of continuous phase light_phase  
     volume : 5.03*10**-4 * 0.09 * 0.5
     IncompressiblePhase light_phase to stage18_light_coal 
-        |light : 0
-        light : 0.15
+        light : 0.21
         tracer_light : 0
         density : 867 
 
 Compartment stage18_light_disp of continuous phase light_phase   
     volume : 5.03*10**-4 * 0.09 * 0.5
     IncompressiblePhase light_phase to stage18_light_disp
-        |light : 0
-        light : 0.15
+        light : 0.21
         tracer_light : 0
         density : 867 
 
@@ -260,16 +241,14 @@ Compartment stage18_light_disp of continuous phase light_phase
 Compartment stage17_light_coal of continuous phase light_phase  
     volume : 5.03*10**-4 * 0.09 * 0.5
     IncompressiblePhase light_phase to stage17_light_coal 
-        |light : 0
-        light : 0.15
+        light : 0.21
         tracer_light : 0
         density : 867 
 
 Compartment stage17_light_disp of continuous phase light_phase   
     volume : 5.03*10**-4 * 0.09 * 0.5
     IncompressiblePhase light_phase to stage17_light_disp
-        |light : 0
-        light : 0.15
+        light : 0.21
         tracer_light : 0
         density : 867 
 
@@ -278,16 +257,14 @@ Compartment stage17_light_disp of continuous phase light_phase
 Compartment stage16_light_coal of continuous phase light_phase  
     volume : 5.03*10**-4 * 0.09 * 0.5
     IncompressiblePhase light_phase to stage16_light_coal 
-        |light : 0
-        light : 0.15
+        light : 0.21
         tracer_light : 0
         density : 867 
 
 Compartment stage16_light_disp of continuous phase light_phase   
     volume : 5.03*10**-4 * 0.09 * 0.5
     IncompressiblePhase light_phase to stage16_light_disp
-        |light : 0
-        light : 0.15
+        light : 0.21
         tracer_light : 0
         density : 867 
 
@@ -296,16 +273,14 @@ Compartment stage16_light_disp of continuous phase light_phase
 Compartment stage15_light_coal of continuous phase light_phase  
     volume : 5.03*10**-4 * 0.09 * 0.5
     IncompressiblePhase light_phase to stage15_light_coal 
-        |light : 0
-        light : 0.15
+        light : 0.21
         tracer_light : 0
         density : 867 
 
 Compartment stage15_light_disp of continuous phase light_phase   
     volume : 5.03*10**-4 * 0.09 * 0.5
     IncompressiblePhase light_phase to stage15_light_disp
-        |light : 0
-        light : 0.15
+        light : 0.21
         tracer_light : 0
         density : 867 
 
@@ -314,16 +289,14 @@ Compartment stage15_light_disp of continuous phase light_phase
 Compartment stage14_light_coal of continuous phase light_phase  
     volume : 5.03*10**-4 * 0.09 * 0.5
     IncompressiblePhase light_phase to stage14_light_coal 
-        |light : 0
-        light : 0.15
+        light : 0.21
         tracer_light : 0
         density : 867 
 
 Compartment stage14_light_disp of continuous phase light_phase   
     volume : 5.03*10**-4 * 0.09 * 0.5
     IncompressiblePhase light_phase to stage14_light_disp
-        |light : 0
-        light : 0.15
+        light : 0.21
         tracer_light : 0
         density : 867 
 
@@ -332,16 +305,14 @@ Compartment stage14_light_disp of continuous phase light_phase
 Compartment stage13_light_coal of continuous phase light_phase  
     volume : 5.03*10**-4 * 0.09 * 0.5
     IncompressiblePhase light_phase to stage13_light_coal 
-        |light : 0
-        light : 0.15
+        light : 0.21
         tracer_light : 0
         density : 867 
 
 Compartment stage13_light_disp of continuous phase light_phase   
     volume : 5.03*10**-4 * 0.09 * 0.5
     IncompressiblePhase light_phase to stage13_light_disp
-        |light : 0
-        light : 0.15
+        light : 0.21
         tracer_light : 0
         density : 867 
 
@@ -350,16 +321,14 @@ Compartment stage13_light_disp of continuous phase light_phase
 Compartment stage12_light_coal of continuous phase light_phase  
     volume : 5.03*10**-4 * 0.09 * 0.5
     IncompressiblePhase light_phase to stage12_light_coal 
-        |light : 0
-        light : 0.15
+        light : 0.21
         tracer_light : 0
         density : 867 
 
 Compartment stage12_light_disp of continuous phase light_phase   
     volume : 5.03*10**-4 * 0.09 * 0.5
     IncompressiblePhase light_phase to stage12_light_disp
-        |light : 0
-        light : 0.15
+        light : 0.21
         tracer_light : 0
         density : 867 
         
@@ -368,16 +337,14 @@ Compartment stage12_light_disp of continuous phase light_phase
 Compartment stage11_light_coal of continuous phase light_phase  
     volume : 5.03*10**-4 * 0.09 * 0.5
     IncompressiblePhase light_phase to stage11_light_coal 
-        |light : 0
-        light : 0.15
+        light : 0.21
         tracer_light : 0
         density : 867 
 
 Compartment stage11_light_disp of continuous phase light_phase   
     volume : 5.03*10**-4 * 0.09 * 0.5
     IncompressiblePhase light_phase to stage11_light_disp
-        |light : 0
-        light : 0.15
+        light : 0.21
         tracer_light : 0
         density : 867 
 
@@ -386,16 +353,14 @@ Compartment stage11_light_disp of continuous phase light_phase
 Compartment stage10_light_coal of continuous phase light_phase  
     volume : 5.03*10**-4 * 0.09 * 0.5
     IncompressiblePhase light_phase to stage10_light_coal 
-        |light : 0
-        light : 0.15
+        light : 0.21
         tracer_light : 0
         density : 867 
 
 Compartment stage10_light_disp of continuous phase light_phase   
     volume : 5.03*10**-4 * 0.09 * 0.5
     IncompressiblePhase light_phase to stage10_light_disp
-        |light : 0
-        light : 0.15
+        light : 0.21
         tracer_light : 0
         density : 867 
 
@@ -404,16 +369,14 @@ Compartment stage10_light_disp of continuous phase light_phase
 Compartment stage9_light_coal of continuous phase light_phase  
     volume : 5.03*10**-4 * 0.09 * 0.5
     IncompressiblePhase light_phase to stage9_light_coal 
-        |light : 0
-        light : 0.15
+        light : 0.21
         tracer_light : 0
         density : 867 
 
 Compartment stage9_light_disp of continuous phase light_phase   
     volume : 5.03*10**-4 * 0.09 * 0.5
     IncompressiblePhase light_phase to stage9_light_disp
-        |light : 0
-        light : 0.15
+        light : 0.21
         tracer_light : 0
         density : 867 
 
@@ -422,16 +385,14 @@ Compartment stage9_light_disp of continuous phase light_phase
 Compartment stage8_light_coal of continuous phase light_phase  
     volume : 5.03*10**-4 * 0.09 * 0.5
     IncompressiblePhase light_phase to stage8_light_coal 
-        |light : 0
-        light : 0.15
+        light : 0.21
         tracer_light : 0
         density : 867 
 
 Compartment stage8_light_disp of continuous phase light_phase   
     volume : 5.03*10**-4 * 0.09 * 0.5
     IncompressiblePhase light_phase to stage8_light_disp
-        |light : 0
-        light : 0.15
+        light : 0.21
         tracer_light : 0
         density : 867 
 
@@ -440,16 +401,14 @@ Compartment stage8_light_disp of continuous phase light_phase
 Compartment stage7_light_coal of continuous phase light_phase  
     volume : 5.03*10**-4 * 0.09 * 0.5
     IncompressiblePhase light_phase to stage7_light_coal 
-        |light : 0
-        light : 0.15
+        light : 0.21
         tracer_light : 0
         density : 867 
 
 Compartment stage7_light_disp of continuous phase light_phase   
     volume : 5.03*10**-4 * 0.09 * 0.5
     IncompressiblePhase light_phase to stage7_light_disp
-        |light : 0
-        light : 0.15
+        light : 0.21
         tracer_light : 0
         density : 867 
 
@@ -458,16 +417,14 @@ Compartment stage7_light_disp of continuous phase light_phase
 Compartment stage6_light_coal of continuous phase light_phase  
     volume : 5.03*10**-4 * 0.09 * 0.5
     IncompressiblePhase light_phase to stage6_light_coal 
-        |light : 0
-        light : 0.15
+        light : 0.21
         tracer_light : 0
         density : 867 
 
 Compartment stage6_light_disp of continuous phase light_phase   
     volume : 5.03*10**-4 * 0.09 * 0.5
     IncompressiblePhase light_phase to stage6_light_disp
-        |light : 0
-        light : 0.15
+        light : 0.21
         tracer_light : 0
         density : 867 
 
@@ -476,16 +433,14 @@ Compartment stage6_light_disp of continuous phase light_phase
 Compartment stage5_light_coal of continuous phase light_phase  
     volume : 5.03*10**-4 * 0.09 * 0.5
     IncompressiblePhase light_phase to stage5_light_coal 
-        |light : 0
-        light : 0.15
+        light : 0.21
         tracer_light : 0
         density : 867 
 
 Compartment stage5_light_disp of continuous phase light_phase   
     volume : 5.03*10**-4 * 0.09 * 0.5
     IncompressiblePhase light_phase to stage5_light_disp
-        |light : 0
-        light : 0.15
+        light : 0.21
         tracer_light : 0
         density : 867 
 
@@ -494,16 +449,14 @@ Compartment stage5_light_disp of continuous phase light_phase
 Compartment stage4_light_coal of continuous phase light_phase  
     volume : 5.03*10**-4 * 0.09 * 0.5
     IncompressiblePhase light_phase to stage4_light_coal 
-        |light : 0
-        light : 0.15
+        light : 0.21
         tracer_light : 0
         density : 867 
 
 Compartment stage4_light_disp of continuous phase light_phase   
     volume : 5.03*10**-4 * 0.09 * 0.5
     IncompressiblePhase light_phase to stage4_light_disp
-        |light : 0
-        light : 0.15
+        light : 0.21
         tracer_light : 0
         density : 867 
 
@@ -512,16 +465,14 @@ Compartment stage4_light_disp of continuous phase light_phase
 Compartment stage3_light_coal of continuous phase light_phase  
     volume : 5.03*10**-4 * 0.09 * 0.5
     IncompressiblePhase light_phase to stage3_light_coal 
-        |light : 0
-        light : 0.15
+        light : 0.21
         tracer_light : 0
         density : 867 
 
 Compartment stage3_light_disp of continuous phase light_phase   
     volume : 5.03*10**-4 * 0.09 * 0.5
     IncompressiblePhase light_phase to stage3_light_disp
-        |light : 0
-        light : 0.15
+        light : 0.21
         tracer_light : 0
         density : 867 
 
@@ -530,16 +481,14 @@ Compartment stage3_light_disp of continuous phase light_phase
 Compartment stage2_light_coal of continuous phase light_phase  
     volume : 5.03*10**-4 * 0.09 * 0.5
     IncompressiblePhase light_phase to stage2_light_coal 
-        |light : 0
-        light : 0.15
+        light : 0.21
         tracer_light : 0
         density : 867 
 
 Compartment stage2_light_disp of continuous phase light_phase   
     volume : 5.03*10**-4 * 0.09 * 0.5
     IncompressiblePhase light_phase to stage2_light_disp
-        |light : 0
-        light : 0.15
+        light : 0.21
         tracer_light : 0
         density : 867 
         
@@ -548,16 +497,14 @@ Compartment stage2_light_disp of continuous phase light_phase
 Compartment stage1_light_coal of continuous phase light_phase  
     volume : 5.03*10**-4 * 0.09 * 0.5
     IncompressiblePhase light_phase to stage1_light_coal 
-        |light : 0
-        light : 0.15
+        light : 0.21
         tracer_light : 0
         density : 867 
 
 Compartment stage1_light_disp of continuous phase light_phase   
     volume : 5.03*10**-4 * 0.09 * 0.5
     IncompressiblePhase light_phase to stage1_light_disp
-        |light : 0
-        light : 0.15
+        light : 0.21
         tracer_light : 0
         density : 867 
 
@@ -566,16 +513,14 @@ Compartment stage1_light_disp of continuous phase light_phase
 Compartment lowerInlet_light_coal of continuous phase light_phase  
     volume : 5.03*10**-4 * 0.09 * 0.5
     IncompressiblePhase light_phase to lowerInlet_light_coal 
-        |light : 0
-        light : 0.15
+        light : 0.21
         tracer_light : 0
         density : 867 
 
 Compartment lowerInlet_light_disp of continuous phase light_phase   
     volume : 5.03*10**-4 * 0.09 * 0.5
     IncompressiblePhase light_phase to lowerInlet_light_disp
-        |light : 0
-        light : 0.15
+        light : 0.21
         tracer_light : 0
         density : 867 
 
