@@ -5,7 +5,7 @@
 Solver Tsit5() |Rosenbrock23	| For julia see https://diffeq.sciml.ai/stable/solvers/ode_solve/ and https://github.com/SciML/diffeqpy
 |Solver BDF 	|Radau |BDF |LSODA
     t_start : 0
-    t_final : 360
+    t_final : 600
     atol : 10**-6
     rtol : 10**-6
     max step size : 1
@@ -71,16 +71,14 @@ Surroundings light_sink_store of continuous phase light_phase
 Compartment upperSep_light_coal of continuous phase light_phase  
     volume : 1.22*10**-2   |h=0.32, d=0.22
     IncompressiblePhase light_phase to upperSep_light_coal 
-        |light : 0
-        light : 0.15 | Needs setting
+        light : 110
         tracer_light : 0
         density : 867 
 
 Compartment upperSep_light_disp of continuous phase light_phase   
     volume : 2.01*10**-2 * 0.09 * 1.0   |h=0.53, d=0.22
     IncompressiblePhase light_phase to upperSep_light_disp
-        |light : 0
-        light : 0.15 | Needs setting
+        light : 17 
         tracer_light : 0
         density : 867 
 
@@ -958,14 +956,14 @@ ConvectiveTransport light_source_to_lower_inlet_disp from light_source_store to 
     fixed flow : True
     area : 1
     velocity : 48 / 1000 / 3600 | 13e-6 m3/s
-    activation_times : 0, 180, 180.1
-    activation_response : 1, 0, 1
+|    activation_times : 0, 180, 180.1
+|    activation_response : 1, 0, 1
 
-ConvectiveTransport light_tracer_to_lower_inlet_disp from light_pulse_source to lowerInlet_light_disp
-    fixed flow : True
-    area : 1
-    velocity : 48 / 1000 / 3600 | 13e-6 m3/s
-    activation_times : 0, 180, 180.1
-    activation_response : 0, 1, 0
+|ConvectiveTransport light_tracer_to_lower_inlet_disp from light_pulse_source to lowerInlet_light_disp
+|    fixed flow : True
+|    area : 1
+|    velocity : 48 / 1000 / 3600 | 13e-6 m3/s
+|    activation_times : 0, 180, 180.1
+|    activation_response : 0, 1, 0
 
 end
