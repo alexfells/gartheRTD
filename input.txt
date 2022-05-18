@@ -71,7 +71,7 @@ Surroundings light_sink_store of continuous phase light_phase
 Compartment upperSep_light_coal of continuous phase light_phase  
     volume : 1.22*10**-2   |h=0.32, d=0.22
     IncompressiblePhase light_phase to upperSep_light_coal 
-        light : 112
+        light : 114.5
         tracer_light : 0
         density : 867 
 
@@ -901,14 +901,14 @@ ConvectiveTransport light_source_to_lower_inlet_disp from light_source_store to 
     fixed flow : True
     area : 1
     velocity : 48 / 1000 / 3600 | 13e-6 m3/s
-|    activation_times : 0, 180, 180.1
-|    activation_response : 1, 0, 1
+    activation_times : 0, 180, 180.1
+    activation_response : 1, 0, 1
 
-|ConvectiveTransport light_tracer_to_lower_inlet_disp from light_pulse_source to lowerInlet_light_disp
-|    fixed flow : True
-|    area : 1
-|    velocity : 48 / 1000 / 3600 | 13e-6 m3/s
-|    activation_times : 0, 180, 180.1
-|    activation_response : 0, 1, 0
+ConvectiveTransport light_tracer_to_lower_inlet_disp from light_pulse_source to lowerInlet_light_disp
+    fixed flow : True
+    area : 1
+    velocity : 48 / 1000 / 3600 | 13e-6 m3/s
+    activation_times : 0, 180, 180.1
+    activation_response : 0, 1, 0
 
 end
