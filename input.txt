@@ -20,9 +20,9 @@ DefineComponents | name : molecular weight (kg/mole)
     light : 0.09214 
     tracer_light : 0.09214
 
-|||-------------------------|||
-|||     Heavy phase         |||
-|||-------------------------|||
+|||---------------------------------|||
+|||     Heavy phase compartments    |||
+|||---------------------------------|||
 
 ||| heavy source
 
@@ -240,9 +240,9 @@ Surroundings heavy_sink_store of continuous phase heavy_phase
     IncompressiblePhase heavy_phase to heavy_sink_store 
         density : 999
 
-|||------------------------|||
-|||     Light phase        |||
-|||------------------------|||
+|||---------------------------------|||
+|||     Light phase compartments    |||
+|||---------------------------------|||
 
 ||| light sink
 
@@ -728,19 +728,65 @@ Surroundings light_pulse_source of continuous phase light_phase
         tracer_light : 94100
         density : 867
 
-|||------------------------|||
-|||     Transport          |||
-|||------------------------|||
+|||-----------------------------|||
+|||     Heavy phase transport   |||
+|||-----------------------------|||
 
-|||     Heavy phase
+||| heavy source
 
-|ConvectiveTransport heavy_source_to_stage1_dispersion from heavy_source_store to stage1_dispersion   
+ConvectiveTransport heavy_feed_to_upper_inlet from heavy_source_store to upper_inlet_heavy 
+    fixed flow : True
+    area : 1
+    velocity : 40 / 1000 / 3600
+|    activation_times : 0, 180, 180.1
+|    activation_response : 1, 0, 1
+
+|ConvectiveTransport heavy_tracer from heavy_pulse_source to upper_inlet_heavy 
 |    fixed flow : True
 |    area : 1
 |    velocity : 40 / 1000 / 3600
-|
+|    activation_times : 0, 180, 180.1
+|    activation_response : 0, 1, 0
 
-|||     Light phase
+||| upper separator
+
+ConvectiveTransport heavy_upper_sep_to_upper_inlet from upper_separator_heavy to upper_inlet_heavy 
+    fixed flow : True
+    area : 1
+    velocity : 40 / 1000 / 3600
+
+||| upper inlet
+
+ConvectiveTransport heavy_upper_inlet_to_upper_sep from upper_inlet_heavy to upper_separator_heavy 
+    fixed flow : True
+    area : 1
+    velocity : 40 / 1000 / 3600
+
+|ConvectiveTransport heavy_upper_inlet_to_stage26 from upper_inlet_heavy to stage26_heavy 
+ConvectiveTransport heavy_upper_inlet_to_stage26 from upper_inlet_heavy to lower_inlet_heavy 
+    fixed flow : True
+    area : 1
+    velocity : 40 / 1000 / 3600
+
+||| column stage
+
+||| lower inlet
+
+ConvectiveTransport lowerInlet_lowerSeperator from lower_inlet_heavy to lower_seperator_heavy
+    fixed flow : True
+    area : 1
+    velocity : 40 / 1000 / 3600
+
+||| lower separator
+
+ConvectiveTransport heavy_outlet from lower_seperator_heavy to heavy_sink_store
+    fixed flow : True
+    area : 1
+    velocity : 40 / 1000 / 3600
+
+|||-----------------------------|||
+|||     Light phase transport   |||
+|||-----------------------------|||
 
 ||| upper separator
 
