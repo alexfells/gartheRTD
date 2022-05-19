@@ -16,6 +16,7 @@ Defaults
 
 DefineComponents | name : molecular weight (kg/mole)
     heavy : 0.0180
+    tracer_heavy : 0.0180
     light : 0.09214 
     tracer_light : 0.09214
 
@@ -23,32 +24,37 @@ DefineComponents | name : molecular weight (kg/mole)
 |||     Heavy phase         |||
 |||-------------------------|||
 
-|||     Heavy source
-|Surroundings heavy_source_store of continuous phase heavy_phase 
-|    volume : 10 
-|    pressure : 101325 * 1.1
-|    IncompressiblePhase heavy_phase to heavy_source_store 
-|        heavy : 555000
-|        density : 999
+||| heavy source
 
-|Compartment stage1_heavy_dispersion of continuous phase heavy_phase   
-|    volume : 5.03*10**-4 * (1 - 0.09)
-|    IncompressiblePhase heavy_phase to stage1_heavy_dispersion 
-|        heavy : 22.6
-|        density : 999
+Surroundings heavy_source_store of continuous phase heavy_phase 
+    volume : 10 
+    pressure : 101325 * 2
+    IncompressiblePhase heavy_phase to heavy_source_store 
+        heavy : 555000
+        density : 999
 
-|Compartment lowerInlet_heavy_dispersion of continuous phase heavy_phase   
-|    volume : 5.03*10**-4 * (1 - 0.09)
-|    IncompressiblePhase heavy_phase to lowerInlet_heavy_dispersion 
-|        heavy : 22.6
-|        density : 999
+Surroundings heavy_pulse_source of continuous phase heavy_phase  
+    volume : 10 
+    pressure : 101325 * 3
+    IncompressiblePhase heavy_phase to heavy_pulse_source
+        tracer : 555000
+        density : 999
 
-|||     Heavy sink
-|Surroundings heavy_sink_store of continuous phase heavy_phase  
-|    volume : 10 
-|    pressure : 101325 
-|    IncompressiblePhase heavy_phase to heavy_sink_store 
-|        density : 999
+||| upper inlet
+
+||| column stage
+
+||| lower inlet
+
+||| lower separator
+
+||| heavy sink
+
+Surroundings heavy_sink_store of continuous phase heavy_phase  
+    volume : 10 
+    pressure : 101325 
+    IncompressiblePhase heavy_phase to heavy_sink_store 
+        density : 999
 
 |||------------------------|||
 |||     Light phase        |||
