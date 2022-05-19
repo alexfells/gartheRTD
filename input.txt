@@ -762,7 +762,7 @@ ConvectiveTransport heavy_upper_inlet_to_upper_sep from upper_inlet_heavy to upp
     area : 1
     velocity : 40 / 1000 / 3600
 
-ConvectiveTransport heavy_upper_inlet_to_stage26 from upper_inlet_heavy to stage26_heavy 
+ConvectiveTransport heavy_upper_inlet_to_stage26 from upper_inlet_heavy to stage_26_heavy 
     fixed flow : True
     area : 1
     velocity : 40 / 1000 / 3600
