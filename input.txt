@@ -220,15 +220,15 @@ Compartment stage_1_heavy of continuous phase heavy_phase
 
 Compartment lower_inlet_heavy of continuous phase heavy_phase 
     volume : 1.13*10**-3 * (1 - 0.09)
-    IncompressiblePhase heavy_phase to lower_inlet_aqueous 
+    IncompressiblePhase heavy_phase to lower_inlet_heavy 
         heavy : 57
         heavy_tracer : 0
 
 ||| lower separator
 
-Compartment lower_seperator_aqueous of continuous phase aqueous_phase 
+Compartment lower_seperator_heavy of continuous phase heavy_phase 
     volume : 1.50*10**-2 * 0.33
-    IncompressiblePhase aqueous_phase to lower_seperator_aqueous 
+    IncompressiblePhase heavy_phase to lower_seperator_heavy 
         heavy : 274
         heavy_tracer : 0
 
