@@ -37,7 +37,7 @@ Surroundings heavy_pulse_source of continuous phase heavy_phase
     volume : 10 
     pressure : 101325 * 3
     IncompressiblePhase heavy_phase to heavy_pulse_source
-        tracer : 555000
+        heavy_tracer : 555000
         density : 999
 
 ||| upper inlet
