@@ -67,16 +67,16 @@ Surroundings light_sink_store of continuous phase light_phase
 ||| upper separator
 
 Compartment upperSep_light_coal of continuous phase light_phase  
-    volume : 1.22*10**-2 * 0.1  |h=0.32, d=0.22
+    volume : 1.22*10**-2 * 0.008  |h=0.32, d=0.22
     IncompressiblePhase light_phase to upperSep_light_coal 
-        light : 114.5
+        light : 1.22*10**-2 * 867 * (1/0.09214) * 0.008
         tracer_light : 0
         density : 867 
 
 Compartment upperSep_light_disp of continuous phase light_phase   
-    volume : 2.01*10**-2 * 0.09 * 1.0   |h=0.53, d=0.22
+    volume : 2.66*10**-3 * 0.09 * 0.3   |h=0.53, d=0.08
     IncompressiblePhase light_phase to upperSep_light_disp
-        light : 17 
+        light : 0.675
         tracer_light : 0
         density : 867 
 
