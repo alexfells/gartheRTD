@@ -1085,18 +1085,20 @@ ConvectiveTransport lower_inlet_disp_to_lower_inlet_coal from lowerInlet_light_d
     area : 1
     velocity : 48 / 1000 / 3600 | 13e-6 m3/s
 
+||| light source
+
 ConvectiveTransport light_source_to_lower_inlet_disp from light_source_store to lowerInlet_light_disp
     fixed flow : True
     area : 1
     velocity : 48 / 1000 / 3600 | 13e-6 m3/s
-    activation_times : 0, 180, 180.1
-    activation_response : 1, 0, 1
+|    activation_times : 0, 180, 180.1
+|    activation_response : 1, 0, 1
 
-ConvectiveTransport light_tracer_to_lower_inlet_disp from light_pulse_source to lowerInlet_light_disp
-    fixed flow : True
-    area : 1
-    velocity : 48 / 1000 / 3600 | 13e-6 m3/s
-    activation_times : 0, 180, 180.1
-    activation_response : 0, 1, 0
+|ConvectiveTransport light_tracer_to_lower_inlet_disp from light_pulse_source to lowerInlet_light_disp
+|    fixed flow : True
+|    area : 1
+|    velocity : 48 / 1000 / 3600 | 13e-6 m3/s
+|    activation_times : 0, 180, 180.1
+|    activation_response : 0, 1, 0
 
 end
