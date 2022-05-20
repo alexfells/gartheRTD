@@ -47,6 +47,7 @@ Compartment upper_separator_heavy of continuous phase heavy_phase
     IncompressiblePhase heavy_phase to upper_separator_heavy 
         heavy : 421
         tracer_heavy : 0
+        density : 999
 
 ||| upper inlet
 
@@ -55,6 +56,7 @@ Compartment upper_inlet_heavy of continuous phase heavy_phase
     IncompressiblePhase heavy_phase to upper_inlet_heavy 
         heavy : 57
         tracer_heavy : 0
+        density : 999
 
 ||| column stage
 
@@ -63,156 +65,182 @@ Compartment stage_26_heavy of continuous phase heavy_phase
     IncompressiblePhase heavy_phase to stage_26_heavy 
         heavy : 25.4
         tracer_heavy : 0
+        density : 999
 
 Compartment stage_25_heavy of continuous phase heavy_phase 
     volume : 5.03*10**-4 * (1 - 0.09) * 1.0
     IncompressiblePhase heavy_phase to stage_25_heavy 
         heavy : 25.4
         tracer_heavy : 0
+        density : 999
 
 Compartment stage_24_heavy of continuous phase heavy_phase 
     volume : 5.03*10**-4 * (1 - 0.09) * 1.0
     IncompressiblePhase heavy_phase to stage_24_heavy 
         heavy : 25.4
         tracer_heavy : 0
+        density : 999
 
 Compartment stage_23_heavy of continuous phase heavy_phase 
     volume : 5.03*10**-4 * (1 - 0.09) * 1.0
     IncompressiblePhase heavy_phase to stage_23_heavy 
         heavy : 25.4
         tracer_heavy : 0
+        density : 999
 
 Compartment stage_22_heavy of continuous phase heavy_phase 
     volume : 5.03*10**-4 * (1 - 0.09) * 1.0
     IncompressiblePhase heavy_phase to stage_22_heavy 
         heavy : 25.4
         tracer_heavy : 0
+        density : 999
 
 Compartment stage_21_heavy of continuous phase heavy_phase 
     volume : 5.03*10**-4 * (1 - 0.09) * 1.0
     IncompressiblePhase heavy_phase to stage_21_heavy 
         heavy : 25.4
         tracer_heavy : 0
+        density : 999
 
 Compartment stage_20_heavy of continuous phase heavy_phase 
     volume : 5.03*10**-4 * (1 - 0.09) * 1.0
     IncompressiblePhase heavy_phase to stage_20_heavy 
         heavy : 25.4
         tracer_heavy : 0
+        density : 999
 
 Compartment stage_19_heavy of continuous phase heavy_phase 
     volume : 5.03*10**-4 * (1 - 0.09) * 1.0
     IncompressiblePhase heavy_phase to stage_19_heavy 
         heavy : 25.4
         tracer_heavy : 0
+        density : 999
 
 Compartment stage_18_heavy of continuous phase heavy_phase 
     volume : 5.03*10**-4 * (1 - 0.09) * 1.0
     IncompressiblePhase heavy_phase to stage_18_heavy 
         heavy : 25.4
         tracer_heavy : 0
+        density : 999
 
 Compartment stage_17_heavy of continuous phase heavy_phase 
     volume : 5.03*10**-4 * (1 - 0.09) * 1.0
     IncompressiblePhase heavy_phase to stage_17_heavy 
         heavy : 25.4
         tracer_heavy : 0
+        density : 999
 
 Compartment stage_16_heavy of continuous phase heavy_phase 
     volume : 5.03*10**-4 * (1 - 0.09) * 1.0
     IncompressiblePhase heavy_phase to stage_16_heavy 
         heavy : 25.4
         tracer_heavy : 0
+        density : 999
 
 Compartment stage_15_heavy of continuous phase heavy_phase 
     volume : 5.03*10**-4 * (1 - 0.09) * 1.0
     IncompressiblePhase heavy_phase to stage_15_heavy 
         heavy : 25.4
         tracer_heavy : 0
+        density : 999
 
 Compartment stage_14_heavy of continuous phase heavy_phase 
     volume : 5.03*10**-4 * (1 - 0.09) * 1.0
     IncompressiblePhase heavy_phase to stage_14_heavy 
         heavy : 25.4
         tracer_heavy : 0
+        density : 999
 
 Compartment stage_13_heavy of continuous phase heavy_phase 
     volume : 5.03*10**-4 * (1 - 0.09) * 1.0
     IncompressiblePhase heavy_phase to stage_13_heavy 
         heavy : 25.4
         tracer_heavy : 0
+        density : 999
 
 Compartment stage_12_heavy of continuous phase heavy_phase 
     volume : 5.03*10**-4 * (1 - 0.09) * 1.0
     IncompressiblePhase heavy_phase to stage_12_heavy 
         heavy : 25.4
         tracer_heavy : 0
+        density : 999
 
 Compartment stage_11_heavy of continuous phase heavy_phase 
     volume : 5.03*10**-4 * (1 - 0.09) * 1.0
     IncompressiblePhase heavy_phase to stage_11_heavy 
         heavy : 25.4
         tracer_heavy : 0
+        density : 999
 
 Compartment stage_10_heavy of continuous phase heavy_phase 
     volume : 5.03*10**-4 * (1 - 0.09) * 1.0
     IncompressiblePhase heavy_phase to stage_10_heavy 
         heavy : 25.4
         tracer_heavy : 0
+        density : 999
 
 Compartment stage_9_heavy of continuous phase heavy_phase 
     volume : 5.03*10**-4 * (1 - 0.09) * 1.0
     IncompressiblePhase heavy_phase to stage_9_heavy 
         heavy : 25.4
         tracer_heavy : 0
+        density : 999
 
 Compartment stage_8_heavy of continuous phase heavy_phase 
     volume : 5.03*10**-4 * (1 - 0.09) * 1.0
     IncompressiblePhase heavy_phase to stage_8_heavy 
         heavy : 25.4
         tracer_heavy : 0
+        density : 999
 
 Compartment stage_7_heavy of continuous phase heavy_phase 
     volume : 5.03*10**-4 * (1 - 0.09) * 1.0
     IncompressiblePhase heavy_phase to stage_7_heavy 
         heavy : 25.4
         tracer_heavy : 0
+        density : 999
 
 Compartment stage_6_heavy of continuous phase heavy_phase 
     volume : 5.03*10**-4 * (1 - 0.09) * 1.0
     IncompressiblePhase heavy_phase to stage_6_heavy 
         heavy : 25.4
         tracer_heavy : 0
+        density : 999
 
 Compartment stage_5_heavy of continuous phase heavy_phase 
     volume : 5.03*10**-4 * (1 - 0.09) * 1.0
     IncompressiblePhase heavy_phase to stage_5_heavy 
         heavy : 25.4
         tracer_heavy : 0
+        density : 999
 
 Compartment stage_4_heavy of continuous phase heavy_phase 
     volume : 5.03*10**-4 * (1 - 0.09) * 1.0
     IncompressiblePhase heavy_phase to stage_4_heavy 
         heavy : 25.4
         tracer_heavy : 0
+        density : 999
 
 Compartment stage_3_heavy of continuous phase heavy_phase 
     volume : 5.03*10**-4 * (1 - 0.09) * 1.0
     IncompressiblePhase heavy_phase to stage_3_heavy 
         heavy : 25.4
         tracer_heavy : 0
+        density : 999
 
 Compartment stage_2_heavy of continuous phase heavy_phase 
     volume : 5.03*10**-4 * (1 - 0.09) * 1.0
     IncompressiblePhase heavy_phase to stage_2_heavy 
         heavy : 25.4
         tracer_heavy : 0
+        density : 999
  
 Compartment stage_1_heavy of continuous phase heavy_phase 
     volume : 5.03*10**-4 * (1 - 0.09) * 1.0
     IncompressiblePhase heavy_phase to stage_1_heavy 
         heavy : 25.4
         tracer_heavy : 0
+        density : 999
       
 ||| lower inlet
 
@@ -221,6 +249,7 @@ Compartment lower_inlet_heavy of continuous phase heavy_phase
     IncompressiblePhase heavy_phase to lower_inlet_heavy 
         heavy : 57
         tracer_heavy : 0
+        density : 999
 
 ||| lower separator
 
@@ -229,6 +258,7 @@ Compartment lower_seperator_heavy of continuous phase heavy_phase
     IncompressiblePhase heavy_phase to lower_seperator_heavy 
         heavy : 274
         tracer_heavy : 0
+        density : 999
 
 ||| heavy sink
 
