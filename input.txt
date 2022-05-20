@@ -1415,47 +1415,47 @@ MassTransfer upperInlet of species solute from upper_inlet_heavy to upper_inlet_
 
 ||| column stage
 
-MassTransfer s26 of species solute from stage_26_heavy to stage26_light_disp
-    ks : 1*10**-5
-    kt : 1*10**-5
-    area : 200
-    S : 1 / 0.843
-
-MassTransfer s25 of species solute from stage_25_heavy to stage25_light_disp
-    ks : 1*10**-5
-    kt : 1*10**-5
-    area : 200
-    S : 1 / 0.843
-
-MassTransfer s24 of species solute from stage_24_heavy to stage24_light_disp
-    ks : 1*10**-5
-    kt : 1*10**-5
-    area : 200
-    S : 1 / 0.843
-
-MassTransfer s23 of species solute from stage_23_heavy to stage23_light_disp
-    ks : 1*10**-5
-    kt : 1*10**-5
-    area : 200
-    S : 1 / 0.843
-
-MassTransfer s22 of species solute from stage_22_heavy to stage22_light_disp
-    ks : 1*10**-5
-    kt : 1*10**-5
-    area : 200
-    S : 1 / 0.843
-
-MassTransfer s21 of species solute from stage_21_heavy to stage21_light_disp
-    ks : 1*10**-5
-    kt : 1*10**-5
-    area : 200
-    S : 1 / 0.843
-
-MassTransfer s20 of species solute from stage_20_heavy to stage20_light_disp
-    ks : 1*10**-5
-    kt : 1*10**-5
-    area : 200
-    S : 1 / 0.843
+|MassTransfer s26 of species solute from stage_26_heavy to stage26_light_disp
+|    ks : 1*10**-5
+|    kt : 1*10**-5
+|    area : 200
+|    S : 1 / 0.843
+|
+|MassTransfer s25 of species solute from stage_25_heavy to stage25_light_disp
+|    ks : 1*10**-5
+|    kt : 1*10**-5
+|    area : 200
+|    S : 1 / 0.843
+|
+|MassTransfer s24 of species solute from stage_24_heavy to stage24_light_disp
+|    ks : 1*10**-5
+|    kt : 1*10**-5
+|    area : 200
+|    S : 1 / 0.843
+|
+|MassTransfer s23 of species solute from stage_23_heavy to stage23_light_disp
+|    ks : 1*10**-5
+|    kt : 1*10**-5
+|    area : 200
+|    S : 1 / 0.843
+|
+|MassTransfer s22 of species solute from stage_22_heavy to stage22_light_disp
+|    ks : 1*10**-5
+|    kt : 1*10**-5
+|    area : 200
+|    S : 1 / 0.843
+|
+|MassTransfer s21 of species solute from stage_21_heavy to stage21_light_disp
+|    ks : 1*10**-5
+|    kt : 1*10**-5
+|    area : 200
+|    S : 1 / 0.843
+|
+|MassTransfer s20 of species solute from stage_20_heavy to stage20_light_disp
+|    ks : 1*10**-5
+|    kt : 1*10**-5
+|    area : 200
+|    S : 1 / 0.843
 
 
 ||| lower inlet
