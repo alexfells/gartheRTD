@@ -33,6 +33,14 @@ Surroundings heavy_source_store of continuous phase heavy_phase
         heavy : 555000
         density : 999
 
+Surroundings solute_source_store of continuous phase heavy_phase 
+    volume : 10 
+    pressure : 101325 * 2
+    IncompressiblePhase heavy_phase to solute_source_store 
+        heavy : 555000
+        solute : 9900
+        density : 999
+
 Surroundings heavy_pulse_source of continuous phase heavy_phase  
     volume : 10 
     pressure : 101325 * 3
@@ -46,6 +54,7 @@ Compartment upper_separator_heavy of continuous phase heavy_phase
     volume : 1.90*10**-2 * 0.4
     IncompressiblePhase heavy_phase to upper_separator_heavy 
         heavy : 421
+        solute : 0
         tracer_heavy : 0
         density : 999
 
@@ -55,6 +64,7 @@ Compartment upper_inlet_heavy of continuous phase heavy_phase
     volume : 1.13*10**-3 * (1-0.09) * 1.0
     IncompressiblePhase heavy_phase to upper_inlet_heavy 
         heavy : 57
+        solute : 0
         tracer_heavy : 0
         density : 999
 
@@ -64,6 +74,7 @@ Compartment stage_26_heavy of continuous phase heavy_phase
     volume : 5.03*10**-4 * (1 - 0.09) * 1.0
     IncompressiblePhase heavy_phase to stage_26_heavy 
         heavy : 25.4
+        solute : 0
         tracer_heavy : 0
         density : 999
 
@@ -71,6 +82,7 @@ Compartment stage_25_heavy of continuous phase heavy_phase
     volume : 5.03*10**-4 * (1 - 0.09) * 1.0
     IncompressiblePhase heavy_phase to stage_25_heavy 
         heavy : 25.4
+        solute : 0
         tracer_heavy : 0
         density : 999
 
@@ -78,6 +90,7 @@ Compartment stage_24_heavy of continuous phase heavy_phase
     volume : 5.03*10**-4 * (1 - 0.09) * 1.0
     IncompressiblePhase heavy_phase to stage_24_heavy 
         heavy : 25.4
+        solute : 0
         tracer_heavy : 0
         density : 999
 
@@ -85,6 +98,7 @@ Compartment stage_23_heavy of continuous phase heavy_phase
     volume : 5.03*10**-4 * (1 - 0.09) * 1.0
     IncompressiblePhase heavy_phase to stage_23_heavy 
         heavy : 25.4
+        solute : 0
         tracer_heavy : 0
         density : 999
 
@@ -92,6 +106,7 @@ Compartment stage_22_heavy of continuous phase heavy_phase
     volume : 5.03*10**-4 * (1 - 0.09) * 1.0
     IncompressiblePhase heavy_phase to stage_22_heavy 
         heavy : 25.4
+        solute : 0
         tracer_heavy : 0
         density : 999
 
@@ -99,6 +114,7 @@ Compartment stage_21_heavy of continuous phase heavy_phase
     volume : 5.03*10**-4 * (1 - 0.09) * 1.0
     IncompressiblePhase heavy_phase to stage_21_heavy 
         heavy : 25.4
+        solute : 0
         tracer_heavy : 0
         density : 999
 
@@ -106,6 +122,7 @@ Compartment stage_20_heavy of continuous phase heavy_phase
     volume : 5.03*10**-4 * (1 - 0.09) * 1.0
     IncompressiblePhase heavy_phase to stage_20_heavy 
         heavy : 25.4
+        solute : 0
         tracer_heavy : 0
         density : 999
 
@@ -113,6 +130,7 @@ Compartment stage_19_heavy of continuous phase heavy_phase
     volume : 5.03*10**-4 * (1 - 0.09) * 1.0
     IncompressiblePhase heavy_phase to stage_19_heavy 
         heavy : 25.4
+        solute : 0
         tracer_heavy : 0
         density : 999
 
@@ -120,6 +138,7 @@ Compartment stage_18_heavy of continuous phase heavy_phase
     volume : 5.03*10**-4 * (1 - 0.09) * 1.0
     IncompressiblePhase heavy_phase to stage_18_heavy 
         heavy : 25.4
+        solute : 0
         tracer_heavy : 0
         density : 999
 
@@ -127,6 +146,7 @@ Compartment stage_17_heavy of continuous phase heavy_phase
     volume : 5.03*10**-4 * (1 - 0.09) * 1.0
     IncompressiblePhase heavy_phase to stage_17_heavy 
         heavy : 25.4
+        solute : 0
         tracer_heavy : 0
         density : 999
 
@@ -134,6 +154,7 @@ Compartment stage_16_heavy of continuous phase heavy_phase
     volume : 5.03*10**-4 * (1 - 0.09) * 1.0
     IncompressiblePhase heavy_phase to stage_16_heavy 
         heavy : 25.4
+        solute : 0
         tracer_heavy : 0
         density : 999
 
@@ -141,6 +162,7 @@ Compartment stage_15_heavy of continuous phase heavy_phase
     volume : 5.03*10**-4 * (1 - 0.09) * 1.0
     IncompressiblePhase heavy_phase to stage_15_heavy 
         heavy : 25.4
+        solute : 0
         tracer_heavy : 0
         density : 999
 
@@ -148,6 +170,7 @@ Compartment stage_14_heavy of continuous phase heavy_phase
     volume : 5.03*10**-4 * (1 - 0.09) * 1.0
     IncompressiblePhase heavy_phase to stage_14_heavy 
         heavy : 25.4
+        solute : 0
         tracer_heavy : 0
         density : 999
 
@@ -155,6 +178,7 @@ Compartment stage_13_heavy of continuous phase heavy_phase
     volume : 5.03*10**-4 * (1 - 0.09) * 1.0
     IncompressiblePhase heavy_phase to stage_13_heavy 
         heavy : 25.4
+        solute : 0
         tracer_heavy : 0
         density : 999
 
@@ -162,6 +186,7 @@ Compartment stage_12_heavy of continuous phase heavy_phase
     volume : 5.03*10**-4 * (1 - 0.09) * 1.0
     IncompressiblePhase heavy_phase to stage_12_heavy 
         heavy : 25.4
+        solute : 0
         tracer_heavy : 0
         density : 999
 
@@ -169,6 +194,7 @@ Compartment stage_11_heavy of continuous phase heavy_phase
     volume : 5.03*10**-4 * (1 - 0.09) * 1.0
     IncompressiblePhase heavy_phase to stage_11_heavy 
         heavy : 25.4
+        solute : 0
         tracer_heavy : 0
         density : 999
 
@@ -176,6 +202,7 @@ Compartment stage_10_heavy of continuous phase heavy_phase
     volume : 5.03*10**-4 * (1 - 0.09) * 1.0
     IncompressiblePhase heavy_phase to stage_10_heavy 
         heavy : 25.4
+        solute : 0
         tracer_heavy : 0
         density : 999
 
@@ -183,6 +210,7 @@ Compartment stage_9_heavy of continuous phase heavy_phase
     volume : 5.03*10**-4 * (1 - 0.09) * 1.0
     IncompressiblePhase heavy_phase to stage_9_heavy 
         heavy : 25.4
+        solute : 0
         tracer_heavy : 0
         density : 999
 
@@ -190,6 +218,7 @@ Compartment stage_8_heavy of continuous phase heavy_phase
     volume : 5.03*10**-4 * (1 - 0.09) * 1.0
     IncompressiblePhase heavy_phase to stage_8_heavy 
         heavy : 25.4
+        solute : 0
         tracer_heavy : 0
         density : 999
 
@@ -197,6 +226,7 @@ Compartment stage_7_heavy of continuous phase heavy_phase
     volume : 5.03*10**-4 * (1 - 0.09) * 1.0
     IncompressiblePhase heavy_phase to stage_7_heavy 
         heavy : 25.4
+        solute : 0
         tracer_heavy : 0
         density : 999
 
@@ -204,6 +234,7 @@ Compartment stage_6_heavy of continuous phase heavy_phase
     volume : 5.03*10**-4 * (1 - 0.09) * 1.0
     IncompressiblePhase heavy_phase to stage_6_heavy 
         heavy : 25.4
+        solute : 0
         tracer_heavy : 0
         density : 999
 
@@ -211,6 +242,7 @@ Compartment stage_5_heavy of continuous phase heavy_phase
     volume : 5.03*10**-4 * (1 - 0.09) * 1.0
     IncompressiblePhase heavy_phase to stage_5_heavy 
         heavy : 25.4
+        solute : 0
         tracer_heavy : 0
         density : 999
 
@@ -218,6 +250,7 @@ Compartment stage_4_heavy of continuous phase heavy_phase
     volume : 5.03*10**-4 * (1 - 0.09) * 1.0
     IncompressiblePhase heavy_phase to stage_4_heavy 
         heavy : 25.4
+        solute : 0
         tracer_heavy : 0
         density : 999
 
@@ -225,6 +258,7 @@ Compartment stage_3_heavy of continuous phase heavy_phase
     volume : 5.03*10**-4 * (1 - 0.09) * 1.0
     IncompressiblePhase heavy_phase to stage_3_heavy 
         heavy : 25.4
+        solute : 0
         tracer_heavy : 0
         density : 999
 
@@ -232,6 +266,7 @@ Compartment stage_2_heavy of continuous phase heavy_phase
     volume : 5.03*10**-4 * (1 - 0.09) * 1.0
     IncompressiblePhase heavy_phase to stage_2_heavy 
         heavy : 25.4
+        solute : 0
         tracer_heavy : 0
         density : 999
  
@@ -239,6 +274,7 @@ Compartment stage_1_heavy of continuous phase heavy_phase
     volume : 5.03*10**-4 * (1 - 0.09) * 1.0
     IncompressiblePhase heavy_phase to stage_1_heavy 
         heavy : 25.4
+        solute : 0
         tracer_heavy : 0
         density : 999
       
@@ -248,6 +284,7 @@ Compartment lower_inlet_heavy of continuous phase heavy_phase
     volume : 1.13*10**-3 * (1 - 0.09)
     IncompressiblePhase heavy_phase to lower_inlet_heavy 
         heavy : 57
+        solute : 0
         tracer_heavy : 0
         density : 999
 
@@ -257,6 +294,7 @@ Compartment lower_seperator_heavy of continuous phase heavy_phase
     volume : 1.50*10**-2 * 0.33
     IncompressiblePhase heavy_phase to lower_seperator_heavy 
         heavy : 274
+        solute : 0
         tracer_heavy : 0
         density : 999
 
@@ -279,6 +317,7 @@ Surroundings light_sink_store of continuous phase light_phase
     pressure : 101325
     IncompressiblePhase light_phase to light_sink_store 
         light : 0
+        solute : 0
         tracer_light : 0
         density : 867 
 
@@ -288,6 +327,7 @@ Compartment upperSep_light_coal of continuous phase light_phase
     volume : 1.22*10**-2 * 0.008  |h=0.32, d=0.22
     IncompressiblePhase light_phase to upperSep_light_coal 
         light : 1.22*10**-2 * 867 * (1/0.09214) * 0.008
+        solute : 0
         tracer_light : 0
         density : 867 
 
@@ -295,9 +335,9 @@ Compartment upperSep_light_disp of continuous phase light_phase
     volume : 2.66*10**-3 * 0.09 * 0.3   |h=0.53, d=0.08
     IncompressiblePhase light_phase to upperSep_light_disp
         light : 0.675
+        solute : 0
         tracer_light : 0
         density : 867 
-
 
 ||| upper inlet
 
@@ -305,6 +345,7 @@ Compartment upper_inlet_light_disp of continuous phase light_phase
     volume : 1.13*10**-3 * 0.09 * 0.3		|h=0.225, d=0.08 
     IncompressiblePhase light_phase to upper_inlet_light_disp
         light : 0.28
+        solute : 0
         tracer_light : 0
         density : 867 
 
@@ -314,6 +355,7 @@ Compartment stage26_light_coal of continuous phase light_phase
     volume : 5.03*10**-4 * 0.09 * 0.5
     IncompressiblePhase light_phase to stage26_light_coal 
         light : 0.21
+        solute : 0
         tracer_light : 0
         density : 867 
 
@@ -321,6 +363,7 @@ Compartment stage26_light_disp of continuous phase light_phase
     volume : 5.03*10**-4 * 0.09 * 0.5
     IncompressiblePhase light_phase to stage26_light_disp
         light : 0.21
+        solute : 0
         tracer_light : 0
         density : 867 
 
@@ -330,6 +373,7 @@ Compartment stage25_light_coal of continuous phase light_phase
     volume : 5.03*10**-4 * 0.09 * 0.5
     IncompressiblePhase light_phase to stage25_light_coal 
         light : 0.21
+        solute : 0
         tracer_light : 0
         density : 867 
 
@@ -337,6 +381,7 @@ Compartment stage25_light_disp of continuous phase light_phase
     volume : 5.03*10**-4 * 0.09 * 0.5
     IncompressiblePhase light_phase to stage25_light_disp
         light : 0.21
+        solute : 0
         tracer_light : 0
         density : 867 
 
@@ -346,6 +391,7 @@ Compartment stage24_light_coal of continuous phase light_phase
     volume : 5.03*10**-4 * 0.09 * 0.5
     IncompressiblePhase light_phase to stage24_light_coal 
         light : 0.21
+        solute : 0
         tracer_light : 0
         density : 867 
 
@@ -353,6 +399,7 @@ Compartment stage24_light_disp of continuous phase light_phase
     volume : 5.03*10**-4 * 0.09 * 0.5
     IncompressiblePhase light_phase to stage24_light_disp
         light : 0.21
+        solute : 0
         tracer_light : 0
         density : 867 
 
@@ -362,6 +409,7 @@ Compartment stage23_light_coal of continuous phase light_phase
     volume : 5.03*10**-4 * 0.09 * 0.5
     IncompressiblePhase light_phase to stage23_light_coal 
         light : 0.21
+        solute : 0
         tracer_light : 0
         density : 867 
 
@@ -369,6 +417,7 @@ Compartment stage23_light_disp of continuous phase light_phase
     volume : 5.03*10**-4 * 0.09 * 0.5
     IncompressiblePhase light_phase to stage23_light_disp
         light : 0.21
+        solute : 0
         tracer_light : 0
         density : 867 
 
@@ -378,6 +427,7 @@ Compartment stage22_light_coal of continuous phase light_phase
     volume : 5.03*10**-4 * 0.09 * 0.5
     IncompressiblePhase light_phase to stage22_light_coal 
         light : 0.21
+        solute : 0
         tracer_light : 0
         density : 867 
 
@@ -385,6 +435,7 @@ Compartment stage22_light_disp of continuous phase light_phase
     volume : 5.03*10**-4 * 0.09 * 0.5
     IncompressiblePhase light_phase to stage22_light_disp
         light : 0.21
+        solute : 0
         tracer_light : 0
         density : 867 
         
@@ -394,6 +445,7 @@ Compartment stage21_light_coal of continuous phase light_phase
     volume : 5.03*10**-4 * 0.09 * 0.5
     IncompressiblePhase light_phase to stage21_light_coal 
         light : 0.21
+        solute : 0
         tracer_light : 0
         density : 867 
 
@@ -401,6 +453,7 @@ Compartment stage21_light_disp of continuous phase light_phase
     volume : 5.03*10**-4 * 0.09 * 0.5
     IncompressiblePhase light_phase to stage21_light_disp
         light : 0.21
+        solute : 0
         tracer_light : 0
         density : 867 
 
@@ -410,6 +463,7 @@ Compartment stage20_light_coal of continuous phase light_phase
     volume : 5.03*10**-4 * 0.09 * 0.5
     IncompressiblePhase light_phase to stage20_light_coal 
         light : 0.21
+        solute : 0
         tracer_light : 0
         density : 867 
 
@@ -417,6 +471,7 @@ Compartment stage20_light_disp of continuous phase light_phase
     volume : 5.03*10**-4 * 0.09 * 0.5
     IncompressiblePhase light_phase to stage20_light_disp
         light : 0.21
+        solute : 0
         tracer_light : 0
         density : 867 
 
@@ -426,6 +481,7 @@ Compartment stage19_light_coal of continuous phase light_phase
     volume : 5.03*10**-4 * 0.09 * 0.5
     IncompressiblePhase light_phase to stage19_light_coal 
         light : 0.21
+        solute : 0
         tracer_light : 0
         density : 867 
 
@@ -433,6 +489,7 @@ Compartment stage19_light_disp of continuous phase light_phase
     volume : 5.03*10**-4 * 0.09 * 0.5
     IncompressiblePhase light_phase to stage19_light_disp
         light : 0.21
+        solute : 0
         tracer_light : 0
         density : 867 
 
@@ -442,6 +499,7 @@ Compartment stage18_light_coal of continuous phase light_phase
     volume : 5.03*10**-4 * 0.09 * 0.5
     IncompressiblePhase light_phase to stage18_light_coal 
         light : 0.21
+        solute : 0
         tracer_light : 0
         density : 867 
 
@@ -449,6 +507,7 @@ Compartment stage18_light_disp of continuous phase light_phase
     volume : 5.03*10**-4 * 0.09 * 0.5
     IncompressiblePhase light_phase to stage18_light_disp
         light : 0.21
+        solute : 0
         tracer_light : 0
         density : 867 
 
@@ -458,6 +517,7 @@ Compartment stage17_light_coal of continuous phase light_phase
     volume : 5.03*10**-4 * 0.09 * 0.5
     IncompressiblePhase light_phase to stage17_light_coal 
         light : 0.21
+        solute : 0
         tracer_light : 0
         density : 867 
 
@@ -465,6 +525,7 @@ Compartment stage17_light_disp of continuous phase light_phase
     volume : 5.03*10**-4 * 0.09 * 0.5
     IncompressiblePhase light_phase to stage17_light_disp
         light : 0.21
+        solute : 0
         tracer_light : 0
         density : 867 
 
@@ -474,6 +535,7 @@ Compartment stage16_light_coal of continuous phase light_phase
     volume : 5.03*10**-4 * 0.09 * 0.5
     IncompressiblePhase light_phase to stage16_light_coal 
         light : 0.21
+        solute : 0
         tracer_light : 0
         density : 867 
 
@@ -481,6 +543,7 @@ Compartment stage16_light_disp of continuous phase light_phase
     volume : 5.03*10**-4 * 0.09 * 0.5
     IncompressiblePhase light_phase to stage16_light_disp
         light : 0.21
+        solute : 0
         tracer_light : 0
         density : 867 
 
@@ -490,6 +553,7 @@ Compartment stage15_light_coal of continuous phase light_phase
     volume : 5.03*10**-4 * 0.09 * 0.5
     IncompressiblePhase light_phase to stage15_light_coal 
         light : 0.21
+        solute : 0
         tracer_light : 0
         density : 867 
 
@@ -497,6 +561,7 @@ Compartment stage15_light_disp of continuous phase light_phase
     volume : 5.03*10**-4 * 0.09 * 0.5
     IncompressiblePhase light_phase to stage15_light_disp
         light : 0.21
+        solute : 0
         tracer_light : 0
         density : 867 
 
@@ -506,6 +571,7 @@ Compartment stage14_light_coal of continuous phase light_phase
     volume : 5.03*10**-4 * 0.09 * 0.5
     IncompressiblePhase light_phase to stage14_light_coal 
         light : 0.21
+        solute : 0
         tracer_light : 0
         density : 867 
 
@@ -513,6 +579,7 @@ Compartment stage14_light_disp of continuous phase light_phase
     volume : 5.03*10**-4 * 0.09 * 0.5
     IncompressiblePhase light_phase to stage14_light_disp
         light : 0.21
+        solute : 0
         tracer_light : 0
         density : 867 
 
@@ -522,6 +589,7 @@ Compartment stage13_light_coal of continuous phase light_phase
     volume : 5.03*10**-4 * 0.09 * 0.5
     IncompressiblePhase light_phase to stage13_light_coal 
         light : 0.21
+        solute : 0
         tracer_light : 0
         density : 867 
 
@@ -529,6 +597,7 @@ Compartment stage13_light_disp of continuous phase light_phase
     volume : 5.03*10**-4 * 0.09 * 0.5
     IncompressiblePhase light_phase to stage13_light_disp
         light : 0.21
+        solute : 0
         tracer_light : 0
         density : 867 
 
@@ -538,6 +607,7 @@ Compartment stage12_light_coal of continuous phase light_phase
     volume : 5.03*10**-4 * 0.09 * 0.5
     IncompressiblePhase light_phase to stage12_light_coal 
         light : 0.21
+        solute : 0
         tracer_light : 0
         density : 867 
 
@@ -545,6 +615,7 @@ Compartment stage12_light_disp of continuous phase light_phase
     volume : 5.03*10**-4 * 0.09 * 0.5
     IncompressiblePhase light_phase to stage12_light_disp
         light : 0.21
+        solute : 0
         tracer_light : 0
         density : 867 
         
@@ -554,6 +625,7 @@ Compartment stage11_light_coal of continuous phase light_phase
     volume : 5.03*10**-4 * 0.09 * 0.5
     IncompressiblePhase light_phase to stage11_light_coal 
         light : 0.21
+        solute : 0
         tracer_light : 0
         density : 867 
 
@@ -561,6 +633,7 @@ Compartment stage11_light_disp of continuous phase light_phase
     volume : 5.03*10**-4 * 0.09 * 0.5
     IncompressiblePhase light_phase to stage11_light_disp
         light : 0.21
+        solute : 0
         tracer_light : 0
         density : 867 
 
@@ -570,6 +643,7 @@ Compartment stage10_light_coal of continuous phase light_phase
     volume : 5.03*10**-4 * 0.09 * 0.5
     IncompressiblePhase light_phase to stage10_light_coal 
         light : 0.21
+        solute : 0
         tracer_light : 0
         density : 867 
 
@@ -577,6 +651,7 @@ Compartment stage10_light_disp of continuous phase light_phase
     volume : 5.03*10**-4 * 0.09 * 0.5
     IncompressiblePhase light_phase to stage10_light_disp
         light : 0.21
+        solute : 0
         tracer_light : 0
         density : 867 
 
@@ -586,6 +661,7 @@ Compartment stage9_light_coal of continuous phase light_phase
     volume : 5.03*10**-4 * 0.09 * 0.5
     IncompressiblePhase light_phase to stage9_light_coal 
         light : 0.21
+        solute : 0
         tracer_light : 0
         density : 867 
 
@@ -593,6 +669,7 @@ Compartment stage9_light_disp of continuous phase light_phase
     volume : 5.03*10**-4 * 0.09 * 0.5
     IncompressiblePhase light_phase to stage9_light_disp
         light : 0.21
+        solute : 0
         tracer_light : 0
         density : 867 
 
@@ -602,6 +679,7 @@ Compartment stage8_light_coal of continuous phase light_phase
     volume : 5.03*10**-4 * 0.09 * 0.5
     IncompressiblePhase light_phase to stage8_light_coal 
         light : 0.21
+        solute : 0
         tracer_light : 0
         density : 867 
 
@@ -609,6 +687,7 @@ Compartment stage8_light_disp of continuous phase light_phase
     volume : 5.03*10**-4 * 0.09 * 0.5
     IncompressiblePhase light_phase to stage8_light_disp
         light : 0.21
+        solute : 0
         tracer_light : 0
         density : 867 
 
@@ -618,6 +697,7 @@ Compartment stage7_light_coal of continuous phase light_phase
     volume : 5.03*10**-4 * 0.09 * 0.5
     IncompressiblePhase light_phase to stage7_light_coal 
         light : 0.21
+        solute : 0
         tracer_light : 0
         density : 867 
 
@@ -625,6 +705,7 @@ Compartment stage7_light_disp of continuous phase light_phase
     volume : 5.03*10**-4 * 0.09 * 0.5
     IncompressiblePhase light_phase to stage7_light_disp
         light : 0.21
+        solute : 0
         tracer_light : 0
         density : 867 
 
@@ -634,6 +715,7 @@ Compartment stage6_light_coal of continuous phase light_phase
     volume : 5.03*10**-4 * 0.09 * 0.5
     IncompressiblePhase light_phase to stage6_light_coal 
         light : 0.21
+        solute : 0
         tracer_light : 0
         density : 867 
 
@@ -641,6 +723,7 @@ Compartment stage6_light_disp of continuous phase light_phase
     volume : 5.03*10**-4 * 0.09 * 0.5
     IncompressiblePhase light_phase to stage6_light_disp
         light : 0.21
+        solute : 0
         tracer_light : 0
         density : 867 
 
@@ -650,6 +733,7 @@ Compartment stage5_light_coal of continuous phase light_phase
     volume : 5.03*10**-4 * 0.09 * 0.5
     IncompressiblePhase light_phase to stage5_light_coal 
         light : 0.21
+        solute : 0
         tracer_light : 0
         density : 867 
 
@@ -657,6 +741,7 @@ Compartment stage5_light_disp of continuous phase light_phase
     volume : 5.03*10**-4 * 0.09 * 0.5
     IncompressiblePhase light_phase to stage5_light_disp
         light : 0.21
+        solute : 0
         tracer_light : 0
         density : 867 
 
@@ -666,6 +751,7 @@ Compartment stage4_light_coal of continuous phase light_phase
     volume : 5.03*10**-4 * 0.09 * 0.5
     IncompressiblePhase light_phase to stage4_light_coal 
         light : 0.21
+        solute : 0
         tracer_light : 0
         density : 867 
 
@@ -673,6 +759,7 @@ Compartment stage4_light_disp of continuous phase light_phase
     volume : 5.03*10**-4 * 0.09 * 0.5
     IncompressiblePhase light_phase to stage4_light_disp
         light : 0.21
+        solute : 0
         tracer_light : 0
         density : 867 
 
@@ -682,6 +769,7 @@ Compartment stage3_light_coal of continuous phase light_phase
     volume : 5.03*10**-4 * 0.09 * 0.5
     IncompressiblePhase light_phase to stage3_light_coal 
         light : 0.21
+        solute : 0
         tracer_light : 0
         density : 867 
 
@@ -689,6 +777,7 @@ Compartment stage3_light_disp of continuous phase light_phase
     volume : 5.03*10**-4 * 0.09 * 0.5
     IncompressiblePhase light_phase to stage3_light_disp
         light : 0.21
+        solute : 0
         tracer_light : 0
         density : 867 
 
@@ -698,6 +787,7 @@ Compartment stage2_light_coal of continuous phase light_phase
     volume : 5.03*10**-4 * 0.09 * 0.5
     IncompressiblePhase light_phase to stage2_light_coal 
         light : 0.21
+        solute : 0
         tracer_light : 0
         density : 867 
 
@@ -705,6 +795,7 @@ Compartment stage2_light_disp of continuous phase light_phase
     volume : 5.03*10**-4 * 0.09 * 0.5
     IncompressiblePhase light_phase to stage2_light_disp
         light : 0.21
+        solute : 0
         tracer_light : 0
         density : 867 
         
@@ -714,6 +805,7 @@ Compartment stage1_light_coal of continuous phase light_phase
     volume : 5.03*10**-4 * 0.09 * 0.5
     IncompressiblePhase light_phase to stage1_light_coal 
         light : 0.21
+        solute : 0
         tracer_light : 0
         density : 867 
 
@@ -721,6 +813,7 @@ Compartment stage1_light_disp of continuous phase light_phase
     volume : 5.03*10**-4 * 0.09 * 0.5
     IncompressiblePhase light_phase to stage1_light_disp
         light : 0.21
+        solute : 0
         tracer_light : 0
         density : 867 
 
@@ -730,6 +823,7 @@ Compartment lowerInlet_light_coal of continuous phase light_phase
     volume : 5.03*10**-4 * 0.09 * 0.5
     IncompressiblePhase light_phase to lowerInlet_light_coal 
         light : 0.21
+        solute : 0
         tracer_light : 0
         density : 867 
 
@@ -737,6 +831,7 @@ Compartment lowerInlet_light_disp of continuous phase light_phase
     volume : 5.03*10**-4 * 0.09 * 0.5
     IncompressiblePhase light_phase to lowerInlet_light_disp
         light : 0.21
+        solute : 0
         tracer_light : 0
         density : 867 
 
@@ -747,6 +842,14 @@ Surroundings light_source_store of continuous phase light_phase
     pressure : 101325 * 2
     IncompressiblePhase light_phase to light_source_store 
         light : 94100
+        density : 867
+
+Surroundings light_solute_store of continuous phase light_phase 
+    volume : 10 
+    pressure : 101325 * 2
+    IncompressiblePhase light_phase to light_solute_store 
+        light : 94100
+        solute : 1150
         density : 867
 
 Surroundings light_pulse_source of continuous phase light_phase  
