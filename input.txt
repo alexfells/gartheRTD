@@ -8,7 +8,7 @@ Solver Tsit5() |Rosenbrock23	| For julia see https://diffeq.sciml.ai/stable/solv
     t_final : 5600
     atol : 10**-6
     rtol : 10**-6
-    max step size : 1
+    |max step size : 1
 
 Defaults 
     |model name : PSEC with pulse
@@ -30,13 +30,6 @@ Surroundings heavy_source_store of continuous phase heavy_phase
     volume : 10 
     pressure : 101325 * 2
     IncompressiblePhase heavy_phase to heavy_source_store 
-        heavy : 555000
-        density : 999
-
-Surroundings solute_source_store of continuous phase heavy_phase 
-    volume : 10 
-    pressure : 101325 * 2
-    IncompressiblePhase heavy_phase to solute_source_store 
         heavy : 555000
         solute : 9900
         density : 999
@@ -842,13 +835,6 @@ Surroundings light_source_store of continuous phase light_phase
     pressure : 101325 * 2
     IncompressiblePhase light_phase to light_source_store 
         light : 94100
-        density : 867
-
-Surroundings light_solute_store of continuous phase light_phase 
-    volume : 10 
-    pressure : 101325 * 2
-    IncompressiblePhase light_phase to light_solute_store 
-        light : 94100
         solute : 1150
         density : 867
 
@@ -1397,14 +1383,14 @@ ConvectiveTransport light_source_to_lower_inlet_disp from light_source_store to 
     fixed flow : True
     area : 1
     velocity : 48 / 1000 / 3600 | 13e-6 m3/s
-    activation_times : 0, 200, 200.1
-    activation_response : 1, 0, 1
+|    activation_times : 0, 200, 200.1
+|    activation_response : 1, 0, 1
 
-ConvectiveTransport light_tracer_to_lower_inlet_disp from light_pulse_source to lowerInlet_light_disp
-    fixed flow : True
-    area : 1
-    velocity : 48 / 1000 / 3600 | 13e-6 m3/s
-    activation_times : 0, 200, 200.1
-    activation_response : 0, 1, 0
+|ConvectiveTransport light_tracer_to_lower_inlet_disp from light_pulse_source to lowerInlet_light_disp
+|    fixed flow : True
+|    area : 1
+|    velocity : 48 / 1000 / 3600 | 13e-6 m3/s
+|    activation_times : 0, 200, 200.1
+|    activation_response : 0, 1, 0
 
 end
