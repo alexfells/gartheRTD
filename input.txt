@@ -5,11 +5,11 @@
 Solver Tsit5() |Rosenbrock23	| For julia see https://diffeq.sciml.ai/stable/solvers/ode_solve/ and https://github.com/SciML/diffeqpy
 |Solver BDF 	|Radau |BDF |LSODA
     t_start : 0
-    t_final : 5600
-    |t_final : 120
+    |t_final : 5600
+    t_final : 60
     atol : 10**-6
     rtol : 10**-6
-    |max step size : 1
+    max step size : 1
 
 Defaults 
     |model name : PSEC with pulse
@@ -1567,7 +1567,7 @@ MassTransfer s2 of species solute from stage_2_heavy to stage2_light_disp
     area : 200
     S : 1 / 0.843
 
-MassTransfer s1 of species solute from stage_1_heavy to stage0_light_disp
+MassTransfer s1 of species solute from stage_1_heavy to stage1_light_disp
     ks : 1*10**-5
     kt : 1*10**-5
     area : 200
