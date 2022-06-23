@@ -5,12 +5,20 @@
 Solver Tsit5() |Rosenbrock23	| For julia see https://diffeq.sciml.ai/stable/solvers/ode_solve/ and https://github.com/SciML/diffeqpy
 |Solver BDF 	|Radau |BDF |LSODA
     t_start : 0
+<<<<<<< HEAD
     t_final : 360       | solvent rtd
     |t_final : 5600     | mass transfer
     atol : 10**-6
     rtol : 10**-6
     |max step size : 1
     write interval : 0.11  | solvent rtd
+=======
+    |t_final : 5600
+    t_final : 60
+    atol : 10**-6
+    rtol : 10**-6
+    max step size : 1
+>>>>>>> 8f2603552c9b108366f3d3f13e7363531dbabe7c
 
 Defaults 
     |model name : PSEC with pulse
@@ -1402,6 +1410,7 @@ ConvectiveTransport light_tracer_to_lower_inlet_disp from light_pulse_source to 
 
 ||| upper separator
 
+<<<<<<< HEAD
 |MassTransfer upperSeparator of species solute from upper_separator_heavy to upperSep_light_disp
 |    ks : 1*10**-5
 |    kt : 1*10**-5
@@ -1582,4 +1591,186 @@ ConvectiveTransport light_tracer_to_lower_inlet_disp from light_pulse_source to 
 |    area : 200
 |    S : 1 / 0.843
 |
+=======
+MassTransfer upperSeparator of species solute from upper_separator_heavy to upperSep_light_disp
+    ks : 1*10**-5
+    kt : 1*10**-5
+    area : 200
+    S : 1 / 0.843
+
+||| upper inlet
+
+MassTransfer upperInlet of species solute from upper_inlet_heavy to upper_inlet_light_disp
+    ks : 1*10**-5
+    kt : 1*10**-5
+    area : 200
+    S : 1 / 0.843
+
+||| column stage
+
+MassTransfer s26 of species solute from stage_26_heavy to stage26_light_disp
+    ks : 1*10**-5
+    kt : 1*10**-5
+    area : 200
+    S : 1 / 0.843
+
+MassTransfer s25 of species solute from stage_25_heavy to stage25_light_disp
+    ks : 1*10**-5
+    kt : 1*10**-5
+    area : 200
+    S : 1 / 0.843
+
+MassTransfer s24 of species solute from stage_24_heavy to stage24_light_disp
+    ks : 1*10**-5
+    kt : 1*10**-5
+    area : 200
+    S : 1 / 0.843
+
+MassTransfer s23 of species solute from stage_23_heavy to stage23_light_disp
+    ks : 1*10**-5
+    kt : 1*10**-5
+    area : 200
+    S : 1 / 0.843
+
+MassTransfer s22 of species solute from stage_22_heavy to stage22_light_disp
+    ks : 1*10**-5
+    kt : 1*10**-5
+    area : 200
+    S : 1 / 0.843
+
+MassTransfer s21 of species solute from stage_21_heavy to stage21_light_disp
+    ks : 1*10**-5
+    kt : 1*10**-5
+    area : 200
+    S : 1 / 0.843
+
+MassTransfer s20 of species solute from stage_20_heavy to stage20_light_disp
+    ks : 1*10**-5
+    kt : 1*10**-5
+    area : 200
+    S : 1 / 0.843
+
+MassTransfer s19 of species solute from stage_19_heavy to stage19_light_disp
+    ks : 1*10**-5
+    kt : 1*10**-5
+    area : 200
+    S : 1 / 0.843
+
+MassTransfer s18 of species solute from stage_18_heavy to stage18_light_disp
+    ks : 1*10**-5
+    kt : 1*10**-5
+    area : 200
+    S : 1 / 0.843
+
+MassTransfer s17 of species solute from stage_17_heavy to stage17_light_disp
+    ks : 1*10**-5
+    kt : 1*10**-5
+    area : 200
+    S : 1 / 0.843
+
+MassTransfer s16 of species solute from stage_16_heavy to stage16_light_disp
+    ks : 1*10**-5
+    kt : 1*10**-5
+    area : 200
+    S : 1 / 0.843
+
+MassTransfer s15 of species solute from stage_15_heavy to stage15_light_disp
+    ks : 1*10**-5
+    kt : 1*10**-5
+    area : 200
+    S : 1 / 0.843
+
+MassTransfer s14 of species solute from stage_14_heavy to stage14_light_disp
+    ks : 1*10**-5
+    kt : 1*10**-5
+    area : 200
+    S : 1 / 0.843
+
+MassTransfer s13 of species solute from stage_13_heavy to stage13_light_disp
+    ks : 1*10**-5
+    kt : 1*10**-5
+    area : 200
+    S : 1 / 0.843
+
+MassTransfer s12 of species solute from stage_12_heavy to stage12_light_disp
+    ks : 1*10**-5
+    kt : 1*10**-5
+    area : 200
+    S : 1 / 0.843
+
+MassTransfer s11 of species solute from stage_11_heavy to stage11_light_disp
+    ks : 1*10**-5
+    kt : 1*10**-5
+    area : 200
+    S : 1 / 0.843
+
+MassTransfer s10 of species solute from stage_10_heavy to stage10_light_disp
+    ks : 1*10**-5
+    kt : 1*10**-5
+    area : 200
+    S : 1 / 0.843
+
+MassTransfer s9 of species solute from stage_9_heavy to stage9_light_disp
+    ks : 1*10**-5
+    kt : 1*10**-5
+    area : 200
+    S : 1 / 0.843
+
+MassTransfer s8 of species solute from stage_8_heavy to stage8_light_disp
+    ks : 1*10**-5
+    kt : 1*10**-5
+    area : 200
+    S : 1 / 0.843
+
+MassTransfer s7 of species solute from stage_7_heavy to stage7_light_disp
+    ks : 1*10**-5
+    kt : 1*10**-5
+    area : 200
+    S : 1 / 0.843
+
+MassTransfer s6 of species solute from stage_6_heavy to stage6_light_disp
+    ks : 1*10**-5
+    kt : 1*10**-5
+    area : 200
+    S : 1 / 0.843
+
+MassTransfer s5 of species solute from stage_5_heavy to stage5_light_disp
+    ks : 1*10**-5
+    kt : 1*10**-5
+    area : 200
+    S : 1 / 0.843
+
+MassTransfer s4 of species solute from stage_4_heavy to stage4_light_disp
+    ks : 1*10**-5
+    kt : 1*10**-5
+    area : 200
+    S : 1 / 0.843
+
+MassTransfer s3 of species solute from stage_3_heavy to stage3_light_disp
+    ks : 1*10**-5
+    kt : 1*10**-5
+    area : 200
+    S : 1 / 0.843
+
+MassTransfer s2 of species solute from stage_2_heavy to stage2_light_disp
+    ks : 1*10**-5
+    kt : 1*10**-5
+    area : 200
+    S : 1 / 0.843
+
+MassTransfer s1 of species solute from stage_1_heavy to stage1_light_disp
+    ks : 1*10**-5
+    kt : 1*10**-5
+    area : 200
+    S : 1 / 0.843
+
+||| lower inlet
+
+MassTransfer lowerInlet of species solute from lower_inlet_heavy to lowerInlet_light_disp
+    ks : 1*10**-5
+    kt : 1*10**-5
+    area : 200
+    S : 1 / 0.843
+
+>>>>>>> 8f2603552c9b108366f3d3f13e7363531dbabe7c
 end
