@@ -1570,7 +1570,7 @@ MassTransfer s2 of species solute from stage_2_heavy to stage2_light_disp
     area : 377
     S : 1 / 0.843
 
-MassTransfer s1 of species solute from stage_1_heavy to stage0_light_disp
+MassTransfer s1 of species solute from stage_1_heavy to stage1_light_disp
     ks : 7.25**10-5
     kt : 2.73**10-5
     area : 377
