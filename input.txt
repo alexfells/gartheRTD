@@ -7,7 +7,7 @@ Solver Tsit5() |Rosenbrock23	| For julia see https://diffeq.sciml.ai/stable/solv
     t_start : 0
     |t_final : 360       | solvent rtd
     |t_final : 5200       | aqueous rtd
-    t_final : 5600     | mass transfer
+    t_final : 5400     | mass transfer
     atol : 10**-6
     rtol : 10**-6
     max step size : 1
