@@ -37,7 +37,7 @@ Surroundings heavy_source_store of continuous phase heavy_phase
     pressure : 101325 * 2
     IncompressiblePhase heavy_phase to heavy_source_store 
         heavy : 555000
-        solute : 9900
+        solute : 9220
         density : 999
 
 Surroundings heavy_pulse_source of continuous phase heavy_phase  
