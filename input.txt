@@ -841,7 +841,7 @@ Surroundings light_source_store of continuous phase light_phase
     pressure : 101325 * 2
     IncompressiblePhase light_phase to light_source_store 
         light : 94100
-        solute : 1150
+        solute : 962   | value from average of two runs
         density : 867
 
 Surroundings light_pulse_source of continuous phase light_phase  
