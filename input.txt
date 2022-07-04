@@ -14,7 +14,7 @@ Solver Tsit5() |Rosenbrock23	| For julia see https://diffeq.sciml.ai/stable/solv
     max step size : 1
     |write interval : 0.1  | solvent rtd
     |write interval : 1     | aqueous rtd
-    write interval : 60     | mass transfer
+    write interval : 180     | mass transfer
 
 Defaults 
     |model name : PSEC with pulse
