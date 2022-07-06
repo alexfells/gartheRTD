@@ -2,7 +2,12 @@
 |||     Cofiguration     |||
 |||----------------------|||
 
-Solver Tsit5() |Rosenbrock23	| For julia see https://diffeq.sciml.ai/stable/solvers/ode_solve/ and https://github.com/SciML/diffeqpy
+| To learn more about the Julia libary, solvers and stiffness, see:
+| https://diffeq.sciml.ai/stable/solvers/ode_solve/
+| https://github.com/SciML/diffeqpy
+| tinyurl.com/juliaAlg
+
+Solver Tsit5() |Rosenbrock23
 |Solver BDF 	|Radau |BDF |LSODA
     t_start : 0
     |t_final : 360       | solvent rtd
@@ -831,7 +836,7 @@ Compartment lowerInlet_light_disp of continuous phase light_phase
     IncompressiblePhase light_phase to lowerInlet_light_disp
         light : 0.38 * 0.75
         solute : 0
-        tracer_light : 0
+        |tracer_light : 0
         density : 867 
 
 ||| light source
