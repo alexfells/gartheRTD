@@ -836,7 +836,7 @@ Compartment lowerInlet_light_disp of continuous phase light_phase
     IncompressiblePhase light_phase to lowerInlet_light_disp
         light : 0.38 * 0.25
         solute : 0
-        tracer_light : 0
+        |tracer_light : 0
         density : 867 
 
 ||| light source
