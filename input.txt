@@ -1044,137 +1044,137 @@ ConvectiveTransport heavy_outlet from lower_seperator_heavy to heavy_sink_store
 
 |||     Column section exchange flows to account for pulse from upper inlet to lower inlet
 
-ConvectiveTransport ex_s26_upperInlet from upper_inlet_aqueous to stage_3_aqueous
+ConvectiveTransport ex_s26_upperInlet from upper_inlet_heavy to stage_3_heavy
     fixed flow : True
     area : 1
     velocity : 40 / 1000 / 3600
 
-ConvectiveTransport ex_s25_s26 from stage_25_aqueous to stage_26_aqueous
+ConvectiveTransport ex_s25_s26 from stage_25_heavy to stage_26_heavy
     fixed flow : True
     area : 1
     velocity : 40 / 1000 / 3600
 
-ConvectiveTransport ex_s24_s25 from stage_24_aqueous to stage_25_aqueous
+ConvectiveTransport ex_s24_s25 from stage_24_heavy to stage_25_heavy
     fixed flow : True
     area : 1
     velocity : 40 / 1000 / 3600
 
-ConvectiveTransport ex_s23_s24 from stage_23_aqueous to stage_24_aqueous
+ConvectiveTransport ex_s23_s24 from stage_23_heavy to stage_24_heavy
     fixed flow : True
     area : 1
     velocity : 40 / 1000 / 3600
 
-ConvectiveTransport ex_s22_s23 from stage_22_aqueous to stage_23_aqueous
+ConvectiveTransport ex_s22_s23 from stage_22_heavy to stage_23_heavy
     fixed flow : True
     area : 1
     velocity : 40 / 1000 / 3600
 
-ConvectiveTransport ex_s21_s22 from stage_21_aqueous to stage_22_aqueous
+ConvectiveTransport ex_s21_s22 from stage_21_heavy to stage_22_heavy
     fixed flow : True
     area : 1
     velocity : 40 / 1000 / 3600
 
-ConvectiveTransport ex_s20_s21 from stage_20_aqueous to stage_21_aqueous
+ConvectiveTransport ex_s20_s21 from stage_20_heavy to stage_21_heavy
     fixed flow : True
     area : 1
     velocity : 40 / 1000 / 3600
 
-ConvectiveTransport ex_s19_s20 from stage_19_aqueous to stage_20_aqueous
+ConvectiveTransport ex_s19_s20 from stage_19_heavy to stage_20_heavy
     fixed flow : True
     area : 1
     velocity : 40 / 1000 / 3600
 
-ConvectiveTransport ex_s18_s19 from stage_18_aqueous to stage_19_aqueous
+ConvectiveTransport ex_s18_s19 from stage_18_heavy to stage_19_heavy
     fixed flow : True
     area : 1
     velocity : 40 / 1000 / 3600
 
-ConvectiveTransport ex_s17_s18 from stage_17_aqueous to stage_18_aqueous
+ConvectiveTransport ex_s17_s18 from stage_17_heavy to stage_18_heavy
     fixed flow : True
     area : 1
     velocity : 40 / 1000 / 3600
 
-ConvectiveTransport ex_s16_s17 from stage_16_aqueous to stage_17_aqueous
+ConvectiveTransport ex_s16_s17 from stage_16_heavy to stage_17_heavy
     fixed flow : True
     area : 1
     velocity : 40 / 1000 / 3600
 
-ConvectiveTransport ex_s15_s16 from stage_15_aqueous to stage_16_aqueous
+ConvectiveTransport ex_s15_s16 from stage_15_heavy to stage_16_heavy
     fixed flow : True
     area : 1
     velocity : 40 / 1000 / 3600
 
-ConvectiveTransport ex_s14_s15 from stage_14_aqueous to stage_15_aqueous
+ConvectiveTransport ex_s14_s15 from stage_14_heavy to stage_15_heavy
     fixed flow : True
     area : 1
     velocity : 40 / 1000 / 3600
 
-ConvectiveTransport ex_s13_s14 from stage_13_aqueous to stage_14_aqueous
+ConvectiveTransport ex_s13_s14 from stage_13_heavy to stage_14_heavy
     fixed flow : True
     area : 1
     velocity : 40 / 1000 / 3600
 
-ConvectiveTransport ex_s12_s13 from stage_12_aqueous to stage_13_aqueous
+ConvectiveTransport ex_s12_s13 from stage_12_heavy to stage_13_heavy
     fixed flow : True
     area : 1
     velocity : 40 / 1000 / 3600
 
-ConvectiveTransport ex_s11_s12 from stage_11_aqueous to stage_12_aqueous
+ConvectiveTransport ex_s11_s12 from stage_11_heavy to stage_12_heavy
     fixed flow : True
     area : 1
     velocity : 40 / 1000 / 3600
 
-ConvectiveTransport ex_s10_s11 from stage_10_aqueous to stage_11_aqueous
+ConvectiveTransport ex_s10_s11 from stage_10_heavy to stage_11_heavy
     fixed flow : True
     area : 1
     velocity : 40 / 1000 / 3600
 
-ConvectiveTransport ex_s9_s10 from stage_9_aqueous to stage_10_aqueous
+ConvectiveTransport ex_s9_s10 from stage_9_heavy to stage_10_heavy
     fixed flow : True
     area : 1
     velocity : 40 / 1000 / 3600
 
-ConvectiveTransport ex_s8_s9 from stage_8_aqueous to stage_9_aqueous
+ConvectiveTransport ex_s8_s9 from stage_8_heavy to stage_9_heavy
     fixed flow : True
     area : 1
     velocity : 40 / 1000 / 3600
 
-ConvectiveTransport ex_s7_s8 from stage_7_aqueous to stage_8_aqueous
+ConvectiveTransport ex_s7_s8 from stage_7_heavy to stage_8_heavy
     fixed flow : True
     area : 1
     velocity : 40 / 1000 / 3600
 
-ConvectiveTransport ex_s6_s7 from stage_6_aqueous to stage_7_aqueous
+ConvectiveTransport ex_s6_s7 from stage_6_heavy to stage_7_heavy
     fixed flow : True
     area : 1
     velocity : 40 / 1000 / 3600
 
-ConvectiveTransport ex_s5_s6 from stage_5_aqueous to stage_6_aqueous
+ConvectiveTransport ex_s5_s6 from stage_5_heavy to stage_6_heavy
     fixed flow : True
     area : 1
     velocity : 40 / 1000 / 3600
 
-ConvectiveTransport ex_s4_s5 from stage_4_aqueous to stage_5_aqueous
+ConvectiveTransport ex_s4_s5 from stage_4_heavy to stage_5_heavy
     fixed flow : True
     area : 1
     velocity : 40 / 1000 / 3600
 
-ConvectiveTransport ex_s3_s4 from stage_3_aqueous to stage_4_aqueous
+ConvectiveTransport ex_s3_s4 from stage_3_heavy to stage_4_heavy
     fixed flow : True
     area : 1
     velocity : 40 / 1000 / 3600
 
-ConvectiveTransport ex_s2_s3 from stage_2_aqueous to stage_3_aqueous
+ConvectiveTransport ex_s2_s3 from stage_2_heavy to stage_3_heavy
     fixed flow : True
     area : 1
     velocity : 40 / 1000 / 3600
 
-ConvectiveTransport ex_s1_s2 from stage_1_aqueous to stage_2_aqueous
+ConvectiveTransport ex_s1_s2 from stage_1_heavy to stage_2_heavy
     fixed flow : True
     area : 1
     velocity : 40 / 1000 / 3600
 
-ConvectiveTransport ex_lowerInlet_s1 from lower_inlet_aqueous to stage_1_aqueous
+ConvectiveTransport ex_lowerInlet_s1 from lower_inlet_heavy to stage_1_heavy
     fixed flow : True
     area : 1
     velocity : 40 / 1000 / 3600
