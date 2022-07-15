@@ -1044,7 +1044,7 @@ ConvectiveTransport heavy_outlet from lower_seperator_heavy to heavy_sink_store
 
 |||     Column section exchange flows to account for pulse from upper inlet to lower inlet
 
-ConvectiveTransport ex_s26_upperInlet from upper_inlet_heavy to stage_3_heavy
+ConvectiveTransport ex_s26_upperInlet from stage_26_heavy to upper_inlet_heavy
     fixed flow : True
     area : 1
     velocity : 40 / 1000 / 3600
