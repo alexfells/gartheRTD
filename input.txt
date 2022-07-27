@@ -356,7 +356,7 @@ Compartment upper_inlet_light_disp of continuous phase light_phase
 ||| stage 26
 
 Compartment stage26_light_coal of continuous phase light_phase  
-    volume : 5.03*10**-4 * 0.09 * 0.30 | V_coal
+    volume : 5.03*10**-4 * 0.09 * 0.10 | V_coal
     IncompressiblePhase light_phase to stage26_light_coal 
         light : 0.38 * 0.50 | n_coal
         solute : 0
@@ -364,7 +364,7 @@ Compartment stage26_light_coal of continuous phase light_phase
         density : 867 
 
 Compartment stage26_light_disp of continuous phase light_phase   
-    volume : 5.03*10**-4 * 0.09 * 0.70 | V_disp
+    volume : 5.03*10**-4 * 0.09 * 0.90 | V_disp
     IncompressiblePhase light_phase to stage26_light_disp
         light : 0.38 * 0.50 | n_disp
         solute : 0
@@ -374,7 +374,7 @@ Compartment stage26_light_disp of continuous phase light_phase
 ||| stage 25
 
 Compartment stage25_light_coal of continuous phase light_phase  
-    volume : 5.03*10**-4 * 0.09 * 0.30 | V_coal
+    volume : 5.03*10**-4 * 0.09 * 0.10 | V_coal
     IncompressiblePhase light_phase to stage25_light_coal 
         light : 0.38 * 0.50 | n_coal
         solute : 0
@@ -382,7 +382,7 @@ Compartment stage25_light_coal of continuous phase light_phase
         density : 867 
 
 Compartment stage25_light_disp of continuous phase light_phase   
-    volume : 5.03*10**-4 * 0.09 * 0.70 | V_disp
+    volume : 5.03*10**-4 * 0.09 * 0.90 | V_disp
     IncompressiblePhase light_phase to stage25_light_disp
         light : 0.38 * 0.50 | n_disp
         solute : 0
@@ -392,7 +392,7 @@ Compartment stage25_light_disp of continuous phase light_phase
 ||| stage 24
 
 Compartment stage24_light_coal of continuous phase light_phase  
-    volume : 5.03*10**-4 * 0.09 * 0.30 | V_coal
+    volume : 5.03*10**-4 * 0.09 * 0.10 | V_coal
     IncompressiblePhase light_phase to stage24_light_coal 
         light : 0.38 * 0.50 | n_coal
         solute : 0
@@ -400,7 +400,7 @@ Compartment stage24_light_coal of continuous phase light_phase
         density : 867 
 
 Compartment stage24_light_disp of continuous phase light_phase   
-    volume : 5.03*10**-4 * 0.09 * 0.70 | V_disp
+    volume : 5.03*10**-4 * 0.09 * 0.90 | V_disp
     IncompressiblePhase light_phase to stage24_light_disp
         light : 0.38 * 0.50 | n_disp
         solute : 0
@@ -410,7 +410,7 @@ Compartment stage24_light_disp of continuous phase light_phase
 ||| stage 23
 
 Compartment stage23_light_coal of continuous phase light_phase  
-    volume : 5.03*10**-4 * 0.09 * 0.30 | V_coal
+    volume : 5.03*10**-4 * 0.09 * 0.10 | V_coal
     IncompressiblePhase light_phase to stage23_light_coal 
         light : 0.38 * 0.50 | n_coal
         solute : 0
@@ -418,7 +418,7 @@ Compartment stage23_light_coal of continuous phase light_phase
         density : 867 
 
 Compartment stage23_light_disp of continuous phase light_phase   
-    volume : 5.03*10**-4 * 0.09 * 0.70 | V_disp
+    volume : 5.03*10**-4 * 0.09 * 0.90 | V_disp
     IncompressiblePhase light_phase to stage23_light_disp
         light : 0.38 * 0.50 | n_disp
         solute : 0
@@ -428,7 +428,7 @@ Compartment stage23_light_disp of continuous phase light_phase
 ||| stage 22
 
 Compartment stage22_light_coal of continuous phase light_phase  
-    volume : 5.03*10**-4 * 0.09 * 0.30 | V_coal
+    volume : 5.03*10**-4 * 0.09 * 0.10 | V_coal
     IncompressiblePhase light_phase to stage22_light_coal 
         light : 0.38 * 0.50 | n_coal
         solute : 0
@@ -436,7 +436,7 @@ Compartment stage22_light_coal of continuous phase light_phase
         density : 867 
 
 Compartment stage22_light_disp of continuous phase light_phase   
-    volume : 5.03*10**-4 * 0.09 * 0.70 | V_disp
+    volume : 5.03*10**-4 * 0.09 * 0.90 | V_disp
     IncompressiblePhase light_phase to stage22_light_disp
         light : 0.38 * 0.50 | n_disp
         solute : 0
@@ -446,7 +446,7 @@ Compartment stage22_light_disp of continuous phase light_phase
 ||| stage 21
 
 Compartment stage21_light_coal of continuous phase light_phase  
-    volume : 5.03*10**-4 * 0.09 * 0.30 | V_coal
+    volume : 5.03*10**-4 * 0.09 * 0.10 | V_coal
     IncompressiblePhase light_phase to stage21_light_coal 
         light : 0.38 * 0.50 | n_coal
         solute : 0
@@ -454,7 +454,7 @@ Compartment stage21_light_coal of continuous phase light_phase
         density : 867 
 
 Compartment stage21_light_disp of continuous phase light_phase   
-    volume : 5.03*10**-4 * 0.09 * 0.70 | V_disp
+    volume : 5.03*10**-4 * 0.09 * 0.90 | V_disp
     IncompressiblePhase light_phase to stage21_light_disp
         light : 0.38 * 0.50 | n_disp
         solute : 0
@@ -464,7 +464,7 @@ Compartment stage21_light_disp of continuous phase light_phase
 ||| stage 20
 
 Compartment stage20_light_coal of continuous phase light_phase  
-    volume : 5.03*10**-4 * 0.09 * 0.30 | V_coal
+    volume : 5.03*10**-4 * 0.09 * 0.10 | V_coal
     IncompressiblePhase light_phase to stage20_light_coal 
         light : 0.38 * 0.50 | n_coal
         solute : 0
@@ -472,7 +472,7 @@ Compartment stage20_light_coal of continuous phase light_phase
         density : 867 
 
 Compartment stage20_light_disp of continuous phase light_phase   
-    volume : 5.03*10**-4 * 0.09 * 0.70 | V_disp
+    volume : 5.03*10**-4 * 0.09 * 0.90 | V_disp
     IncompressiblePhase light_phase to stage20_light_disp
         light : 0.38 * 0.50 | n_disp
         solute : 0
@@ -482,7 +482,7 @@ Compartment stage20_light_disp of continuous phase light_phase
 ||| stage 19
 
 Compartment stage19_light_coal of continuous phase light_phase  
-    volume : 5.03*10**-4 * 0.09 * 0.30 | V_coal
+    volume : 5.03*10**-4 * 0.09 * 0.10 | V_coal
     IncompressiblePhase light_phase to stage19_light_coal 
         light : 0.38 * 0.50 | n_coal
         solute : 0
@@ -490,7 +490,7 @@ Compartment stage19_light_coal of continuous phase light_phase
         density : 867 
 
 Compartment stage19_light_disp of continuous phase light_phase   
-    volume : 5.03*10**-4 * 0.09 * 0.70 | V_disp
+    volume : 5.03*10**-4 * 0.09 * 0.90 | V_disp
     IncompressiblePhase light_phase to stage19_light_disp
         light : 0.38 * 0.50 | n_disp
         solute : 0
@@ -500,7 +500,7 @@ Compartment stage19_light_disp of continuous phase light_phase
 ||| stage 18
 
 Compartment stage18_light_coal of continuous phase light_phase  
-    volume : 5.03*10**-4 * 0.09 * 0.30 | V_coal
+    volume : 5.03*10**-4 * 0.09 * 0.10 | V_coal
     IncompressiblePhase light_phase to stage18_light_coal 
         light : 0.38 * 0.50 | n_coal
         solute : 0
@@ -508,7 +508,7 @@ Compartment stage18_light_coal of continuous phase light_phase
         density : 867 
 
 Compartment stage18_light_disp of continuous phase light_phase   
-    volume : 5.03*10**-4 * 0.09 * 0.70 | V_disp
+    volume : 5.03*10**-4 * 0.09 * 0.90 | V_disp
     IncompressiblePhase light_phase to stage18_light_disp
         light : 0.38 * 0.50 | n_disp
         solute : 0
@@ -518,7 +518,7 @@ Compartment stage18_light_disp of continuous phase light_phase
 ||| stage 17
 
 Compartment stage17_light_coal of continuous phase light_phase  
-    volume : 5.03*10**-4 * 0.09 * 0.30 | V_coal
+    volume : 5.03*10**-4 * 0.09 * 0.10 | V_coal
     IncompressiblePhase light_phase to stage17_light_coal 
         light : 0.38 * 0.50 | n_coal
         solute : 0
@@ -526,7 +526,7 @@ Compartment stage17_light_coal of continuous phase light_phase
         density : 867 
 
 Compartment stage17_light_disp of continuous phase light_phase   
-    volume : 5.03*10**-4 * 0.09 * 0.70 | V_disp
+    volume : 5.03*10**-4 * 0.09 * 0.90 | V_disp
     IncompressiblePhase light_phase to stage17_light_disp
         light : 0.38 * 0.50 | n_disp
         solute : 0
@@ -536,7 +536,7 @@ Compartment stage17_light_disp of continuous phase light_phase
 ||| stage 16
 
 Compartment stage16_light_coal of continuous phase light_phase  
-    volume : 5.03*10**-4 * 0.09 * 0.30 | V_coal
+    volume : 5.03*10**-4 * 0.09 * 0.10 | V_coal
     IncompressiblePhase light_phase to stage16_light_coal 
         light : 0.38 * 0.50 | n_coal
         solute : 0
@@ -544,7 +544,7 @@ Compartment stage16_light_coal of continuous phase light_phase
         density : 867 
 
 Compartment stage16_light_disp of continuous phase light_phase   
-    volume : 5.03*10**-4 * 0.09 * 0.70 | V_disp
+    volume : 5.03*10**-4 * 0.09 * 0.90 | V_disp
     IncompressiblePhase light_phase to stage16_light_disp
         light : 0.38 * 0.50 | n_disp
         solute : 0
@@ -554,7 +554,7 @@ Compartment stage16_light_disp of continuous phase light_phase
 ||| stage 15
 
 Compartment stage15_light_coal of continuous phase light_phase  
-    volume : 5.03*10**-4 * 0.09 * 0.30 | V_coal
+    volume : 5.03*10**-4 * 0.09 * 0.10 | V_coal
     IncompressiblePhase light_phase to stage15_light_coal 
         light : 0.38 * 0.50 | n_coal
         solute : 0
@@ -562,7 +562,7 @@ Compartment stage15_light_coal of continuous phase light_phase
         density : 867 
 
 Compartment stage15_light_disp of continuous phase light_phase   
-    volume : 5.03*10**-4 * 0.09 * 0.70 | V_disp
+    volume : 5.03*10**-4 * 0.09 * 0.90 | V_disp
     IncompressiblePhase light_phase to stage15_light_disp
         light : 0.38 * 0.50 | n_disp
         solute : 0
@@ -572,7 +572,7 @@ Compartment stage15_light_disp of continuous phase light_phase
 ||| stage 14
 
 Compartment stage14_light_coal of continuous phase light_phase  
-    volume : 5.03*10**-4 * 0.09 * 0.30 | V_coal
+    volume : 5.03*10**-4 * 0.09 * 0.10 | V_coal
     IncompressiblePhase light_phase to stage14_light_coal 
         light : 0.38 * 0.50 | n_coal
         solute : 0
@@ -580,7 +580,7 @@ Compartment stage14_light_coal of continuous phase light_phase
         density : 867 
 
 Compartment stage14_light_disp of continuous phase light_phase   
-    volume : 5.03*10**-4 * 0.09 * 0.70 | V_disp
+    volume : 5.03*10**-4 * 0.09 * 0.90 | V_disp
     IncompressiblePhase light_phase to stage14_light_disp
         light : 0.38 * 0.50 | n_disp
         solute : 0
@@ -590,7 +590,7 @@ Compartment stage14_light_disp of continuous phase light_phase
 ||| stage 13
 
 Compartment stage13_light_coal of continuous phase light_phase  
-    volume : 5.03*10**-4 * 0.09 * 0.30 | V_coal
+    volume : 5.03*10**-4 * 0.09 * 0.10 | V_coal
     IncompressiblePhase light_phase to stage13_light_coal 
         light : 0.38 * 0.50 | n_coal
         solute : 0
@@ -598,7 +598,7 @@ Compartment stage13_light_coal of continuous phase light_phase
         density : 867 
 
 Compartment stage13_light_disp of continuous phase light_phase   
-    volume : 5.03*10**-4 * 0.09 * 0.70 | V_disp
+    volume : 5.03*10**-4 * 0.09 * 0.90 | V_disp
     IncompressiblePhase light_phase to stage13_light_disp
         light : 0.38 * 0.50 | n_disp
         solute : 0
@@ -608,7 +608,7 @@ Compartment stage13_light_disp of continuous phase light_phase
 ||| stage 12
 
 Compartment stage12_light_coal of continuous phase light_phase  
-    volume : 5.03*10**-4 * 0.09 * 0.30 | V_coal
+    volume : 5.03*10**-4 * 0.09 * 0.10 | V_coal
     IncompressiblePhase light_phase to stage12_light_coal 
         light : 0.38 * 0.50 | n_coal
         solute : 0
@@ -616,7 +616,7 @@ Compartment stage12_light_coal of continuous phase light_phase
         density : 867 
 
 Compartment stage12_light_disp of continuous phase light_phase   
-    volume : 5.03*10**-4 * 0.09 * 0.70 | V_disp
+    volume : 5.03*10**-4 * 0.09 * 0.90 | V_disp
     IncompressiblePhase light_phase to stage12_light_disp
         light : 0.38 * 0.50 | n_disp
         solute : 0
@@ -626,7 +626,7 @@ Compartment stage12_light_disp of continuous phase light_phase
 ||| stage 11
 
 Compartment stage11_light_coal of continuous phase light_phase  
-    volume : 5.03*10**-4 * 0.09 * 0.30 | V_coal
+    volume : 5.03*10**-4 * 0.09 * 0.10 | V_coal
     IncompressiblePhase light_phase to stage11_light_coal 
         light : 0.38 * 0.50 | n_coal
         solute : 0
@@ -634,7 +634,7 @@ Compartment stage11_light_coal of continuous phase light_phase
         density : 867 
 
 Compartment stage11_light_disp of continuous phase light_phase   
-    volume : 5.03*10**-4 * 0.09 * 0.70 | V_disp
+    volume : 5.03*10**-4 * 0.09 * 0.90 | V_disp
     IncompressiblePhase light_phase to stage11_light_disp
         light : 0.38 * 0.50 | n_disp
         solute : 0
@@ -644,7 +644,7 @@ Compartment stage11_light_disp of continuous phase light_phase
 ||| stage 10
 
 Compartment stage10_light_coal of continuous phase light_phase  
-    volume : 5.03*10**-4 * 0.09 * 0.30 | V_coal
+    volume : 5.03*10**-4 * 0.09 * 0.10 | V_coal
     IncompressiblePhase light_phase to stage10_light_coal 
         light : 0.38 * 0.50 | n_coal
         solute : 0
@@ -652,7 +652,7 @@ Compartment stage10_light_coal of continuous phase light_phase
         density : 867 
 
 Compartment stage10_light_disp of continuous phase light_phase   
-    volume : 5.03*10**-4 * 0.09 * 0.70 | V_disp
+    volume : 5.03*10**-4 * 0.09 * 0.90 | V_disp
     IncompressiblePhase light_phase to stage10_light_disp
         light : 0.38 * 0.50 | n_disp
         solute : 0
@@ -662,7 +662,7 @@ Compartment stage10_light_disp of continuous phase light_phase
 ||| stage 9
 
 Compartment stage9_light_coal of continuous phase light_phase  
-    volume : 5.03*10**-4 * 0.09 * 0.30 | V_coal
+    volume : 5.03*10**-4 * 0.09 * 0.10 | V_coal
     IncompressiblePhase light_phase to stage9_light_coal 
         light : 0.38 * 0.50 | n_coal
         solute : 0
@@ -670,7 +670,7 @@ Compartment stage9_light_coal of continuous phase light_phase
         density : 867 
 
 Compartment stage9_light_disp of continuous phase light_phase   
-    volume : 5.03*10**-4 * 0.09 * 0.70 | V_disp
+    volume : 5.03*10**-4 * 0.09 * 0.90 | V_disp
     IncompressiblePhase light_phase to stage9_light_disp
         light : 0.38 * 0.50 | n_disp
         solute : 0
@@ -680,7 +680,7 @@ Compartment stage9_light_disp of continuous phase light_phase
 ||| stage 8
 
 Compartment stage8_light_coal of continuous phase light_phase  
-    volume : 5.03*10**-4 * 0.09 * 0.30 | V_coal
+    volume : 5.03*10**-4 * 0.09 * 0.10 | V_coal
     IncompressiblePhase light_phase to stage8_light_coal 
         light : 0.38 * 0.50 | n_coal
         solute : 0
@@ -688,7 +688,7 @@ Compartment stage8_light_coal of continuous phase light_phase
         density : 867 
 
 Compartment stage8_light_disp of continuous phase light_phase   
-    volume : 5.03*10**-4 * 0.09 * 0.70 | V_disp
+    volume : 5.03*10**-4 * 0.09 * 0.90 | V_disp
     IncompressiblePhase light_phase to stage8_light_disp
         light : 0.38 * 0.50 | n_disp
         solute : 0
@@ -698,7 +698,7 @@ Compartment stage8_light_disp of continuous phase light_phase
 ||| stage 7
 
 Compartment stage7_light_coal of continuous phase light_phase  
-    volume : 5.03*10**-4 * 0.09 * 0.30 | V_coal
+    volume : 5.03*10**-4 * 0.09 * 0.10 | V_coal
     IncompressiblePhase light_phase to stage7_light_coal 
         light : 0.38 * 0.50 | n_coal
         solute : 0
@@ -706,7 +706,7 @@ Compartment stage7_light_coal of continuous phase light_phase
         density : 867 
 
 Compartment stage7_light_disp of continuous phase light_phase   
-    volume : 5.03*10**-4 * 0.09 * 0.70 | V_disp
+    volume : 5.03*10**-4 * 0.09 * 0.90 | V_disp
     IncompressiblePhase light_phase to stage7_light_disp
         light : 0.38 * 0.50 | n_disp
         solute : 0
@@ -716,7 +716,7 @@ Compartment stage7_light_disp of continuous phase light_phase
 ||| stage 6
 
 Compartment stage6_light_coal of continuous phase light_phase  
-    volume : 5.03*10**-4 * 0.09 * 0.30 | V_coal
+    volume : 5.03*10**-4 * 0.09 * 0.10 | V_coal
     IncompressiblePhase light_phase to stage6_light_coal 
         light : 0.38 * 0.50 | n_coal
         solute : 0
@@ -724,7 +724,7 @@ Compartment stage6_light_coal of continuous phase light_phase
         density : 867 
 
 Compartment stage6_light_disp of continuous phase light_phase   
-    volume : 5.03*10**-4 * 0.09 * 0.70 | V_disp
+    volume : 5.03*10**-4 * 0.09 * 0.90 | V_disp
     IncompressiblePhase light_phase to stage6_light_disp
         light : 0.38 * 0.50 | n_disp
         solute : 0
@@ -734,7 +734,7 @@ Compartment stage6_light_disp of continuous phase light_phase
 ||| stage 5
 
 Compartment stage5_light_coal of continuous phase light_phase  
-    volume : 5.03*10**-4 * 0.09 * 0.30 | V_coal
+    volume : 5.03*10**-4 * 0.09 * 0.10 | V_coal
     IncompressiblePhase light_phase to stage5_light_coal 
         light : 0.38 * 0.50 | n_coal
         solute : 0
@@ -742,7 +742,7 @@ Compartment stage5_light_coal of continuous phase light_phase
         density : 867 
 
 Compartment stage5_light_disp of continuous phase light_phase   
-    volume : 5.03*10**-4 * 0.09 * 0.70 | V_disp
+    volume : 5.03*10**-4 * 0.09 * 0.90 | V_disp
     IncompressiblePhase light_phase to stage5_light_disp
         light : 0.38 * 0.50 | n_disp
         solute : 0
@@ -752,7 +752,7 @@ Compartment stage5_light_disp of continuous phase light_phase
 ||| stage 4
 
 Compartment stage4_light_coal of continuous phase light_phase  
-    volume : 5.03*10**-4 * 0.09 * 0.30 | V_coal
+    volume : 5.03*10**-4 * 0.09 * 0.10 | V_coal
     IncompressiblePhase light_phase to stage4_light_coal 
         light : 0.38 * 0.50 | n_coal
         solute : 0
@@ -760,7 +760,7 @@ Compartment stage4_light_coal of continuous phase light_phase
         density : 867 
 
 Compartment stage4_light_disp of continuous phase light_phase   
-    volume : 5.03*10**-4 * 0.09 * 0.70 | V_disp
+    volume : 5.03*10**-4 * 0.09 * 0.90 | V_disp
     IncompressiblePhase light_phase to stage4_light_disp
         light : 0.38 * 0.50 | n_disp
         solute : 0
@@ -770,7 +770,7 @@ Compartment stage4_light_disp of continuous phase light_phase
 ||| stage 3
 
 Compartment stage3_light_coal of continuous phase light_phase  
-    volume : 5.03*10**-4 * 0.09 * 0.30 | V_coal
+    volume : 5.03*10**-4 * 0.09 * 0.10 | V_coal
     IncompressiblePhase light_phase to stage3_light_coal 
         light : 0.38 * 0.50 | n_coal
         solute : 0
@@ -778,7 +778,7 @@ Compartment stage3_light_coal of continuous phase light_phase
         density : 867 
 
 Compartment stage3_light_disp of continuous phase light_phase   
-    volume : 5.03*10**-4 * 0.09 * 0.70 | V_disp
+    volume : 5.03*10**-4 * 0.09 * 0.90 | V_disp
     IncompressiblePhase light_phase to stage3_light_disp
         light : 0.38 * 0.50 | n_disp
         solute : 0
@@ -788,7 +788,7 @@ Compartment stage3_light_disp of continuous phase light_phase
 ||| stage 2
 
 Compartment stage2_light_coal of continuous phase light_phase  
-    volume : 5.03*10**-4 * 0.09 * 0.30 | V_coal
+    volume : 5.03*10**-4 * 0.09 * 0.10 | V_coal
     IncompressiblePhase light_phase to stage2_light_coal 
         light : 0.38 * 0.50 | n_coal
         solute : 0
@@ -796,7 +796,7 @@ Compartment stage2_light_coal of continuous phase light_phase
         density : 867 
 
 Compartment stage2_light_disp of continuous phase light_phase   
-    volume : 5.03*10**-4 * 0.09 * 0.70 | V_disp
+    volume : 5.03*10**-4 * 0.09 * 0.90 | V_disp
     IncompressiblePhase light_phase to stage2_light_disp
         light : 0.38 * 0.50 | n_disp
         solute : 0
@@ -806,7 +806,7 @@ Compartment stage2_light_disp of continuous phase light_phase
 ||| stage 1
 
 Compartment stage1_light_coal of continuous phase light_phase  
-    volume : 5.03*10**-4 * 0.09 * 0.30 | V_coal
+    volume : 5.03*10**-4 * 0.09 * 0.10 | V_coal
     IncompressiblePhase light_phase to stage1_light_coal 
         light : 0.38 * 0.50 | n_coal
         solute : 0
@@ -814,7 +814,7 @@ Compartment stage1_light_coal of continuous phase light_phase
         density : 867 
 
 Compartment stage1_light_disp of continuous phase light_phase   
-    volume : 5.03*10**-4 * 0.09 * 0.70 | V_disp
+    volume : 5.03*10**-4 * 0.09 * 0.90 | V_disp
     IncompressiblePhase light_phase to stage1_light_disp
         light : 0.38 * 0.50 | n_disp
         solute : 0
@@ -824,7 +824,7 @@ Compartment stage1_light_disp of continuous phase light_phase
 ||| lower inlet
 
 Compartment lowerInlet_light_coal of continuous phase light_phase  
-    volume : 5.03*10**-4 * 0.09 * 0.30 | V_coal
+    volume : 5.03*10**-4 * 0.09 * 0.10 | V_coal
     IncompressiblePhase light_phase to lowerInlet_light_coal 
         light : 0.38 * 0.50 | n_coal
         solute : 0
@@ -832,7 +832,7 @@ Compartment lowerInlet_light_coal of continuous phase light_phase
         density : 867 
 
 Compartment lowerInlet_light_disp of continuous phase light_phase   
-    volume : 5.03*10**-4 * 0.09 * 0.70 | V_disp
+    volume : 5.03*10**-4 * 0.09 * 0.90 | V_disp
     IncompressiblePhase light_phase to lowerInlet_light_disp
         light : 0.38 * 0.50 | n_disp
         solute : 0
@@ -1549,7 +1549,7 @@ ConvectiveTransport light_source_to_lower_inlet_disp from light_source_store to 
 MassTransfer upperSeparator of species solute from upper_separator_heavy to upperSep_light_disp
     ks : 7.25**10-5
     kt : 2.73**10-5
-    area : 0.136 * 0.70 | A_MT
+    area : 0.136 * 0.90 | A_MT
     S : 1 / 0.843
 
 ||| upper inlet
@@ -1557,7 +1557,7 @@ MassTransfer upperSeparator of species solute from upper_separator_heavy to uppe
 MassTransfer upperInlet of species solute from upper_inlet_heavy to upper_inlet_light_disp
     ks : 7.25**10-5
     kt : 2.73**10-5
-    area : 0.136 * 0.70 | A_MT
+    area : 0.136 * 0.90 | A_MT
     S : 1 / 0.843
 
 ||| column stage
@@ -1565,157 +1565,157 @@ MassTransfer upperInlet of species solute from upper_inlet_heavy to upper_inlet_
 MassTransfer s26 of species solute from stage_26_heavy to stage26_light_disp
     ks : 7.25**10-5
     kt : 2.73**10-5
-    area : 0.136 * 0.70 | A_MT
+    area : 0.136 * 0.90 | A_MT
     S : 1 / 0.843
 
 MassTransfer s25 of species solute from stage_25_heavy to stage25_light_disp
     ks : 7.25**10-5
     kt : 2.73**10-5
-    area : 0.136 * 0.70 | A_MT
+    area : 0.136 * 0.90 | A_MT
     S : 1 / 0.843
 
 MassTransfer s24 of species solute from stage_24_heavy to stage24_light_disp
     ks : 7.25**10-5
     kt : 2.73**10-5
-    area : 0.136 * 0.70 | A_MT
+    area : 0.136 * 0.90 | A_MT
     S : 1 / 0.843
 
 MassTransfer s23 of species solute from stage_23_heavy to stage23_light_disp
     ks : 7.25**10-5
     kt : 2.73**10-5
-    area : 0.136 * 0.70 | A_MT
+    area : 0.136 * 0.90 | A_MT
     S : 1 / 0.843
 
 MassTransfer s22 of species solute from stage_22_heavy to stage22_light_disp
     ks : 7.25**10-5
     kt : 2.73**10-5
-    area : 0.136 * 0.70 | A_MT
+    area : 0.136 * 0.90 | A_MT
     S : 1 / 0.843
 
 MassTransfer s21 of species solute from stage_21_heavy to stage21_light_disp
     ks : 7.25**10-5
     kt : 2.73**10-5
-    area : 0.136 * 0.70 | A_MT
+    area : 0.136 * 0.90 | A_MT
     S : 1 / 0.843
 
 MassTransfer s20 of species solute from stage_20_heavy to stage20_light_disp
     ks : 7.25**10-5
     kt : 2.73**10-5
-    area : 0.136 * 0.70 | A_MT
+    area : 0.136 * 0.90 | A_MT
     S : 1 / 0.843
 
 MassTransfer s19 of species solute from stage_19_heavy to stage19_light_disp
     ks : 7.25**10-5
     kt : 2.73**10-5
-    area : 0.136 * 0.70 | A_MT
+    area : 0.136 * 0.90 | A_MT
     S : 1 / 0.843
 
 MassTransfer s18 of species solute from stage_18_heavy to stage18_light_disp
     ks : 7.25**10-5
     kt : 2.73**10-5
-    area : 0.136 * 0.70 | A_MT
+    area : 0.136 * 0.90 | A_MT
     S : 1 / 0.843
 
 MassTransfer s17 of species solute from stage_17_heavy to stage17_light_disp
     ks : 7.25**10-5
     kt : 2.73**10-5
-    area : 0.136 * 0.70 | A_MT
+    area : 0.136 * 0.90 | A_MT
     S : 1 / 0.843
 
 MassTransfer s16 of species solute from stage_16_heavy to stage16_light_disp
     ks : 7.25**10-5
     kt : 2.73**10-5
-    area : 0.136 * 0.70 | A_MT
+    area : 0.136 * 0.90 | A_MT
     S : 1 / 0.843
 
 MassTransfer s15 of species solute from stage_15_heavy to stage15_light_disp
     ks : 7.25**10-5
     kt : 2.73**10-5
-    area : 0.136 * 0.70 | A_MT
+    area : 0.136 * 0.90 | A_MT
     S : 1 / 0.843
 
 MassTransfer s14 of species solute from stage_14_heavy to stage14_light_disp
     ks : 7.25**10-5
     kt : 2.73**10-5
-    area : 0.136 * 0.70 | A_MT
+    area : 0.136 * 0.90 | A_MT
     S : 1 / 0.843
 
 MassTransfer s13 of species solute from stage_13_heavy to stage13_light_disp
     ks : 7.25**10-5
     kt : 2.73**10-5
-    area : 0.136 * 0.70 | A_MT
+    area : 0.136 * 0.90 | A_MT
     S : 1 / 0.843
 
 MassTransfer s12 of species solute from stage_12_heavy to stage12_light_disp
     ks : 7.25**10-5
     kt : 2.73**10-5
-    area : 0.136 * 0.70 | A_MT
+    area : 0.136 * 0.90 | A_MT
     S : 1 / 0.843
 
 MassTransfer s11 of species solute from stage_11_heavy to stage11_light_disp
     ks : 7.25**10-5
     kt : 2.73**10-5
-    area : 0.136 * 0.70 | A_MT
+    area : 0.136 * 0.90 | A_MT
     S : 1 / 0.843
 
 MassTransfer s10 of species solute from stage_10_heavy to stage10_light_disp
     ks : 7.25**10-5
     kt : 2.73**10-5
-    area : 0.136 * 0.70 | A_MT
+    area : 0.136 * 0.90 | A_MT
     S : 1 / 0.843
 
 MassTransfer s9 of species solute from stage_9_heavy to stage9_light_disp
     ks : 7.25**10-5
     kt : 2.73**10-5
-    area : 0.136 * 0.70 | A_MT
+    area : 0.136 * 0.90 | A_MT
     S : 1 / 0.843
 
 MassTransfer s8 of species solute from stage_8_heavy to stage8_light_disp
     ks : 7.25**10-5
     kt : 2.73**10-5
-    area : 0.136 * 0.70 | A_MT
+    area : 0.136 * 0.90 | A_MT
     S : 1 / 0.843
 
 MassTransfer s7 of species solute from stage_7_heavy to stage7_light_disp
     ks : 7.25**10-5
     kt : 2.73**10-5
-    area : 0.136 * 0.70 | A_MT
+    area : 0.136 * 0.90 | A_MT
     S : 1 / 0.843
 
 MassTransfer s6 of species solute from stage_6_heavy to stage6_light_disp
     ks : 7.25**10-5
     kt : 2.73**10-5
-    area : 0.136 * 0.70 | A_MT
+    area : 0.136 * 0.90 | A_MT
     S : 1 / 0.843
 
 MassTransfer s5 of species solute from stage_5_heavy to stage5_light_disp
     ks : 7.25**10-5
     kt : 2.73**10-5
-    area : 0.136 * 0.70 | A_MT
+    area : 0.136 * 0.90 | A_MT
     S : 1 / 0.843
 
 MassTransfer s4 of species solute from stage_4_heavy to stage4_light_disp
     ks : 7.25**10-5
     kt : 2.73**10-5
-    area : 0.136 * 0.70 | A_MT
+    area : 0.136 * 0.90 | A_MT
     S : 1 / 0.843
 
 MassTransfer s3 of species solute from stage_3_heavy to stage3_light_disp
     ks : 7.25**10-5
     kt : 2.73**10-5
-    area : 0.136 * 0.70 | A_MT
+    area : 0.136 * 0.90 | A_MT
     S : 1 / 0.843
 
 MassTransfer s2 of species solute from stage_2_heavy to stage2_light_disp
     ks : 7.25**10-5
     kt : 2.73**10-5
-    area : 0.136 * 0.70 | A_MT
+    area : 0.136 * 0.90 | A_MT
     S : 1 / 0.843
 
 MassTransfer s1 of species solute from stage_1_heavy to stage1_light_disp
     ks : 7.25**10-5
     kt : 2.73**10-5
-    area : 0.136 * 0.70 | A_MT
+    area : 0.136 * 0.90 | A_MT
     S : 1 / 0.843
 
 ||| lower inlet
@@ -1723,7 +1723,7 @@ MassTransfer s1 of species solute from stage_1_heavy to stage1_light_disp
 MassTransfer lowerInlet of species solute from lower_inlet_heavy to lowerInlet_light_disp
     ks : 7.25**10-5
     kt : 2.73**10-5
-    area : 0.136 * 0.70 | A_MT
+    area : 0.136 * 0.90 | A_MT
     S : 1 / 0.843
 
 end
