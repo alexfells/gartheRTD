@@ -1032,7 +1032,7 @@ ConvectiveTransport heavy_s1_lowerInlet from stage_1_heavy to lower_inlet_heavy
 ConvectiveTransport lowerInlet_lowerSeperator from lower_inlet_heavy to lower_seperator_heavy
     fixed flow : True
     area : 1
-    velocity : (40 / 1000 / 3600) * (1 + 1)
+    velocity : (40 / 1000 / 3600) * 1
 
 ||| lower separator
 
