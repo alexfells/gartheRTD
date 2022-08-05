@@ -893,139 +893,139 @@ ConvectiveTransport heavy_upper_inlet_to_upper_sep from upper_inlet_heavy to upp
 ConvectiveTransport heavy_upper_inlet_to_stage26 from upper_inlet_heavy to stage_26_heavy 
     fixed flow : True
     area : 1
-    velocity : (40 / 1000 / 3600) * (1 + 1)
+    velocity : (40 / 1000 / 3600) * (1 + 0)
 
 ||| column stage
 
 ConvectiveTransport heavy_s26_s25 from stage_26_heavy to stage_25_heavy
     fixed flow : True
     area : 1
-    velocity : (40 / 1000 / 3600) * (1 + 1)
+    velocity : (40 / 1000 / 3600) * (1 + 0)
 
 ConvectiveTransport heavy_s25_s24 from stage_25_heavy to stage_24_heavy
     fixed flow : True
     area : 1
-    velocity : (40 / 1000 / 3600) * (1 + 1)
+    velocity : (40 / 1000 / 3600) * (1 + 0)
 
 ConvectiveTransport heavy_s24_s23 from stage_24_heavy to stage_23_heavy
     fixed flow : True
     area : 1
-    velocity : (40 / 1000 / 3600) * (1 + 1)
+    velocity : (40 / 1000 / 3600) * (1 + 0)
 
 ConvectiveTransport heavy_s23_s22 from stage_23_heavy to stage_22_heavy
     fixed flow : True
     area : 1
-    velocity : (40 / 1000 / 3600) * (1 + 1)
+    velocity : (40 / 1000 / 3600) * (1 + 0)
 
 ConvectiveTransport heavy_s22_s21 from stage_22_heavy to stage_21_heavy
     fixed flow : True
     area : 1
-    velocity : (40 / 1000 / 3600) * (1 + 1)
+    velocity : (40 / 1000 / 3600) * (1 + 0)
 
 ConvectiveTransport heavy_s21_s20 from stage_21_heavy to stage_20_heavy
     fixed flow : True
     area : 1
-    velocity : (40 / 1000 / 3600) * (1 + 1)
+    velocity : (40 / 1000 / 3600) * (1 + 0)
 
 ConvectiveTransport heavy_s20_s19 from stage_20_heavy to stage_19_heavy
     fixed flow : True
     area : 1
-    velocity : (40 / 1000 / 3600) * (1 + 1)
+    velocity : (40 / 1000 / 3600) * (1 + 0)
 
 ConvectiveTransport heavy_s19_s18 from stage_19_heavy to stage_18_heavy
     fixed flow : True
     area : 1
-    velocity : (40 / 1000 / 3600) * (1 + 1)
+    velocity : (40 / 1000 / 3600) * (1 + 0)
 
 ConvectiveTransport heavy_s18_s17 from stage_18_heavy to stage_17_heavy
     fixed flow : True
     area : 1
-    velocity : (40 / 1000 / 3600) * (1 + 1)
+    velocity : (40 / 1000 / 3600) * (1 + 0)
 
 ConvectiveTransport heavy_s17_s16 from stage_17_heavy to stage_16_heavy
     fixed flow : True
     area : 1
-    velocity : (40 / 1000 / 3600) * (1 + 1)
+    velocity : (40 / 1000 / 3600) * (1 + 0)
 
 ConvectiveTransport heavy_s16_s15 from stage_16_heavy to stage_15_heavy
     fixed flow : True
     area : 1
-    velocity : (40 / 1000 / 3600) * (1 + 1)
+    velocity : (40 / 1000 / 3600) * (1 + 0)
 
 ConvectiveTransport heavy_s15_s14 from stage_15_heavy to stage_14_heavy
     fixed flow : True
     area : 1
-    velocity : (40 / 1000 / 3600) * (1 + 1)
+    velocity : (40 / 1000 / 3600) * (1 + 0)
 
 ConvectiveTransport heavy_s14_s13 from stage_14_heavy to stage_13_heavy
     fixed flow : True
     area : 1
-    velocity : (40 / 1000 / 3600) * (1 + 1)
+    velocity : (40 / 1000 / 3600) * (1 + 0)
 
 ConvectiveTransport heavy_s13_s12 from stage_13_heavy to stage_12_heavy
     fixed flow : True
     area : 1
-    velocity : (40 / 1000 / 3600) * (1 + 1)
+    velocity : (40 / 1000 / 3600) * (1 + 0)
 
 ConvectiveTransport heavy_s12_s11 from stage_12_heavy to stage_11_heavy
     fixed flow : True
     area : 1
-    velocity : (40 / 1000 / 3600) * (1 + 1)
+    velocity : (40 / 1000 / 3600) * (1 + 0)
 
 ConvectiveTransport heavy_s11_s10 from stage_11_heavy to stage_10_heavy
     fixed flow : True
     area : 1
-    velocity : (40 / 1000 / 3600) * (1 + 1)
+    velocity : (40 / 1000 / 3600) * (1 + 0)
 
 ConvectiveTransport heavy_s10_s9 from stage_10_heavy to stage_9_heavy
     fixed flow : True
     area : 1
-    velocity : (40 / 1000 / 3600) * (1 + 1)
+    velocity : (40 / 1000 / 3600) * (1 + 0)
 
 ConvectiveTransport heavy_s9_s8 from stage_9_heavy to stage_8_heavy
     fixed flow : True
     area : 1
-    velocity : (40 / 1000 / 3600) * (1 + 1)
+    velocity : (40 / 1000 / 3600) * (1 + 0)
 
 ConvectiveTransport heavy_s8_s7 from stage_8_heavy to stage_7_heavy
     fixed flow : True
     area : 1
-    velocity : (40 / 1000 / 3600) * (1 + 1)
+    velocity : (40 / 1000 / 3600) * (1 + 0)
 
 ConvectiveTransport heavy_s7_s6 from stage_7_heavy to stage_6_heavy
     fixed flow : True
     area : 1
-    velocity : (40 / 1000 / 3600) * (1 + 1)
+    velocity : (40 / 1000 / 3600) * (1 + 0)
 
 ConvectiveTransport heavy_s6_s5 from stage_6_heavy to stage_5_heavy
     fixed flow : True
     area : 1
-    velocity : (40 / 1000 / 3600) * (1 + 1)
+    velocity : (40 / 1000 / 3600) * (1 + 0)
 
 ConvectiveTransport heavy_s5_s4 from stage_5_heavy to stage_4_heavy
     fixed flow : True
     area : 1
-    velocity : (40 / 1000 / 3600) * (1 + 1)
+    velocity : (40 / 1000 / 3600) * (1 + 0)
 
 ConvectiveTransport heavy_s4_s3 from stage_4_heavy to stage_3_heavy
     fixed flow : True
     area : 1
-    velocity : (40 / 1000 / 3600) * (1 + 1)
+    velocity : (40 / 1000 / 3600) * (1 + 0)
 
 ConvectiveTransport heavy_s3_s2 from stage_3_heavy to stage_2_heavy
     fixed flow : True
     area : 1
-    velocity : (40 / 1000 / 3600) * (1 + 1)
+    velocity : (40 / 1000 / 3600) * (1 + 0)
 
 ConvectiveTransport heavy_s2_s1 from stage_2_heavy to stage_1_heavy
     fixed flow : True
     area : 1
-    velocity : (40 / 1000 / 3600) * (1 + 1)
+    velocity : (40 / 1000 / 3600) * (1 + 0)
 
 ConvectiveTransport heavy_s1_lowerInlet from stage_1_heavy to lower_inlet_heavy
     fixed flow : True
     area : 1
-    velocity : (40 / 1000 / 3600) * (1 + 1)
+    velocity : (40 / 1000 / 3600) * (1 + 0)
 
 ||| lower inlet
 
@@ -1042,141 +1042,141 @@ ConvectiveTransport heavy_outlet from lower_seperator_heavy to heavy_sink_store
     velocity : 40 / 1000 / 3600
 
 |||     Column section exchange flows to account for pulse from upper inlet to lower inlet
-
-ConvectiveTransport ex_s26_upperInlet from stage_26_heavy to upper_inlet_heavy
-    fixed flow : True
-    area : 1
-    velocity : (40 / 1000 / 3600) * 1 | BF
-
-ConvectiveTransport ex_s25_s26 from stage_25_heavy to stage_26_heavy
-    fixed flow : True
-    area : 1
-    velocity : (40 / 1000 / 3600) * 1 | BF
-
-ConvectiveTransport ex_s24_s25 from stage_24_heavy to stage_25_heavy
-    fixed flow : True
-    area : 1
-    velocity : (40 / 1000 / 3600) * 1 | BF
-
-ConvectiveTransport ex_s23_s24 from stage_23_heavy to stage_24_heavy
-    fixed flow : True
-    area : 1
-    velocity : (40 / 1000 / 3600) * 1 | BF
-
-ConvectiveTransport ex_s22_s23 from stage_22_heavy to stage_23_heavy
-    fixed flow : True
-    area : 1
-    velocity : (40 / 1000 / 3600) * 1 | BF
-
-ConvectiveTransport ex_s21_s22 from stage_21_heavy to stage_22_heavy
-    fixed flow : True
-    area : 1
-    velocity : (40 / 1000 / 3600) * 1 | BF
-
-ConvectiveTransport ex_s20_s21 from stage_20_heavy to stage_21_heavy
-    fixed flow : True
-    area : 1
-    velocity : (40 / 1000 / 3600) * 1 | BF
-
-ConvectiveTransport ex_s19_s20 from stage_19_heavy to stage_20_heavy
-    fixed flow : True
-    area : 1
-    velocity : (40 / 1000 / 3600) * 1 | BF
-
-ConvectiveTransport ex_s18_s19 from stage_18_heavy to stage_19_heavy
-    fixed flow : True
-    area : 1
-    velocity : (40 / 1000 / 3600) * 1 | BF
-
-ConvectiveTransport ex_s17_s18 from stage_17_heavy to stage_18_heavy
-    fixed flow : True
-    area : 1
-    velocity : (40 / 1000 / 3600) * 1 | BF
-
-ConvectiveTransport ex_s16_s17 from stage_16_heavy to stage_17_heavy
-    fixed flow : True
-    area : 1
-    velocity : (40 / 1000 / 3600) * 1 | BF
-
-ConvectiveTransport ex_s15_s16 from stage_15_heavy to stage_16_heavy
-    fixed flow : True
-    area : 1
-    velocity : (40 / 1000 / 3600) * 1 | BF
-
-ConvectiveTransport ex_s14_s15 from stage_14_heavy to stage_15_heavy
-    fixed flow : True
-    area : 1
-    velocity : (40 / 1000 / 3600) * 1 | BF
-
-ConvectiveTransport ex_s13_s14 from stage_13_heavy to stage_14_heavy
-    fixed flow : True
-    area : 1
-    velocity : (40 / 1000 / 3600) * 1 | BF
-
-ConvectiveTransport ex_s12_s13 from stage_12_heavy to stage_13_heavy
-    fixed flow : True
-    area : 1
-    velocity : (40 / 1000 / 3600) * 1 | BF
-
-ConvectiveTransport ex_s11_s12 from stage_11_heavy to stage_12_heavy
-    fixed flow : True
-    area : 1
-    velocity : (40 / 1000 / 3600) * 1 | BF
-
-ConvectiveTransport ex_s10_s11 from stage_10_heavy to stage_11_heavy
-    fixed flow : True
-    area : 1
-    velocity : (40 / 1000 / 3600) * 1 | BF
-
-ConvectiveTransport ex_s9_s10 from stage_9_heavy to stage_10_heavy
-    fixed flow : True
-    area : 1
-    velocity : (40 / 1000 / 3600) * 1 | BF
-
-ConvectiveTransport ex_s8_s9 from stage_8_heavy to stage_9_heavy
-    fixed flow : True
-    area : 1
-    velocity : (40 / 1000 / 3600) * 1 | BF
-
-ConvectiveTransport ex_s7_s8 from stage_7_heavy to stage_8_heavy
-    fixed flow : True
-    area : 1
-    velocity : (40 / 1000 / 3600) * 1 | BF
-
-ConvectiveTransport ex_s6_s7 from stage_6_heavy to stage_7_heavy
-    fixed flow : True
-    area : 1
-    velocity : (40 / 1000 / 3600) * 1 | BF
-
-ConvectiveTransport ex_s5_s6 from stage_5_heavy to stage_6_heavy
-    fixed flow : True
-    area : 1
-    velocity : (40 / 1000 / 3600) * 1 | BF
-
-ConvectiveTransport ex_s4_s5 from stage_4_heavy to stage_5_heavy
-    fixed flow : True
-    area : 1
-    velocity : (40 / 1000 / 3600) * 1 | BF
-
-ConvectiveTransport ex_s3_s4 from stage_3_heavy to stage_4_heavy
-    fixed flow : True
-    area : 1
-    velocity : (40 / 1000 / 3600) * 1 | BF
-
-ConvectiveTransport ex_s2_s3 from stage_2_heavy to stage_3_heavy
-    fixed flow : True
-    area : 1
-    velocity : (40 / 1000 / 3600) * 1 | BF
-
-ConvectiveTransport ex_s1_s2 from stage_1_heavy to stage_2_heavy
-    fixed flow : True
-    area : 1
-    velocity : (40 / 1000 / 3600) * 1 | BF
-
-ConvectiveTransport ex_lowerInlet_s1 from lower_inlet_heavy to stage_1_heavy
-    fixed flow : True
-    area : 1
-    velocity : (40 / 1000 / 3600) * 1 | BF
+|
+|ConvectiveTransport ex_s26_upperInlet from stage_26_heavy to upper_inlet_heavy
+|    fixed flow : True
+|    area : 1
+|    velocity : (40 / 1000 / 3600) * 1 | BF
+|
+|ConvectiveTransport ex_s25_s26 from stage_25_heavy to stage_26_heavy
+|    fixed flow : True
+|    area : 1
+|    velocity : (40 / 1000 / 3600) * 1 | BF
+|
+|ConvectiveTransport ex_s24_s25 from stage_24_heavy to stage_25_heavy
+|    fixed flow : True
+|    area : 1
+|    velocity : (40 / 1000 / 3600) * 1 | BF
+|
+|ConvectiveTransport ex_s23_s24 from stage_23_heavy to stage_24_heavy
+|    fixed flow : True
+|    area : 1
+|    velocity : (40 / 1000 / 3600) * 1 | BF
+|
+|ConvectiveTransport ex_s22_s23 from stage_22_heavy to stage_23_heavy
+|    fixed flow : True
+|    area : 1
+|    velocity : (40 / 1000 / 3600) * 1 | BF
+|
+|ConvectiveTransport ex_s21_s22 from stage_21_heavy to stage_22_heavy
+|    fixed flow : True
+|    area : 1
+|    velocity : (40 / 1000 / 3600) * 1 | BF
+|
+|ConvectiveTransport ex_s20_s21 from stage_20_heavy to stage_21_heavy
+|    fixed flow : True
+|    area : 1
+|    velocity : (40 / 1000 / 3600) * 1 | BF
+|
+|ConvectiveTransport ex_s19_s20 from stage_19_heavy to stage_20_heavy
+|    fixed flow : True
+|    area : 1
+|    velocity : (40 / 1000 / 3600) * 1 | BF
+|
+|ConvectiveTransport ex_s18_s19 from stage_18_heavy to stage_19_heavy
+|    fixed flow : True
+|    area : 1
+|    velocity : (40 / 1000 / 3600) * 1 | BF
+|
+|ConvectiveTransport ex_s17_s18 from stage_17_heavy to stage_18_heavy
+|    fixed flow : True
+|    area : 1
+|    velocity : (40 / 1000 / 3600) * 1 | BF
+|
+|ConvectiveTransport ex_s16_s17 from stage_16_heavy to stage_17_heavy
+|    fixed flow : True
+|    area : 1
+|    velocity : (40 / 1000 / 3600) * 1 | BF
+|
+|ConvectiveTransport ex_s15_s16 from stage_15_heavy to stage_16_heavy
+|    fixed flow : True
+|    area : 1
+|    velocity : (40 / 1000 / 3600) * 1 | BF
+|
+|ConvectiveTransport ex_s14_s15 from stage_14_heavy to stage_15_heavy
+|    fixed flow : True
+|    area : 1
+|    velocity : (40 / 1000 / 3600) * 1 | BF
+|
+|ConvectiveTransport ex_s13_s14 from stage_13_heavy to stage_14_heavy
+|    fixed flow : True
+|    area : 1
+|    velocity : (40 / 1000 / 3600) * 1 | BF
+|
+|ConvectiveTransport ex_s12_s13 from stage_12_heavy to stage_13_heavy
+|    fixed flow : True
+|    area : 1
+|    velocity : (40 / 1000 / 3600) * 1 | BF
+|
+|ConvectiveTransport ex_s11_s12 from stage_11_heavy to stage_12_heavy
+|    fixed flow : True
+|    area : 1
+|    velocity : (40 / 1000 / 3600) * 1 | BF
+|
+|ConvectiveTransport ex_s10_s11 from stage_10_heavy to stage_11_heavy
+|    fixed flow : True
+|    area : 1
+|    velocity : (40 / 1000 / 3600) * 1 | BF
+|
+|ConvectiveTransport ex_s9_s10 from stage_9_heavy to stage_10_heavy
+|    fixed flow : True
+|    area : 1
+|    velocity : (40 / 1000 / 3600) * 1 | BF
+|
+|ConvectiveTransport ex_s8_s9 from stage_8_heavy to stage_9_heavy
+|    fixed flow : True
+|    area : 1
+|    velocity : (40 / 1000 / 3600) * 1 | BF
+|
+|ConvectiveTransport ex_s7_s8 from stage_7_heavy to stage_8_heavy
+|    fixed flow : True
+|    area : 1
+|    velocity : (40 / 1000 / 3600) * 1 | BF
+|
+|ConvectiveTransport ex_s6_s7 from stage_6_heavy to stage_7_heavy
+|    fixed flow : True
+|    area : 1
+|    velocity : (40 / 1000 / 3600) * 1 | BF
+|
+|ConvectiveTransport ex_s5_s6 from stage_5_heavy to stage_6_heavy
+|    fixed flow : True
+|    area : 1
+|    velocity : (40 / 1000 / 3600) * 1 | BF
+|
+|ConvectiveTransport ex_s4_s5 from stage_4_heavy to stage_5_heavy
+|    fixed flow : True
+|    area : 1
+|    velocity : (40 / 1000 / 3600) * 1 | BF
+|
+|ConvectiveTransport ex_s3_s4 from stage_3_heavy to stage_4_heavy
+|    fixed flow : True
+|    area : 1
+|    velocity : (40 / 1000 / 3600) * 1 | BF
+|
+|ConvectiveTransport ex_s2_s3 from stage_2_heavy to stage_3_heavy
+|    fixed flow : True
+|    area : 1
+|    velocity : (40 / 1000 / 3600) * 1 | BF
+|
+|ConvectiveTransport ex_s1_s2 from stage_1_heavy to stage_2_heavy
+|    fixed flow : True
+|    area : 1
+|    velocity : (40 / 1000 / 3600) * 1 | BF
+|
+|ConvectiveTransport ex_lowerInlet_s1 from lower_inlet_heavy to stage_1_heavy
+|    fixed flow : True
+|    area : 1
+|    velocity : (40 / 1000 / 3600) * 1 | BF
 
 |||-----------------------------|||
 |||     Light phase transport   |||
@@ -1547,182 +1547,182 @@ ConvectiveTransport light_source_to_lower_inlet_disp from light_source_store to 
 
 ||| upper separator
 MassTransfer upperSeparator of species solute from upper_separator_heavy to upperSep_light_disp
-    ks : 7.25**10-5
-    kt : 2.73**10-5
+    ks : 7.25*10**-5
+    kt : 2.73*10**-5
     area : 0.136 * 0.5 * 0.00001 | A_MT
     S : 1 / 0.843
 
 ||| upper inlet
 
 MassTransfer upperInlet of species solute from upper_inlet_heavy to upper_inlet_light_disp
-    ks : 7.25**10-5
-    kt : 2.73**10-5
+    ks : 7.25*10**-5
+    kt : 2.73*10**-5
     area : 0.136 * 0.5 * 0.00001 | A_MT
     S : 1 / 0.843
 
 ||| column stage
 
 MassTransfer s26 of species solute from stage_26_heavy to stage26_light_disp
-    ks : 7.25**10-5
-    kt : 2.73**10-5
+    ks : 7.25*10**-5
+    kt : 2.73*10**-5
     area : 0.136 * 0.5 * 0.00001 | A_MT
     S : 1 / 0.843
 
 MassTransfer s25 of species solute from stage_25_heavy to stage25_light_disp
-    ks : 7.25**10-5
-    kt : 2.73**10-5
+    ks : 7.25*10**-5
+    kt : 2.73*10**-5
     area : 0.136 * 0.5 * 0.00001 | A_MT
     S : 1 / 0.843
 
 MassTransfer s24 of species solute from stage_24_heavy to stage24_light_disp
-    ks : 7.25**10-5
-    kt : 2.73**10-5
+    ks : 7.25*10**-5
+    kt : 2.73*10**-5
     area : 0.136 * 0.5 * 0.00001 | A_MT
     S : 1 / 0.843
 
 MassTransfer s23 of species solute from stage_23_heavy to stage23_light_disp
-    ks : 7.25**10-5
-    kt : 2.73**10-5
+    ks : 7.25*10**-5
+    kt : 2.73*10**-5
     area : 0.136 * 0.5 * 0.00001 | A_MT
     S : 1 / 0.843
 
 MassTransfer s22 of species solute from stage_22_heavy to stage22_light_disp
-    ks : 7.25**10-5
-    kt : 2.73**10-5
+    ks : 7.25*10**-5
+    kt : 2.73*10**-5
     area : 0.136 * 0.5 * 0.00001 | A_MT
     S : 1 / 0.843
 
 MassTransfer s21 of species solute from stage_21_heavy to stage21_light_disp
-    ks : 7.25**10-5
-    kt : 2.73**10-5
+    ks : 7.25*10**-5
+    kt : 2.73*10**-5
     area : 0.136 * 0.5 * 0.00001 | A_MT
     S : 1 / 0.843
 
 MassTransfer s20 of species solute from stage_20_heavy to stage20_light_disp
-    ks : 7.25**10-5
-    kt : 2.73**10-5
+    ks : 7.25*10**-5
+    kt : 2.73*10**-5
     area : 0.136 * 0.5 * 0.00001 | A_MT
     S : 1 / 0.843
 
 MassTransfer s19 of species solute from stage_19_heavy to stage19_light_disp
-    ks : 7.25**10-5
-    kt : 2.73**10-5
+    ks : 7.25*10**-5
+    kt : 2.73*10**-5
     area : 0.136 * 0.5 * 0.00001 | A_MT
     S : 1 / 0.843
 
 MassTransfer s18 of species solute from stage_18_heavy to stage18_light_disp
-    ks : 7.25**10-5
-    kt : 2.73**10-5
+    ks : 7.25*10**-5
+    kt : 2.73*10**-5
     area : 0.136 * 0.5 * 0.00001 | A_MT
     S : 1 / 0.843
 
 MassTransfer s17 of species solute from stage_17_heavy to stage17_light_disp
-    ks : 7.25**10-5
-    kt : 2.73**10-5
+    ks : 7.25*10**-5
+    kt : 2.73*10**-5
     area : 0.136 * 0.5 * 0.00001 | A_MT
     S : 1 / 0.843
 
 MassTransfer s16 of species solute from stage_16_heavy to stage16_light_disp
-    ks : 7.25**10-5
-    kt : 2.73**10-5
+    ks : 7.25*10**-5
+    kt : 2.73*10**-5
     area : 0.136 * 0.5 * 0.00001 | A_MT
     S : 1 / 0.843
 
 MassTransfer s15 of species solute from stage_15_heavy to stage15_light_disp
-    ks : 7.25**10-5
-    kt : 2.73**10-5
+    ks : 7.25*10**-5
+    kt : 2.73*10**-5
     area : 0.136 * 0.5 * 0.00001 | A_MT
     S : 1 / 0.843
 
 MassTransfer s14 of species solute from stage_14_heavy to stage14_light_disp
-    ks : 7.25**10-5
-    kt : 2.73**10-5
+    ks : 7.25*10**-5
+    kt : 2.73*10**-5
     area : 0.136 * 0.5 * 0.00001 | A_MT
     S : 1 / 0.843
 
 MassTransfer s13 of species solute from stage_13_heavy to stage13_light_disp
-    ks : 7.25**10-5
-    kt : 2.73**10-5
+    ks : 7.25*10**-5
+    kt : 2.73*10**-5
     area : 0.136 * 0.5 * 0.00001 | A_MT
     S : 1 / 0.843
 
 MassTransfer s12 of species solute from stage_12_heavy to stage12_light_disp
-    ks : 7.25**10-5
-    kt : 2.73**10-5
+    ks : 7.25*10**-5
+    kt : 2.73*10**-5
     area : 0.136 * 0.5 * 0.00001 | A_MT
     S : 1 / 0.843
 
 MassTransfer s11 of species solute from stage_11_heavy to stage11_light_disp
-    ks : 7.25**10-5
-    kt : 2.73**10-5
+    ks : 7.25*10**-5
+    kt : 2.73*10**-5
     area : 0.136 * 0.5 * 0.00001 | A_MT
     S : 1 / 0.843
 
 MassTransfer s10 of species solute from stage_10_heavy to stage10_light_disp
-    ks : 7.25**10-5
-    kt : 2.73**10-5
+    ks : 7.25*10**-5
+    kt : 2.73*10**-5
     area : 0.136 * 0.5 * 0.00001 | A_MT
     S : 1 / 0.843
 
 MassTransfer s9 of species solute from stage_9_heavy to stage9_light_disp
-    ks : 7.25**10-5
-    kt : 2.73**10-5
+    ks : 7.25*10**-5
+    kt : 2.73*10**-5
     area : 0.136 * 0.5 * 0.00001 | A_MT
     S : 1 / 0.843
 
 MassTransfer s8 of species solute from stage_8_heavy to stage8_light_disp
-    ks : 7.25**10-5
-    kt : 2.73**10-5
+    ks : 7.25*10**-5
+    kt : 2.73*10**-5
     area : 0.136 * 0.5 * 0.00001 | A_MT
     S : 1 / 0.843
 
 MassTransfer s7 of species solute from stage_7_heavy to stage7_light_disp
-    ks : 7.25**10-5
-    kt : 2.73**10-5
+    ks : 7.25*10**-5
+    kt : 2.73*10**-5
     area : 0.136 * 0.5 * 0.00001 | A_MT
     S : 1 / 0.843
 
 MassTransfer s6 of species solute from stage_6_heavy to stage6_light_disp
-    ks : 7.25**10-5
-    kt : 2.73**10-5
+    ks : 7.25*10**-5
+    kt : 2.73*10**-5
     area : 0.136 * 0.5 * 0.00001 | A_MT
     S : 1 / 0.843
 
 MassTransfer s5 of species solute from stage_5_heavy to stage5_light_disp
-    ks : 7.25**10-5
-    kt : 2.73**10-5
+    ks : 7.25*10**-5
+    kt : 2.73*10**-5
     area : 0.136 * 0.5 * 0.00001 | A_MT
     S : 1 / 0.843
 
 MassTransfer s4 of species solute from stage_4_heavy to stage4_light_disp
-    ks : 7.25**10-5
-    kt : 2.73**10-5
+    ks : 7.25*10**-5
+    kt : 2.73*10**-5
     area : 0.136 * 0.5 * 0.00001 | A_MT
     S : 1 / 0.843
 
 MassTransfer s3 of species solute from stage_3_heavy to stage3_light_disp
-    ks : 7.25**10-5
-    kt : 2.73**10-5
+    ks : 7.25*10**-5
+    kt : 2.73*10**-5
     area : 0.136 * 0.5 * 0.00001 | A_MT
     S : 1 / 0.843
 
 MassTransfer s2 of species solute from stage_2_heavy to stage2_light_disp
-    ks : 7.25**10-5
-    kt : 2.73**10-5
+    ks : 7.25*10**-5
+    kt : 2.73*10**-5
     area : 0.136 * 0.5 * 0.00001 | A_MT
     S : 1 / 0.843
 
 MassTransfer s1 of species solute from stage_1_heavy to stage1_light_disp
-    ks : 7.25**10-5
-    kt : 2.73**10-5
+    ks : 7.25*10**-5
+    kt : 2.73*10**-5
     area : 0.136 * 0.5 * 0.00001 | A_MT
     S : 1 / 0.843
 
 ||| lower inlet
 
 MassTransfer lowerInlet of species solute from lower_inlet_heavy to lowerInlet_light_disp
-    ks : 7.25**10-5
-    kt : 2.73**10-5
+    ks : 7.25*10**-5
+    kt : 2.73*10**-5
     area : 0.136 * 0.5 * 0.00001 | A_MT
     S : 1 / 0.843
 
