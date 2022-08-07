@@ -26,7 +26,7 @@ Defaults
 
 DefineComponents | name : molecular weight (kg/mole)
     heavy : 0.0180
-    |tracer_heavy : 0.0180
+    tracer_heavy : 0.0180
     light : 0.09214 
     |tracer_light : 0.09214
     solute : 0.05808
