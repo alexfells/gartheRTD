@@ -11,14 +11,14 @@ Solver Tsit5() |Rosenbrock23
 |Solver BDF 	|Radau |BDF |LSODA
     t_start : 0
     |t_final : 360       | solvent rtd
-    |t_final : 5200       | aqueous rtd
-    t_final : 18000     | mass transfer
+    t_final : 5200       | aqueous rtd
+    |t_final : 18000     | mass transfer
     atol : 10**-7
     rtol : 10**-5
     max step size : 1
     |write interval : 0.1  | solvent rtd
-    |write interval : 1     | aqueous rtd
-    write interval : 180     | mass transfer
+    write interval : 1     | aqueous rtd
+    |write interval : 180     | mass transfer
 
 Defaults 
     |model name : PSEC with pulse
@@ -45,12 +45,12 @@ Surroundings heavy_source_store of continuous phase heavy_phase
         solute : 9220   | taken from average of two runs
         density : 999
 
-|Surroundings heavy_pulse_source of continuous phase heavy_phase  
-|    volume : 10 
-|    pressure : 101325 * 3
-|    IncompressiblePhase heavy_phase to heavy_pulse_source
-|        tracer_heavy : 555000
-|        density : 999
+Surroundings heavy_pulse_source of continuous phase heavy_phase  
+    volume : 10 
+    pressure : 101325 * 3
+    IncompressiblePhase heavy_phase to heavy_pulse_source
+        tracer_heavy : 555000
+        density : 999
 
 ||| upper separator
 
@@ -59,7 +59,7 @@ Compartment upper_separator_heavy of continuous phase heavy_phase
     IncompressiblePhase heavy_phase to upper_separator_heavy 
         heavy : 421
         solute : 0
-        |tracer_heavy : 0
+        tracer_heavy : 0
         density : 999
 
 ||| upper inlet
@@ -69,7 +69,7 @@ Compartment upper_inlet_heavy of continuous phase heavy_phase
     IncompressiblePhase heavy_phase to upper_inlet_heavy 
         heavy : 57
         solute : 0
-        |tracer_heavy : 0
+        tracer_heavy : 0
         density : 999
 
 ||| column stage
@@ -79,7 +79,7 @@ Compartment stage_26_heavy of continuous phase heavy_phase
     IncompressiblePhase heavy_phase to stage_26_heavy 
         heavy : 25.4
         solute : 0
-        |tracer_heavy : 0
+        tracer_heavy : 0
         density : 999
 
 Compartment stage_25_heavy of continuous phase heavy_phase 
@@ -87,7 +87,7 @@ Compartment stage_25_heavy of continuous phase heavy_phase
     IncompressiblePhase heavy_phase to stage_25_heavy 
         heavy : 25.4
         solute : 0
-        |tracer_heavy : 0
+        tracer_heavy : 0
         density : 999
 
 Compartment stage_24_heavy of continuous phase heavy_phase 
@@ -95,7 +95,7 @@ Compartment stage_24_heavy of continuous phase heavy_phase
     IncompressiblePhase heavy_phase to stage_24_heavy 
         heavy : 25.4
         solute : 0
-        |tracer_heavy : 0
+        tracer_heavy : 0
         density : 999
 
 Compartment stage_23_heavy of continuous phase heavy_phase 
@@ -103,7 +103,7 @@ Compartment stage_23_heavy of continuous phase heavy_phase
     IncompressiblePhase heavy_phase to stage_23_heavy 
         heavy : 25.4
         solute : 0
-        |tracer_heavy : 0
+        tracer_heavy : 0
         density : 999
 
 Compartment stage_22_heavy of continuous phase heavy_phase 
@@ -111,7 +111,7 @@ Compartment stage_22_heavy of continuous phase heavy_phase
     IncompressiblePhase heavy_phase to stage_22_heavy 
         heavy : 25.4
         solute : 0
-        |tracer_heavy : 0
+        tracer_heavy : 0
         density : 999
 
 Compartment stage_21_heavy of continuous phase heavy_phase 
@@ -119,7 +119,7 @@ Compartment stage_21_heavy of continuous phase heavy_phase
     IncompressiblePhase heavy_phase to stage_21_heavy 
         heavy : 25.4
         solute : 0
-        |tracer_heavy : 0
+        tracer_heavy : 0
         density : 999
 
 Compartment stage_20_heavy of continuous phase heavy_phase 
@@ -127,7 +127,7 @@ Compartment stage_20_heavy of continuous phase heavy_phase
     IncompressiblePhase heavy_phase to stage_20_heavy 
         heavy : 25.4
         solute : 0
-        |tracer_heavy : 0
+        tracer_heavy : 0
         density : 999
 
 Compartment stage_19_heavy of continuous phase heavy_phase 
@@ -135,7 +135,7 @@ Compartment stage_19_heavy of continuous phase heavy_phase
     IncompressiblePhase heavy_phase to stage_19_heavy 
         heavy : 25.4
         solute : 0
-        |tracer_heavy : 0
+        tracer_heavy : 0
         density : 999
 
 Compartment stage_18_heavy of continuous phase heavy_phase 
@@ -143,7 +143,7 @@ Compartment stage_18_heavy of continuous phase heavy_phase
     IncompressiblePhase heavy_phase to stage_18_heavy 
         heavy : 25.4
         solute : 0
-        |tracer_heavy : 0
+        tracer_heavy : 0
         density : 999
 
 Compartment stage_17_heavy of continuous phase heavy_phase 
@@ -151,7 +151,7 @@ Compartment stage_17_heavy of continuous phase heavy_phase
     IncompressiblePhase heavy_phase to stage_17_heavy 
         heavy : 25.4
         solute : 0
-        |tracer_heavy : 0
+        tracer_heavy : 0
         density : 999
 
 Compartment stage_16_heavy of continuous phase heavy_phase 
@@ -159,7 +159,7 @@ Compartment stage_16_heavy of continuous phase heavy_phase
     IncompressiblePhase heavy_phase to stage_16_heavy 
         heavy : 25.4
         solute : 0
-        |tracer_heavy : 0
+        tracer_heavy : 0
         density : 999
 
 Compartment stage_15_heavy of continuous phase heavy_phase 
@@ -167,7 +167,7 @@ Compartment stage_15_heavy of continuous phase heavy_phase
     IncompressiblePhase heavy_phase to stage_15_heavy 
         heavy : 25.4
         solute : 0
-        |tracer_heavy : 0
+        tracer_heavy : 0
         density : 999
 
 Compartment stage_14_heavy of continuous phase heavy_phase 
@@ -175,7 +175,7 @@ Compartment stage_14_heavy of continuous phase heavy_phase
     IncompressiblePhase heavy_phase to stage_14_heavy 
         heavy : 25.4
         solute : 0
-        |tracer_heavy : 0
+        tracer_heavy : 0
         density : 999
 
 Compartment stage_13_heavy of continuous phase heavy_phase 
@@ -183,7 +183,7 @@ Compartment stage_13_heavy of continuous phase heavy_phase
     IncompressiblePhase heavy_phase to stage_13_heavy 
         heavy : 25.4
         solute : 0
-        |tracer_heavy : 0
+        tracer_heavy : 0
         density : 999
 
 Compartment stage_12_heavy of continuous phase heavy_phase 
@@ -191,7 +191,7 @@ Compartment stage_12_heavy of continuous phase heavy_phase
     IncompressiblePhase heavy_phase to stage_12_heavy 
         heavy : 25.4
         solute : 0
-        |tracer_heavy : 0
+        tracer_heavy : 0
         density : 999
 
 Compartment stage_11_heavy of continuous phase heavy_phase 
@@ -199,7 +199,7 @@ Compartment stage_11_heavy of continuous phase heavy_phase
     IncompressiblePhase heavy_phase to stage_11_heavy 
         heavy : 25.4
         solute : 0
-        |tracer_heavy : 0
+        tracer_heavy : 0
         density : 999
 
 Compartment stage_10_heavy of continuous phase heavy_phase 
@@ -207,7 +207,7 @@ Compartment stage_10_heavy of continuous phase heavy_phase
     IncompressiblePhase heavy_phase to stage_10_heavy 
         heavy : 25.4
         solute : 0
-        |tracer_heavy : 0
+        tracer_heavy : 0
         density : 999
 
 Compartment stage_9_heavy of continuous phase heavy_phase 
@@ -215,7 +215,7 @@ Compartment stage_9_heavy of continuous phase heavy_phase
     IncompressiblePhase heavy_phase to stage_9_heavy 
         heavy : 25.4
         solute : 0
-        |tracer_heavy : 0
+        tracer_heavy : 0
         density : 999
 
 Compartment stage_8_heavy of continuous phase heavy_phase 
@@ -223,7 +223,7 @@ Compartment stage_8_heavy of continuous phase heavy_phase
     IncompressiblePhase heavy_phase to stage_8_heavy 
         heavy : 25.4
         solute : 0
-        |tracer_heavy : 0
+        tracer_heavy : 0
         density : 999
 
 Compartment stage_7_heavy of continuous phase heavy_phase 
@@ -231,7 +231,7 @@ Compartment stage_7_heavy of continuous phase heavy_phase
     IncompressiblePhase heavy_phase to stage_7_heavy 
         heavy : 25.4
         solute : 0
-        |tracer_heavy : 0
+        tracer_heavy : 0
         density : 999
 
 Compartment stage_6_heavy of continuous phase heavy_phase 
@@ -239,7 +239,7 @@ Compartment stage_6_heavy of continuous phase heavy_phase
     IncompressiblePhase heavy_phase to stage_6_heavy 
         heavy : 25.4
         solute : 0
-        |tracer_heavy : 0
+        tracer_heavy : 0
         density : 999
 
 Compartment stage_5_heavy of continuous phase heavy_phase 
@@ -247,7 +247,7 @@ Compartment stage_5_heavy of continuous phase heavy_phase
     IncompressiblePhase heavy_phase to stage_5_heavy 
         heavy : 25.4
         solute : 0
-        |tracer_heavy : 0
+        tracer_heavy : 0
         density : 999
 
 Compartment stage_4_heavy of continuous phase heavy_phase 
@@ -255,7 +255,7 @@ Compartment stage_4_heavy of continuous phase heavy_phase
     IncompressiblePhase heavy_phase to stage_4_heavy 
         heavy : 25.4
         solute : 0
-        |tracer_heavy : 0
+        tracer_heavy : 0
         density : 999
 
 Compartment stage_3_heavy of continuous phase heavy_phase 
@@ -263,7 +263,7 @@ Compartment stage_3_heavy of continuous phase heavy_phase
     IncompressiblePhase heavy_phase to stage_3_heavy 
         heavy : 25.4
         solute : 0
-        |tracer_heavy : 0
+        tracer_heavy : 0
         density : 999
 
 Compartment stage_2_heavy of continuous phase heavy_phase 
@@ -271,7 +271,7 @@ Compartment stage_2_heavy of continuous phase heavy_phase
     IncompressiblePhase heavy_phase to stage_2_heavy 
         heavy : 25.4
         solute : 0
-        |tracer_heavy : 0
+        tracer_heavy : 0
         density : 999
  
 Compartment stage_1_heavy of continuous phase heavy_phase 
@@ -279,7 +279,7 @@ Compartment stage_1_heavy of continuous phase heavy_phase
     IncompressiblePhase heavy_phase to stage_1_heavy 
         heavy : 25.4
         solute : 0
-        |tracer_heavy : 0
+        tracer_heavy : 0
         density : 999
       
 ||| lower inlet
@@ -289,7 +289,7 @@ Compartment lower_inlet_heavy of continuous phase heavy_phase
     IncompressiblePhase heavy_phase to lower_inlet_heavy 
         heavy : 57
         solute : 0
-        |tracer_heavy : 0
+        tracer_heavy : 0
         density : 999
 
 ||| lower separator
@@ -299,7 +299,7 @@ Compartment lower_seperator_heavy of continuous phase heavy_phase
     IncompressiblePhase heavy_phase to lower_seperator_heavy 
         heavy : 274
         solute : 0
-        |tracer_heavy : 0
+        tracer_heavy : 0
         density : 999
 
 ||| heavy sink
@@ -866,15 +866,15 @@ ConvectiveTransport heavy_feed_to_upper_inlet from heavy_source_store to upper_i
     fixed flow : True
     area : 1
     velocity : 40 / 1000 / 3600
-|    activation_times : 0, 200, 200.1
-|    activation_response : 1, 0, 1
+    activation_times : 0, 200, 200.1
+    activation_response : 1, 0, 1
 
-|ConvectiveTransport tracer_heavy from heavy_pulse_source to upper_inlet_heavy 
-|    fixed flow : True
-|    area : 1
-|    velocity : 40 / 1000 / 3600
-|    activation_times : 0, 200, 200.1
-|    activation_response : 0, 1, 0
+ConvectiveTransport tracer_heavy from heavy_pulse_source to upper_inlet_heavy 
+    fixed flow : True
+    area : 1
+    velocity : 40 / 1000 / 3600
+    activation_times : 0, 200, 200.1
+    activation_response : 0, 1, 0
 
 ||| upper separator
 
@@ -1545,185 +1545,185 @@ ConvectiveTransport light_source_to_lower_inlet_disp from light_source_store to 
 |||     Transfer    |||
 |||-----------------|||
 
-||| upper separator
-MassTransfer upperSeparator of species solute from upper_separator_heavy to upperSep_light_disp
-    ks : 7.25*10**-5
-    kt : 2.73*10**-5
-    area : 0.136 * 0.5 * 1 | A_MT
-    S : 1 / 0.843
-
-||| upper inlet
-
-MassTransfer upperInlet of species solute from upper_inlet_heavy to upper_inlet_light_disp
-    ks : 7.25*10**-5
-    kt : 2.73*10**-5
-    area : 0.136 * 0.5 * 1 | A_MT
-    S : 1 / 0.843
-
-||| column stage
-
-MassTransfer s26 of species solute from stage_26_heavy to stage26_light_disp
-    ks : 7.25*10**-5
-    kt : 2.73*10**-5
-    area : 0.136 * 0.5 * 1 | A_MT
-    S : 1 / 0.843
-
-MassTransfer s25 of species solute from stage_25_heavy to stage25_light_disp
-    ks : 7.25*10**-5
-    kt : 2.73*10**-5
-    area : 0.136 * 0.5 * 1 | A_MT
-    S : 1 / 0.843
-
-MassTransfer s24 of species solute from stage_24_heavy to stage24_light_disp
-    ks : 7.25*10**-5
-    kt : 2.73*10**-5
-    area : 0.136 * 0.5 * 1 | A_MT
-    S : 1 / 0.843
-
-MassTransfer s23 of species solute from stage_23_heavy to stage23_light_disp
-    ks : 7.25*10**-5
-    kt : 2.73*10**-5
-    area : 0.136 * 0.5 * 1 | A_MT
-    S : 1 / 0.843
-
-MassTransfer s22 of species solute from stage_22_heavy to stage22_light_disp
-    ks : 7.25*10**-5
-    kt : 2.73*10**-5
-    area : 0.136 * 0.5 * 1 | A_MT
-    S : 1 / 0.843
-
-MassTransfer s21 of species solute from stage_21_heavy to stage21_light_disp
-    ks : 7.25*10**-5
-    kt : 2.73*10**-5
-    area : 0.136 * 0.5 * 1 | A_MT
-    S : 1 / 0.843
-
-MassTransfer s20 of species solute from stage_20_heavy to stage20_light_disp
-    ks : 7.25*10**-5
-    kt : 2.73*10**-5
-    area : 0.136 * 0.5 * 1 | A_MT
-    S : 1 / 0.843
-
-MassTransfer s19 of species solute from stage_19_heavy to stage19_light_disp
-    ks : 7.25*10**-5
-    kt : 2.73*10**-5
-    area : 0.136 * 0.5 * 1 | A_MT
-    S : 1 / 0.843
-
-MassTransfer s18 of species solute from stage_18_heavy to stage18_light_disp
-    ks : 7.25*10**-5
-    kt : 2.73*10**-5
-    area : 0.136 * 0.5 * 1 | A_MT
-    S : 1 / 0.843
-
-MassTransfer s17 of species solute from stage_17_heavy to stage17_light_disp
-    ks : 7.25*10**-5
-    kt : 2.73*10**-5
-    area : 0.136 * 0.5 * 1 | A_MT
-    S : 1 / 0.843
-
-MassTransfer s16 of species solute from stage_16_heavy to stage16_light_disp
-    ks : 7.25*10**-5
-    kt : 2.73*10**-5
-    area : 0.136 * 0.5 * 1 | A_MT
-    S : 1 / 0.843
-
-MassTransfer s15 of species solute from stage_15_heavy to stage15_light_disp
-    ks : 7.25*10**-5
-    kt : 2.73*10**-5
-    area : 0.136 * 0.5 * 1 | A_MT
-    S : 1 / 0.843
-
-MassTransfer s14 of species solute from stage_14_heavy to stage14_light_disp
-    ks : 7.25*10**-5
-    kt : 2.73*10**-5
-    area : 0.136 * 0.5 * 1 | A_MT
-    S : 1 / 0.843
-
-MassTransfer s13 of species solute from stage_13_heavy to stage13_light_disp
-    ks : 7.25*10**-5
-    kt : 2.73*10**-5
-    area : 0.136 * 0.5 * 1 | A_MT
-    S : 1 / 0.843
-
-MassTransfer s12 of species solute from stage_12_heavy to stage12_light_disp
-    ks : 7.25*10**-5
-    kt : 2.73*10**-5
-    area : 0.136 * 0.5 * 1 | A_MT
-    S : 1 / 0.843
-
-MassTransfer s11 of species solute from stage_11_heavy to stage11_light_disp
-    ks : 7.25*10**-5
-    kt : 2.73*10**-5
-    area : 0.136 * 0.5 * 1 | A_MT
-    S : 1 / 0.843
-
-MassTransfer s10 of species solute from stage_10_heavy to stage10_light_disp
-    ks : 7.25*10**-5
-    kt : 2.73*10**-5
-    area : 0.136 * 0.5 * 1 | A_MT
-    S : 1 / 0.843
-
-MassTransfer s9 of species solute from stage_9_heavy to stage9_light_disp
-    ks : 7.25*10**-5
-    kt : 2.73*10**-5
-    area : 0.136 * 0.5 * 1 | A_MT
-    S : 1 / 0.843
-
-MassTransfer s8 of species solute from stage_8_heavy to stage8_light_disp
-    ks : 7.25*10**-5
-    kt : 2.73*10**-5
-    area : 0.136 * 0.5 * 1 | A_MT
-    S : 1 / 0.843
-
-MassTransfer s7 of species solute from stage_7_heavy to stage7_light_disp
-    ks : 7.25*10**-5
-    kt : 2.73*10**-5
-    area : 0.136 * 0.5 * 1 | A_MT
-    S : 1 / 0.843
-
-MassTransfer s6 of species solute from stage_6_heavy to stage6_light_disp
-    ks : 7.25*10**-5
-    kt : 2.73*10**-5
-    area : 0.136 * 0.5 * 1 | A_MT
-    S : 1 / 0.843
-
-MassTransfer s5 of species solute from stage_5_heavy to stage5_light_disp
-    ks : 7.25*10**-5
-    kt : 2.73*10**-5
-    area : 0.136 * 0.5 * 1 | A_MT
-    S : 1 / 0.843
-
-MassTransfer s4 of species solute from stage_4_heavy to stage4_light_disp
-    ks : 7.25*10**-5
-    kt : 2.73*10**-5
-    area : 0.136 * 0.5 * 1 | A_MT
-    S : 1 / 0.843
-
-MassTransfer s3 of species solute from stage_3_heavy to stage3_light_disp
-    ks : 7.25*10**-5
-    kt : 2.73*10**-5
-    area : 0.136 * 0.5 * 1 | A_MT
-    S : 1 / 0.843
-
-MassTransfer s2 of species solute from stage_2_heavy to stage2_light_disp
-    ks : 7.25*10**-5
-    kt : 2.73*10**-5
-    area : 0.136 * 0.5 * 1 | A_MT
-    S : 1 / 0.843
-
-MassTransfer s1 of species solute from stage_1_heavy to stage1_light_disp
-    ks : 7.25*10**-5
-    kt : 2.73*10**-5
-    area : 0.136 * 0.5 * 1 | A_MT
-    S : 1 / 0.843
-
-||| lower inlet
-
-MassTransfer lowerInlet of species solute from lower_inlet_heavy to lowerInlet_light_disp
-    ks : 7.25*10**-5
-    kt : 2.73*10**-5
-    area : 0.136 * 0.5 * 1 | A_MT
-    S : 1 / 0.843
+|||| upper separator
+|MassTransfer upperSeparator of species solute from upper_separator_heavy to upperSep_light_disp
+|    ks : 7.25*10**-5
+|    kt : 2.73*10**-5
+|    area : 0.136 * 0.5 * 1 | A_MT
+|    S : 1 / 0.843
+|
+|||| upper inlet
+|
+|MassTransfer upperInlet of species solute from upper_inlet_heavy to upper_inlet_light_disp
+|    ks : 7.25*10**-5
+|    kt : 2.73*10**-5
+|    area : 0.136 * 0.5 * 1 | A_MT
+|    S : 1 / 0.843
+|
+|||| column stage
+|
+|MassTransfer s26 of species solute from stage_26_heavy to stage26_light_disp
+|    ks : 7.25*10**-5
+|    kt : 2.73*10**-5
+|    area : 0.136 * 0.5 * 1 | A_MT
+|    S : 1 / 0.843
+|
+|MassTransfer s25 of species solute from stage_25_heavy to stage25_light_disp
+|    ks : 7.25*10**-5
+|    kt : 2.73*10**-5
+|    area : 0.136 * 0.5 * 1 | A_MT
+|    S : 1 / 0.843
+|
+|MassTransfer s24 of species solute from stage_24_heavy to stage24_light_disp
+|    ks : 7.25*10**-5
+|    kt : 2.73*10**-5
+|    area : 0.136 * 0.5 * 1 | A_MT
+|    S : 1 / 0.843
+|
+|MassTransfer s23 of species solute from stage_23_heavy to stage23_light_disp
+|    ks : 7.25*10**-5
+|    kt : 2.73*10**-5
+|    area : 0.136 * 0.5 * 1 | A_MT
+|    S : 1 / 0.843
+|
+|MassTransfer s22 of species solute from stage_22_heavy to stage22_light_disp
+|    ks : 7.25*10**-5
+|    kt : 2.73*10**-5
+|    area : 0.136 * 0.5 * 1 | A_MT
+|    S : 1 / 0.843
+|
+|MassTransfer s21 of species solute from stage_21_heavy to stage21_light_disp
+|    ks : 7.25*10**-5
+|    kt : 2.73*10**-5
+|    area : 0.136 * 0.5 * 1 | A_MT
+|    S : 1 / 0.843
+|
+|MassTransfer s20 of species solute from stage_20_heavy to stage20_light_disp
+|    ks : 7.25*10**-5
+|    kt : 2.73*10**-5
+|    area : 0.136 * 0.5 * 1 | A_MT
+|    S : 1 / 0.843
+|
+|MassTransfer s19 of species solute from stage_19_heavy to stage19_light_disp
+|    ks : 7.25*10**-5
+|    kt : 2.73*10**-5
+|    area : 0.136 * 0.5 * 1 | A_MT
+|    S : 1 / 0.843
+|
+|MassTransfer s18 of species solute from stage_18_heavy to stage18_light_disp
+|    ks : 7.25*10**-5
+|    kt : 2.73*10**-5
+|    area : 0.136 * 0.5 * 1 | A_MT
+|    S : 1 / 0.843
+|
+|MassTransfer s17 of species solute from stage_17_heavy to stage17_light_disp
+|    ks : 7.25*10**-5
+|    kt : 2.73*10**-5
+|    area : 0.136 * 0.5 * 1 | A_MT
+|    S : 1 / 0.843
+|
+|MassTransfer s16 of species solute from stage_16_heavy to stage16_light_disp
+|    ks : 7.25*10**-5
+|    kt : 2.73*10**-5
+|    area : 0.136 * 0.5 * 1 | A_MT
+|    S : 1 / 0.843
+|
+|MassTransfer s15 of species solute from stage_15_heavy to stage15_light_disp
+|    ks : 7.25*10**-5
+|    kt : 2.73*10**-5
+|    area : 0.136 * 0.5 * 1 | A_MT
+|    S : 1 / 0.843
+|
+|MassTransfer s14 of species solute from stage_14_heavy to stage14_light_disp
+|    ks : 7.25*10**-5
+|    kt : 2.73*10**-5
+|    area : 0.136 * 0.5 * 1 | A_MT
+|    S : 1 / 0.843
+|
+|MassTransfer s13 of species solute from stage_13_heavy to stage13_light_disp
+|    ks : 7.25*10**-5
+|    kt : 2.73*10**-5
+|    area : 0.136 * 0.5 * 1 | A_MT
+|    S : 1 / 0.843
+|
+|MassTransfer s12 of species solute from stage_12_heavy to stage12_light_disp
+|    ks : 7.25*10**-5
+|    kt : 2.73*10**-5
+|    area : 0.136 * 0.5 * 1 | A_MT
+|    S : 1 / 0.843
+|
+|MassTransfer s11 of species solute from stage_11_heavy to stage11_light_disp
+|    ks : 7.25*10**-5
+|    kt : 2.73*10**-5
+|    area : 0.136 * 0.5 * 1 | A_MT
+|    S : 1 / 0.843
+|
+|MassTransfer s10 of species solute from stage_10_heavy to stage10_light_disp
+|    ks : 7.25*10**-5
+|    kt : 2.73*10**-5
+|    area : 0.136 * 0.5 * 1 | A_MT
+|    S : 1 / 0.843
+|
+|MassTransfer s9 of species solute from stage_9_heavy to stage9_light_disp
+|    ks : 7.25*10**-5
+|    kt : 2.73*10**-5
+|    area : 0.136 * 0.5 * 1 | A_MT
+|    S : 1 / 0.843
+|
+|MassTransfer s8 of species solute from stage_8_heavy to stage8_light_disp
+|    ks : 7.25*10**-5
+|    kt : 2.73*10**-5
+|    area : 0.136 * 0.5 * 1 | A_MT
+|    S : 1 / 0.843
+|
+|MassTransfer s7 of species solute from stage_7_heavy to stage7_light_disp
+|    ks : 7.25*10**-5
+|    kt : 2.73*10**-5
+|    area : 0.136 * 0.5 * 1 | A_MT
+|    S : 1 / 0.843
+|
+|MassTransfer s6 of species solute from stage_6_heavy to stage6_light_disp
+|    ks : 7.25*10**-5
+|    kt : 2.73*10**-5
+|    area : 0.136 * 0.5 * 1 | A_MT
+|    S : 1 / 0.843
+|
+|MassTransfer s5 of species solute from stage_5_heavy to stage5_light_disp
+|    ks : 7.25*10**-5
+|    kt : 2.73*10**-5
+|    area : 0.136 * 0.5 * 1 | A_MT
+|    S : 1 / 0.843
+|
+|MassTransfer s4 of species solute from stage_4_heavy to stage4_light_disp
+|    ks : 7.25*10**-5
+|    kt : 2.73*10**-5
+|    area : 0.136 * 0.5 * 1 | A_MT
+|    S : 1 / 0.843
+|
+|MassTransfer s3 of species solute from stage_3_heavy to stage3_light_disp
+|    ks : 7.25*10**-5
+|    kt : 2.73*10**-5
+|    area : 0.136 * 0.5 * 1 | A_MT
+|    S : 1 / 0.843
+|
+|MassTransfer s2 of species solute from stage_2_heavy to stage2_light_disp
+|    ks : 7.25*10**-5
+|    kt : 2.73*10**-5
+|    area : 0.136 * 0.5 * 1 | A_MT
+|    S : 1 / 0.843
+|
+|MassTransfer s1 of species solute from stage_1_heavy to stage1_light_disp
+|    ks : 7.25*10**-5
+|    kt : 2.73*10**-5
+|    area : 0.136 * 0.5 * 1 | A_MT
+|    S : 1 / 0.843
+|
+|||| lower inlet
+|
+|MassTransfer lowerInlet of species solute from lower_inlet_heavy to lowerInlet_light_disp
+|    ks : 7.25*10**-5
+|    kt : 2.73*10**-5
+|    area : 0.136 * 0.5 * 1 | A_MT
+|    S : 1 / 0.843
 
 end
