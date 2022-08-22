@@ -42,7 +42,7 @@ Surroundings heavy_source_store of continuous phase heavy_phase
     pressure : 101325 * 2
     IncompressiblePhase heavy_phase to heavy_source_store 
         heavy : 555000
-        solute : 8850   | taken from average of two runs
+        solute : 8822   | taken from average of two runs
         density : 999
 
 |Surroundings heavy_pulse_source of continuous phase heavy_phase  
@@ -65,9 +65,9 @@ Compartment upper_separator_heavy of continuous phase heavy_phase
 ||| upper inlet
 
 Compartment upper_inlet_heavy of continuous phase heavy_phase  
-    volume : 1.13*10**-3 * (1-0.17)
+    volume : 1.13*10**-3 * (1-0.08)
     IncompressiblePhase heavy_phase to upper_inlet_heavy 
-        heavy : 1.13*10**-3 * (1-0.17) * 999 / 0.018 | V_stage * (1 - holdup) * xScale * density / mr
+        heavy : 1.13*10**-3 * (1-0.08) * 999 / 0.018 | V_stage * (1 - holdup) * xScale * density / mr
         solute : 0
         |tracer_heavy : 0
         density : 999
@@ -75,209 +75,209 @@ Compartment upper_inlet_heavy of continuous phase heavy_phase
 ||| column stage
 
 Compartment stage_26_heavy of continuous phase heavy_phase  
-    volume : 5.03*10**-4 * (1 - 0.17)
+    volume : 5.03*10**-4 * (1 - 0.08)
     IncompressiblePhase heavy_phase to stage_26_heavy 
-        heavy : 5.03*10**-4 * (1 - 0.17) * 999 / 0.018 | V_stage * (1 - holdup) * xScale * density / mr
+        heavy : 5.03*10**-4 * (1 - 0.08) * 999 / 0.018 | V_stage * (1 - holdup) * xScale * density / mr
         solute : 0
         |tracer_heavy : 0
         density : 999
 
 Compartment stage_25_heavy of continuous phase heavy_phase 
-    volume : 5.03*10**-4 * (1 - 0.17)
+    volume : 5.03*10**-4 * (1 - 0.08)
     IncompressiblePhase heavy_phase to stage_25_heavy 
-        heavy : 5.03*10**-4 * (1 - 0.17) * 999 / 0.018 | V_stage * (1 - holdup) * xScale * density / mr
+        heavy : 5.03*10**-4 * (1 - 0.08) * 999 / 0.018 | V_stage * (1 - holdup) * xScale * density / mr
         solute : 0
         |tracer_heavy : 0
         density : 999
 
 Compartment stage_24_heavy of continuous phase heavy_phase 
-    volume : 5.03*10**-4 * (1 - 0.17)
+    volume : 5.03*10**-4 * (1 - 0.08)
     IncompressiblePhase heavy_phase to stage_24_heavy 
-        heavy : 5.03*10**-4 * (1 - 0.17) * 999 / 0.018 | V_stage * (1 - holdup) * xScale * density / mr
+        heavy : 5.03*10**-4 * (1 - 0.08) * 999 / 0.018 | V_stage * (1 - holdup) * xScale * density / mr
         solute : 0
         |tracer_heavy : 0
         density : 999
 
 Compartment stage_23_heavy of continuous phase heavy_phase 
-    volume : 5.03*10**-4 * (1 - 0.17)
+    volume : 5.03*10**-4 * (1 - 0.08)
     IncompressiblePhase heavy_phase to stage_23_heavy 
-        heavy : 5.03*10**-4 * (1 - 0.17) * 999 / 0.018 | V_stage * (1 - holdup) * xScale * density / mr
+        heavy : 5.03*10**-4 * (1 - 0.08) * 999 / 0.018 | V_stage * (1 - holdup) * xScale * density / mr
         solute : 0
         |tracer_heavy : 0
         density : 999
 
 Compartment stage_22_heavy of continuous phase heavy_phase 
-    volume : 5.03*10**-4 * (1 - 0.17)
+    volume : 5.03*10**-4 * (1 - 0.08)
     IncompressiblePhase heavy_phase to stage_22_heavy 
-        heavy : 5.03*10**-4 * (1 - 0.17) * 999 / 0.018 | V_stage * (1 - holdup) * xScale * density / mr
+        heavy : 5.03*10**-4 * (1 - 0.08) * 999 / 0.018 | V_stage * (1 - holdup) * xScale * density / mr
         solute : 0
         |tracer_heavy : 0
         density : 999
 
 Compartment stage_21_heavy of continuous phase heavy_phase 
-    volume : 5.03*10**-4 * (1 - 0.17)
+    volume : 5.03*10**-4 * (1 - 0.08)
     IncompressiblePhase heavy_phase to stage_21_heavy 
-        heavy : 5.03*10**-4 * (1 - 0.17) * 999 / 0.018 | V_stage * (1 - holdup) * xScale * density / mr
+        heavy : 5.03*10**-4 * (1 - 0.08) * 999 / 0.018 | V_stage * (1 - holdup) * xScale * density / mr
         solute : 0
         |tracer_heavy : 0
         density : 999
 
 Compartment stage_20_heavy of continuous phase heavy_phase 
-    volume : 5.03*10**-4 * (1 - 0.17)
+    volume : 5.03*10**-4 * (1 - 0.08)
     IncompressiblePhase heavy_phase to stage_20_heavy 
-        heavy : 5.03*10**-4 * (1 - 0.17) * 999 / 0.018 | V_stage * (1 - holdup) * xScale * density / mr
+        heavy : 5.03*10**-4 * (1 - 0.08) * 999 / 0.018 | V_stage * (1 - holdup) * xScale * density / mr
         solute : 0
         |tracer_heavy : 0
         density : 999
 
 Compartment stage_19_heavy of continuous phase heavy_phase 
-    volume : 5.03*10**-4 * (1 - 0.17)
+    volume : 5.03*10**-4 * (1 - 0.08)
     IncompressiblePhase heavy_phase to stage_19_heavy 
-        heavy : 5.03*10**-4 * (1 - 0.17) * 999 / 0.018 | V_stage * (1 - holdup) * xScale * density / mr
+        heavy : 5.03*10**-4 * (1 - 0.08) * 999 / 0.018 | V_stage * (1 - holdup) * xScale * density / mr
         solute : 0
         |tracer_heavy : 0
         density : 999
 
 Compartment stage_18_heavy of continuous phase heavy_phase 
-    volume : 5.03*10**-4 * (1 - 0.17)
+    volume : 5.03*10**-4 * (1 - 0.08)
     IncompressiblePhase heavy_phase to stage_18_heavy 
-        heavy : 5.03*10**-4 * (1 - 0.17) * 999 / 0.018 | V_stage * (1 - holdup) * xScale * density / mr
+        heavy : 5.03*10**-4 * (1 - 0.08) * 999 / 0.018 | V_stage * (1 - holdup) * xScale * density / mr
         solute : 0
         |tracer_heavy : 0
         density : 999
 
 Compartment stage_17_heavy of continuous phase heavy_phase 
-    volume : 5.03*10**-4 * (1 - 0.17)
+    volume : 5.03*10**-4 * (1 - 0.08)
     IncompressiblePhase heavy_phase to stage_17_heavy 
-        heavy : 5.03*10**-4 * (1 - 0.17) * 999 / 0.018 | V_stage * (1 - holdup) * xScale * density / mr
+        heavy : 5.03*10**-4 * (1 - 0.08) * 999 / 0.018 | V_stage * (1 - holdup) * xScale * density / mr
         solute : 0
         |tracer_heavy : 0
         density : 999
 
 Compartment stage_16_heavy of continuous phase heavy_phase 
-    volume : 5.03*10**-4 * (1 - 0.17)
+    volume : 5.03*10**-4 * (1 - 0.08)
     IncompressiblePhase heavy_phase to stage_16_heavy 
-        heavy : 5.03*10**-4 * (1 - 0.17) * 999 / 0.018 | V_stage * (1 - holdup) * xScale * density / mr
+        heavy : 5.03*10**-4 * (1 - 0.08) * 999 / 0.018 | V_stage * (1 - holdup) * xScale * density / mr
         solute : 0
         |tracer_heavy : 0
         density : 999
 
 Compartment stage_15_heavy of continuous phase heavy_phase 
-    volume : 5.03*10**-4 * (1 - 0.17)
+    volume : 5.03*10**-4 * (1 - 0.08)
     IncompressiblePhase heavy_phase to stage_15_heavy 
-        heavy : 5.03*10**-4 * (1 - 0.17) * 999 / 0.018 | V_stage * (1 - holdup) * xScale * density / mr
+        heavy : 5.03*10**-4 * (1 - 0.08) * 999 / 0.018 | V_stage * (1 - holdup) * xScale * density / mr
         solute : 0
         |tracer_heavy : 0
         density : 999
 
 Compartment stage_14_heavy of continuous phase heavy_phase 
-    volume : 5.03*10**-4 * (1 - 0.17)
+    volume : 5.03*10**-4 * (1 - 0.08)
     IncompressiblePhase heavy_phase to stage_14_heavy 
-        heavy : 5.03*10**-4 * (1 - 0.17) * 999 / 0.018 | V_stage * (1 - holdup) * xScale * density / mr
+        heavy : 5.03*10**-4 * (1 - 0.08) * 999 / 0.018 | V_stage * (1 - holdup) * xScale * density / mr
         solute : 0
         |tracer_heavy : 0
         density : 999
 
 Compartment stage_13_heavy of continuous phase heavy_phase 
-    volume : 5.03*10**-4 * (1 - 0.17)
+    volume : 5.03*10**-4 * (1 - 0.08)
     IncompressiblePhase heavy_phase to stage_13_heavy 
-        heavy : 5.03*10**-4 * (1 - 0.17) * 999 / 0.018 | V_stage * (1 - holdup) * xScale * density / mr
+        heavy : 5.03*10**-4 * (1 - 0.08) * 999 / 0.018 | V_stage * (1 - holdup) * xScale * density / mr
         solute : 0
         |tracer_heavy : 0
         density : 999
 
 Compartment stage_12_heavy of continuous phase heavy_phase 
-    volume : 5.03*10**-4 * (1 - 0.17)
+    volume : 5.03*10**-4 * (1 - 0.08)
     IncompressiblePhase heavy_phase to stage_12_heavy 
-        heavy : 5.03*10**-4 * (1 - 0.17) * 999 / 0.018 | V_stage * (1 - holdup) * xScale * density / mr
+        heavy : 5.03*10**-4 * (1 - 0.08) * 999 / 0.018 | V_stage * (1 - holdup) * xScale * density / mr
         solute : 0
         |tracer_heavy : 0
         density : 999
 
 Compartment stage_11_heavy of continuous phase heavy_phase 
-    volume : 5.03*10**-4 * (1 - 0.17)
+    volume : 5.03*10**-4 * (1 - 0.08)
     IncompressiblePhase heavy_phase to stage_11_heavy 
-        heavy : 5.03*10**-4 * (1 - 0.17) * 999 / 0.018 | V_stage * (1 - holdup) * xScale * density / mr
+        heavy : 5.03*10**-4 * (1 - 0.08) * 999 / 0.018 | V_stage * (1 - holdup) * xScale * density / mr
         solute : 0
         |tracer_heavy : 0
         density : 999
 
 Compartment stage_10_heavy of continuous phase heavy_phase 
-    volume : 5.03*10**-4 * (1 - 0.17)
+    volume : 5.03*10**-4 * (1 - 0.08)
     IncompressiblePhase heavy_phase to stage_10_heavy 
-        heavy : 5.03*10**-4 * (1 - 0.17) * 999 / 0.018 | V_stage * (1 - holdup) * xScale * density / mr
+        heavy : 5.03*10**-4 * (1 - 0.08) * 999 / 0.018 | V_stage * (1 - holdup) * xScale * density / mr
         solute : 0
         |tracer_heavy : 0
         density : 999
 
 Compartment stage_9_heavy of continuous phase heavy_phase 
-    volume : 5.03*10**-4 * (1 - 0.17)
+    volume : 5.03*10**-4 * (1 - 0.08)
     IncompressiblePhase heavy_phase to stage_9_heavy 
-        heavy : 5.03*10**-4 * (1 - 0.17) * 999 / 0.018 | V_stage * (1 - holdup) * xScale * density / mr
+        heavy : 5.03*10**-4 * (1 - 0.08) * 999 / 0.018 | V_stage * (1 - holdup) * xScale * density / mr
         solute : 0
         |tracer_heavy : 0
         density : 999
 
 Compartment stage_8_heavy of continuous phase heavy_phase 
-    volume : 5.03*10**-4 * (1 - 0.17)
+    volume : 5.03*10**-4 * (1 - 0.08)
     IncompressiblePhase heavy_phase to stage_8_heavy 
-        heavy : 5.03*10**-4 * (1 - 0.17) * 999 / 0.018 | V_stage * (1 - holdup) * xScale * density / mr
+        heavy : 5.03*10**-4 * (1 - 0.08) * 999 / 0.018 | V_stage * (1 - holdup) * xScale * density / mr
         solute : 0
         |tracer_heavy : 0
         density : 999
 
 Compartment stage_7_heavy of continuous phase heavy_phase 
-    volume : 5.03*10**-4 * (1 - 0.17)
+    volume : 5.03*10**-4 * (1 - 0.08)
     IncompressiblePhase heavy_phase to stage_7_heavy 
-        heavy : 5.03*10**-4 * (1 - 0.17) * 999 / 0.018 | V_stage * (1 - holdup) * xScale * density / mr
+        heavy : 5.03*10**-4 * (1 - 0.08) * 999 / 0.018 | V_stage * (1 - holdup) * xScale * density / mr
         solute : 0
         |tracer_heavy : 0
         density : 999
 
 Compartment stage_6_heavy of continuous phase heavy_phase 
-    volume : 5.03*10**-4 * (1 - 0.17)
+    volume : 5.03*10**-4 * (1 - 0.08)
     IncompressiblePhase heavy_phase to stage_6_heavy 
-        heavy : 5.03*10**-4 * (1 - 0.17) * 999 / 0.018 | V_stage * (1 - holdup) * xScale * density / mr
+        heavy : 5.03*10**-4 * (1 - 0.08) * 999 / 0.018 | V_stage * (1 - holdup) * xScale * density / mr
         solute : 0
         |tracer_heavy : 0
         density : 999
 
 Compartment stage_5_heavy of continuous phase heavy_phase 
-    volume : 5.03*10**-4 * (1 - 0.17)
+    volume : 5.03*10**-4 * (1 - 0.08)
     IncompressiblePhase heavy_phase to stage_5_heavy 
-        heavy : 5.03*10**-4 * (1 - 0.17) * 999 / 0.018 | V_stage * (1 - holdup) * xScale * density / mr
+        heavy : 5.03*10**-4 * (1 - 0.08) * 999 / 0.018 | V_stage * (1 - holdup) * xScale * density / mr
         solute : 0
         |tracer_heavy : 0
         density : 999
 
 Compartment stage_4_heavy of continuous phase heavy_phase 
-    volume : 5.03*10**-4 * (1 - 0.17)
+    volume : 5.03*10**-4 * (1 - 0.08)
     IncompressiblePhase heavy_phase to stage_4_heavy 
-        heavy : 5.03*10**-4 * (1 - 0.17) * 999 / 0.018 | V_stage * (1 - holdup) * xScale * density / mr
+        heavy : 5.03*10**-4 * (1 - 0.08) * 999 / 0.018 | V_stage * (1 - holdup) * xScale * density / mr
         solute : 0
         |tracer_heavy : 0
         density : 999
 
 Compartment stage_3_heavy of continuous phase heavy_phase 
-    volume : 5.03*10**-4 * (1 - 0.17)
+    volume : 5.03*10**-4 * (1 - 0.08)
     IncompressiblePhase heavy_phase to stage_3_heavy 
-        heavy : 5.03*10**-4 * (1 - 0.17) * 999 / 0.018 | V_stage * (1 - holdup) * xScale * density / mr
+        heavy : 5.03*10**-4 * (1 - 0.08) * 999 / 0.018 | V_stage * (1 - holdup) * xScale * density / mr
         solute : 0
         |tracer_heavy : 0
         density : 999
 
 Compartment stage_2_heavy of continuous phase heavy_phase 
-    volume : 5.03*10**-4 * (1 - 0.17)
+    volume : 5.03*10**-4 * (1 - 0.08)
     IncompressiblePhase heavy_phase to stage_2_heavy 
-        heavy : 5.03*10**-4 * (1 - 0.17) * 999 / 0.018 | V_stage * (1 - holdup) * xScale * density / mr
+        heavy : 5.03*10**-4 * (1 - 0.08) * 999 / 0.018 | V_stage * (1 - holdup) * xScale * density / mr
         solute : 0
         |tracer_heavy : 0
         density : 999
  
 Compartment stage_1_heavy of continuous phase heavy_phase 
-    volume : 5.03*10**-4 * (1 - 0.17)
+    volume : 5.03*10**-4 * (1 - 0.08)
     IncompressiblePhase heavy_phase to stage_1_heavy 
-        heavy : 5.03*10**-4 * (1 - 0.17) * 999 / 0.018 | V_stage * (1 - holdup) * xScale * density / mr
+        heavy : 5.03*10**-4 * (1 - 0.08) * 999 / 0.018 | V_stage * (1 - holdup) * xScale * density / mr
         solute : 0
         |tracer_heavy : 0
         density : 999
@@ -285,9 +285,9 @@ Compartment stage_1_heavy of continuous phase heavy_phase
 ||| lower inlet
 
 Compartment lower_inlet_heavy of continuous phase heavy_phase 
-    volume : 1.13*10**-3 * (1 - 0.17)
+    volume : 1.13*10**-3 * (1 - 0.08)
     IncompressiblePhase heavy_phase to lower_inlet_heavy 
-        heavy : 1.13*10**-3 * (1 - 0.17) * 999 / 0.018 | V_stage * (1 - holdup) * xScale * density / mr
+        heavy : 1.13*10**-3 * (1 - 0.08) * 999 / 0.018 | V_stage * (1 - holdup) * xScale * density / mr
         solute : 0
         |tracer_heavy : 0
         density : 999
@@ -336,9 +336,9 @@ Compartment upperSep_light_coal of continuous phase light_phase
         density : 867 
 
 Compartment upperSep_light_disp of continuous phase light_phase   
-    volume : 2.66*10**-3 * 0.17 * 0.5   |h=0.53, d=0.08
+    volume : 2.66*10**-3 * 0.08 * 0.5   |h=0.53, d=0.08
     IncompressiblePhase light_phase to upperSep_light_disp
-        light : 2.66*10**-3 * 0.17 * 0.5 * 867 / 0.09214 | V_comp * hldup * xScale * density / mr
+        light : 2.66*10**-3 * 0.08 * 0.5 * 867 / 0.09214 | V_comp * hldup * xScale * density / mr
         solute : 0
         |tracer_light : 0
         density : 867 
@@ -346,9 +346,9 @@ Compartment upperSep_light_disp of continuous phase light_phase
 ||| upper inlet
 
 Compartment upper_inlet_light_disp of continuous phase light_phase   
-    volume : 1.13*10**-3 * 0.17 * 0.6		|h=0.225, d=0.08 
+    volume : 1.13*10**-3 * 0.08 * 0.6		|h=0.225, d=0.08 
     IncompressiblePhase light_phase to upper_inlet_light_disp
-        light : 1.13*10**-3 * 0.17 * 0.6 * 867 / 0.09214 | V_comp * hldup * xScale * density / mr
+        light : 1.13*10**-3 * 0.08 * 0.6 * 867 / 0.09214 | V_comp * hldup * xScale * density / mr
         solute : 0
         |tracer_light : 0
         density : 867 
@@ -356,17 +356,17 @@ Compartment upper_inlet_light_disp of continuous phase light_phase
 ||| stage 26
 
 Compartment stage26_light_coal of continuous phase light_phase  
-    volume : 5.03*10**-4 * 0.17 * 0.50 | V_coal = V_stage * holdup * xScale
+    volume : 5.03*10**-4 * 0.08 * 0.50 | V_coal = V_stage * holdup * xScale
     IncompressiblePhase light_phase to stage26_light_coal 
-        light : 5.03*10**-4 * 0.17 * 0.50 * 867 / 0.09214 | n_coal = V_coal * density / mr
+        light : 5.03*10**-4 * 0.08 * 0.50 * 867 / 0.09214 | n_coal = V_coal * density / mr
         solute : 0
         |tracer_light : 0
         density : 867 
 
 Compartment stage26_light_disp of continuous phase light_phase   
-    volume : 5.03*10**-4 * 0.17 * 0.50 | V_disp = V_stage * holdup * (1 - xScale)
+    volume : 5.03*10**-4 * 0.08 * 0.50 | V_disp = V_stage * holdup * (1 - xScale)
     IncompressiblePhase light_phase to stage26_light_disp
-        light : 5.03*10**-4 * 0.17 * 0.50 * 867 / 0.09214 | n_disp = V_disp * density / mr
+        light : 5.03*10**-4 * 0.08 * 0.50 * 867 / 0.09214 | n_disp = V_disp * density / mr
         solute : 0
         |tracer_light : 0
         density : 867 
@@ -374,17 +374,17 @@ Compartment stage26_light_disp of continuous phase light_phase
 ||| stage 25
 
 Compartment stage25_light_coal of continuous phase light_phase  
-    volume : 5.03*10**-4 * 0.17 * 0.50 | V_coal = V_stage * holdup * xScale
+    volume : 5.03*10**-4 * 0.08 * 0.50 | V_coal = V_stage * holdup * xScale
     IncompressiblePhase light_phase to stage25_light_coal 
-        light : 5.03*10**-4 * 0.17 * 0.50 * 867 / 0.09214 | n_coal = V_coal * density / mr
+        light : 5.03*10**-4 * 0.08 * 0.50 * 867 / 0.09214 | n_coal = V_coal * density / mr
         solute : 0
         |tracer_light : 0
         density : 867 
 
 Compartment stage25_light_disp of continuous phase light_phase   
-    volume : 5.03*10**-4 * 0.17 * 0.50 | V_disp = V_stage * holdup * (1 - xScale)
+    volume : 5.03*10**-4 * 0.08 * 0.50 | V_disp = V_stage * holdup * (1 - xScale)
     IncompressiblePhase light_phase to stage25_light_disp
-        light : 5.03*10**-4 * 0.17 * 0.50 * 867 / 0.09214 | n_disp = V_disp * density / mr
+        light : 5.03*10**-4 * 0.08 * 0.50 * 867 / 0.09214 | n_disp = V_disp * density / mr
         solute : 0
         |tracer_light : 0
         density : 867 
@@ -392,17 +392,17 @@ Compartment stage25_light_disp of continuous phase light_phase
 ||| stage 24
 
 Compartment stage24_light_coal of continuous phase light_phase  
-    volume : 5.03*10**-4 * 0.17 * 0.50 | V_coal = V_stage * holdup * xScale
+    volume : 5.03*10**-4 * 0.08 * 0.50 | V_coal = V_stage * holdup * xScale
     IncompressiblePhase light_phase to stage24_light_coal 
-        light : 5.03*10**-4 * 0.17 * 0.50 * 867 / 0.09214 | n_coal = V_coal * density / mr
+        light : 5.03*10**-4 * 0.08 * 0.50 * 867 / 0.09214 | n_coal = V_coal * density / mr
         solute : 0
         |tracer_light : 0
         density : 867 
 
 Compartment stage24_light_disp of continuous phase light_phase   
-    volume : 5.03*10**-4 * 0.17 * 0.50 | V_disp = V_stage * holdup * (1 - xScale)
+    volume : 5.03*10**-4 * 0.08 * 0.50 | V_disp = V_stage * holdup * (1 - xScale)
     IncompressiblePhase light_phase to stage24_light_disp
-        light : 5.03*10**-4 * 0.17 * 0.50 * 867 / 0.09214 | n_disp = V_disp * density / mr
+        light : 5.03*10**-4 * 0.08 * 0.50 * 867 / 0.09214 | n_disp = V_disp * density / mr
         solute : 0
         |tracer_light : 0
         density : 867 
@@ -410,17 +410,17 @@ Compartment stage24_light_disp of continuous phase light_phase
 ||| stage 23
 
 Compartment stage23_light_coal of continuous phase light_phase  
-    volume : 5.03*10**-4 * 0.17 * 0.50 | V_coal = V_stage * holdup * xScale
+    volume : 5.03*10**-4 * 0.08 * 0.50 | V_coal = V_stage * holdup * xScale
     IncompressiblePhase light_phase to stage23_light_coal 
-        light : 5.03*10**-4 * 0.17 * 0.50 * 867 / 0.09214 | n_coal = V_coal * density / mr
+        light : 5.03*10**-4 * 0.08 * 0.50 * 867 / 0.09214 | n_coal = V_coal * density / mr
         solute : 0
         |tracer_light : 0
         density : 867 
 
 Compartment stage23_light_disp of continuous phase light_phase   
-    volume : 5.03*10**-4 * 0.17 * 0.50 | V_disp = V_stage * holdup * (1 - xScale)
+    volume : 5.03*10**-4 * 0.08 * 0.50 | V_disp = V_stage * holdup * (1 - xScale)
     IncompressiblePhase light_phase to stage23_light_disp
-        light : 5.03*10**-4 * 0.17 * 0.50 * 867 / 0.09214 | n_disp = V_disp * density / mr
+        light : 5.03*10**-4 * 0.08 * 0.50 * 867 / 0.09214 | n_disp = V_disp * density / mr
         solute : 0
         |tracer_light : 0
         density : 867 
@@ -428,17 +428,17 @@ Compartment stage23_light_disp of continuous phase light_phase
 ||| stage 22
 
 Compartment stage22_light_coal of continuous phase light_phase  
-    volume : 5.03*10**-4 * 0.17 * 0.50 | V_coal = V_stage * holdup * xScale
+    volume : 5.03*10**-4 * 0.08 * 0.50 | V_coal = V_stage * holdup * xScale
     IncompressiblePhase light_phase to stage22_light_coal 
-        light : 5.03*10**-4 * 0.17 * 0.50 * 867 / 0.09214 | n_coal = V_coal * density / mr
+        light : 5.03*10**-4 * 0.08 * 0.50 * 867 / 0.09214 | n_coal = V_coal * density / mr
         solute : 0
         |tracer_light : 0
         density : 867 
 
 Compartment stage22_light_disp of continuous phase light_phase   
-    volume : 5.03*10**-4 * 0.17 * 0.50 | V_disp = V_stage * holdup * (1 - xScale)
+    volume : 5.03*10**-4 * 0.08 * 0.50 | V_disp = V_stage * holdup * (1 - xScale)
     IncompressiblePhase light_phase to stage22_light_disp
-        light : 5.03*10**-4 * 0.17 * 0.50 * 867 / 0.09214 | n_disp = V_disp * density / mr
+        light : 5.03*10**-4 * 0.08 * 0.50 * 867 / 0.09214 | n_disp = V_disp * density / mr
         solute : 0
         |tracer_light : 0
         density : 867 
@@ -446,17 +446,17 @@ Compartment stage22_light_disp of continuous phase light_phase
 ||| stage 21
 
 Compartment stage21_light_coal of continuous phase light_phase  
-    volume : 5.03*10**-4 * 0.17 * 0.50 | V_coal = V_stage * holdup * xScale
+    volume : 5.03*10**-4 * 0.08 * 0.50 | V_coal = V_stage * holdup * xScale
     IncompressiblePhase light_phase to stage21_light_coal 
-        light : 5.03*10**-4 * 0.17 * 0.50 * 867 / 0.09214 | n_coal = V_coal * density / mr
+        light : 5.03*10**-4 * 0.08 * 0.50 * 867 / 0.09214 | n_coal = V_coal * density / mr
         solute : 0
         |tracer_light : 0
         density : 867 
 
 Compartment stage21_light_disp of continuous phase light_phase   
-    volume : 5.03*10**-4 * 0.17 * 0.50 | V_disp = V_stage * holdup * (1 - xScale)
+    volume : 5.03*10**-4 * 0.08 * 0.50 | V_disp = V_stage * holdup * (1 - xScale)
     IncompressiblePhase light_phase to stage21_light_disp
-        light : 5.03*10**-4 * 0.17 * 0.50 * 867 / 0.09214 | n_disp = V_disp * density / mr
+        light : 5.03*10**-4 * 0.08 * 0.50 * 867 / 0.09214 | n_disp = V_disp * density / mr
         solute : 0
         |tracer_light : 0
         density : 867 
@@ -464,17 +464,17 @@ Compartment stage21_light_disp of continuous phase light_phase
 ||| stage 20
 
 Compartment stage20_light_coal of continuous phase light_phase  
-    volume : 5.03*10**-4 * 0.17 * 0.50 | V_coal = V_stage * holdup * xScale
+    volume : 5.03*10**-4 * 0.08 * 0.50 | V_coal = V_stage * holdup * xScale
     IncompressiblePhase light_phase to stage20_light_coal 
-        light : 5.03*10**-4 * 0.17 * 0.50 * 867 / 0.09214 | n_coal = V_coal * density / mr
+        light : 5.03*10**-4 * 0.08 * 0.50 * 867 / 0.09214 | n_coal = V_coal * density / mr
         solute : 0
         |tracer_light : 0
         density : 867 
 
 Compartment stage20_light_disp of continuous phase light_phase   
-    volume : 5.03*10**-4 * 0.17 * 0.50 | V_disp = V_stage * holdup * (1 - xScale)
+    volume : 5.03*10**-4 * 0.08 * 0.50 | V_disp = V_stage * holdup * (1 - xScale)
     IncompressiblePhase light_phase to stage20_light_disp
-        light : 5.03*10**-4 * 0.17 * 0.50 * 867 / 0.09214 | n_disp = V_disp * density / mr
+        light : 5.03*10**-4 * 0.08 * 0.50 * 867 / 0.09214 | n_disp = V_disp * density / mr
         solute : 0
         |tracer_light : 0
         density : 867 
@@ -482,17 +482,17 @@ Compartment stage20_light_disp of continuous phase light_phase
 ||| stage 19
 
 Compartment stage19_light_coal of continuous phase light_phase  
-    volume : 5.03*10**-4 * 0.17 * 0.50 | V_coal = V_stage * holdup * xScale
+    volume : 5.03*10**-4 * 0.08 * 0.50 | V_coal = V_stage * holdup * xScale
     IncompressiblePhase light_phase to stage19_light_coal 
-        light : 5.03*10**-4 * 0.17 * 0.50 * 867 / 0.09214 | n_coal = V_coal * density / mr
+        light : 5.03*10**-4 * 0.08 * 0.50 * 867 / 0.09214 | n_coal = V_coal * density / mr
         solute : 0
         |tracer_light : 0
         density : 867 
 
 Compartment stage19_light_disp of continuous phase light_phase   
-    volume : 5.03*10**-4 * 0.17 * 0.50 | V_disp = V_stage * holdup * (1 - xScale)
+    volume : 5.03*10**-4 * 0.08 * 0.50 | V_disp = V_stage * holdup * (1 - xScale)
     IncompressiblePhase light_phase to stage19_light_disp
-        light : 5.03*10**-4 * 0.17 * 0.50 * 867 / 0.09214 | n_disp = V_disp * density / mr
+        light : 5.03*10**-4 * 0.08 * 0.50 * 867 / 0.09214 | n_disp = V_disp * density / mr
         solute : 0
         |tracer_light : 0
         density : 867 
@@ -500,17 +500,17 @@ Compartment stage19_light_disp of continuous phase light_phase
 ||| stage 18
 
 Compartment stage18_light_coal of continuous phase light_phase  
-    volume : 5.03*10**-4 * 0.17 * 0.50 | V_coal = V_stage * holdup * xScale
+    volume : 5.03*10**-4 * 0.08 * 0.50 | V_coal = V_stage * holdup * xScale
     IncompressiblePhase light_phase to stage18_light_coal 
-        light : 5.03*10**-4 * 0.17 * 0.50 * 867 / 0.09214 | n_coal = V_coal * density / mr
+        light : 5.03*10**-4 * 0.08 * 0.50 * 867 / 0.09214 | n_coal = V_coal * density / mr
         solute : 0
         |tracer_light : 0
         density : 867 
 
 Compartment stage18_light_disp of continuous phase light_phase   
-    volume : 5.03*10**-4 * 0.17 * 0.50 | V_disp = V_stage * holdup * (1 - xScale)
+    volume : 5.03*10**-4 * 0.08 * 0.50 | V_disp = V_stage * holdup * (1 - xScale)
     IncompressiblePhase light_phase to stage18_light_disp
-        light : 5.03*10**-4 * 0.17 * 0.50 * 867 / 0.09214 | n_disp = V_disp * density / mr
+        light : 5.03*10**-4 * 0.08 * 0.50 * 867 / 0.09214 | n_disp = V_disp * density / mr
         solute : 0
         |tracer_light : 0
         density : 867 
@@ -518,17 +518,17 @@ Compartment stage18_light_disp of continuous phase light_phase
 ||| stage 17
 
 Compartment stage17_light_coal of continuous phase light_phase  
-    volume : 5.03*10**-4 * 0.17 * 0.50 | V_coal = V_stage * holdup * xScale
+    volume : 5.03*10**-4 * 0.08 * 0.50 | V_coal = V_stage * holdup * xScale
     IncompressiblePhase light_phase to stage17_light_coal 
-        light : 5.03*10**-4 * 0.17 * 0.50 * 867 / 0.09214 | n_coal = V_coal * density / mr
+        light : 5.03*10**-4 * 0.08 * 0.50 * 867 / 0.09214 | n_coal = V_coal * density / mr
         solute : 0
         |tracer_light : 0
         density : 867 
 
 Compartment stage17_light_disp of continuous phase light_phase   
-    volume : 5.03*10**-4 * 0.17 * 0.50 | V_disp = V_stage * holdup * (1 - xScale)
+    volume : 5.03*10**-4 * 0.08 * 0.50 | V_disp = V_stage * holdup * (1 - xScale)
     IncompressiblePhase light_phase to stage17_light_disp
-        light : 5.03*10**-4 * 0.17 * 0.50 * 867 / 0.09214 | n_disp = V_disp * density / mr
+        light : 5.03*10**-4 * 0.08 * 0.50 * 867 / 0.09214 | n_disp = V_disp * density / mr
         solute : 0
         |tracer_light : 0
         density : 867 
@@ -536,17 +536,17 @@ Compartment stage17_light_disp of continuous phase light_phase
 ||| stage 16
 
 Compartment stage16_light_coal of continuous phase light_phase  
-    volume : 5.03*10**-4 * 0.17 * 0.50 | V_coal = V_stage * holdup * xScale
+    volume : 5.03*10**-4 * 0.08 * 0.50 | V_coal = V_stage * holdup * xScale
     IncompressiblePhase light_phase to stage16_light_coal 
-        light : 5.03*10**-4 * 0.17 * 0.50 * 867 / 0.09214 | n_coal = V_coal * density / mr
+        light : 5.03*10**-4 * 0.08 * 0.50 * 867 / 0.09214 | n_coal = V_coal * density / mr
         solute : 0
         |tracer_light : 0
         density : 867 
 
 Compartment stage16_light_disp of continuous phase light_phase   
-    volume : 5.03*10**-4 * 0.17 * 0.50 | V_disp = V_stage * holdup * (1 - xScale)
+    volume : 5.03*10**-4 * 0.08 * 0.50 | V_disp = V_stage * holdup * (1 - xScale)
     IncompressiblePhase light_phase to stage16_light_disp
-        light : 5.03*10**-4 * 0.17 * 0.50 * 867 / 0.09214 | n_disp = V_disp * density / mr
+        light : 5.03*10**-4 * 0.08 * 0.50 * 867 / 0.09214 | n_disp = V_disp * density / mr
         solute : 0
         |tracer_light : 0
         density : 867 
@@ -554,17 +554,17 @@ Compartment stage16_light_disp of continuous phase light_phase
 ||| stage 15
 
 Compartment stage15_light_coal of continuous phase light_phase  
-    volume : 5.03*10**-4 * 0.17 * 0.50 | V_coal = V_stage * holdup * xScale
+    volume : 5.03*10**-4 * 0.08 * 0.50 | V_coal = V_stage * holdup * xScale
     IncompressiblePhase light_phase to stage15_light_coal 
-        light : 5.03*10**-4 * 0.17 * 0.50 * 867 / 0.09214 | n_coal = V_coal * density / mr
+        light : 5.03*10**-4 * 0.08 * 0.50 * 867 / 0.09214 | n_coal = V_coal * density / mr
         solute : 0
         |tracer_light : 0
         density : 867 
 
 Compartment stage15_light_disp of continuous phase light_phase   
-    volume : 5.03*10**-4 * 0.17 * 0.50 | V_disp = V_stage * holdup * (1 - xScale)
+    volume : 5.03*10**-4 * 0.08 * 0.50 | V_disp = V_stage * holdup * (1 - xScale)
     IncompressiblePhase light_phase to stage15_light_disp
-        light : 5.03*10**-4 * 0.17 * 0.50 * 867 / 0.09214 | n_disp = V_disp * density / mr
+        light : 5.03*10**-4 * 0.08 * 0.50 * 867 / 0.09214 | n_disp = V_disp * density / mr
         solute : 0
         |tracer_light : 0
         density : 867 
@@ -572,17 +572,17 @@ Compartment stage15_light_disp of continuous phase light_phase
 ||| stage 14
 
 Compartment stage14_light_coal of continuous phase light_phase  
-    volume : 5.03*10**-4 * 0.17 * 0.50 | V_coal = V_stage * holdup * xScale
+    volume : 5.03*10**-4 * 0.08 * 0.50 | V_coal = V_stage * holdup * xScale
     IncompressiblePhase light_phase to stage14_light_coal 
-        light : 5.03*10**-4 * 0.17 * 0.50 * 867 / 0.09214 | n_coal = V_coal * density / mr
+        light : 5.03*10**-4 * 0.08 * 0.50 * 867 / 0.09214 | n_coal = V_coal * density / mr
         solute : 0
         |tracer_light : 0
         density : 867 
 
 Compartment stage14_light_disp of continuous phase light_phase   
-    volume : 5.03*10**-4 * 0.17 * 0.50 | V_disp = V_stage * holdup * (1 - xScale)
+    volume : 5.03*10**-4 * 0.08 * 0.50 | V_disp = V_stage * holdup * (1 - xScale)
     IncompressiblePhase light_phase to stage14_light_disp
-        light : 5.03*10**-4 * 0.17 * 0.50 * 867 / 0.09214 | n_disp = V_disp * density / mr
+        light : 5.03*10**-4 * 0.08 * 0.50 * 867 / 0.09214 | n_disp = V_disp * density / mr
         solute : 0
         |tracer_light : 0
         density : 867 
@@ -590,17 +590,17 @@ Compartment stage14_light_disp of continuous phase light_phase
 ||| stage 13
 
 Compartment stage13_light_coal of continuous phase light_phase  
-    volume : 5.03*10**-4 * 0.17 * 0.50 | V_coal = V_stage * holdup * xScale
+    volume : 5.03*10**-4 * 0.08 * 0.50 | V_coal = V_stage * holdup * xScale
     IncompressiblePhase light_phase to stage13_light_coal 
-        light : 5.03*10**-4 * 0.17 * 0.50 * 867 / 0.09214 | n_coal = V_coal * density / mr
+        light : 5.03*10**-4 * 0.08 * 0.50 * 867 / 0.09214 | n_coal = V_coal * density / mr
         solute : 0
         |tracer_light : 0
         density : 867 
 
 Compartment stage13_light_disp of continuous phase light_phase   
-    volume : 5.03*10**-4 * 0.17 * 0.50 | V_disp = V_stage * holdup * (1 - xScale)
+    volume : 5.03*10**-4 * 0.08 * 0.50 | V_disp = V_stage * holdup * (1 - xScale)
     IncompressiblePhase light_phase to stage13_light_disp
-        light : 5.03*10**-4 * 0.17 * 0.50 * 867 / 0.09214 | n_disp = V_disp * density / mr
+        light : 5.03*10**-4 * 0.08 * 0.50 * 867 / 0.09214 | n_disp = V_disp * density / mr
         solute : 0
         |tracer_light : 0
         density : 867 
@@ -608,17 +608,17 @@ Compartment stage13_light_disp of continuous phase light_phase
 ||| stage 12
 
 Compartment stage12_light_coal of continuous phase light_phase  
-    volume : 5.03*10**-4 * 0.17 * 0.50 | V_coal = V_stage * holdup * xScale
+    volume : 5.03*10**-4 * 0.08 * 0.50 | V_coal = V_stage * holdup * xScale
     IncompressiblePhase light_phase to stage12_light_coal 
-        light : 5.03*10**-4 * 0.17 * 0.50 * 867 / 0.09214 | n_coal = V_coal * density / mr
+        light : 5.03*10**-4 * 0.08 * 0.50 * 867 / 0.09214 | n_coal = V_coal * density / mr
         solute : 0
         |tracer_light : 0
         density : 867 
 
 Compartment stage12_light_disp of continuous phase light_phase   
-    volume : 5.03*10**-4 * 0.17 * 0.50 | V_disp = V_stage * holdup * (1 - xScale)
+    volume : 5.03*10**-4 * 0.08 * 0.50 | V_disp = V_stage * holdup * (1 - xScale)
     IncompressiblePhase light_phase to stage12_light_disp
-        light : 5.03*10**-4 * 0.17 * 0.50 * 867 / 0.09214 | n_disp = V_disp * density / mr
+        light : 5.03*10**-4 * 0.08 * 0.50 * 867 / 0.09214 | n_disp = V_disp * density / mr
         solute : 0
         |tracer_light : 0
         density : 867 
@@ -626,17 +626,17 @@ Compartment stage12_light_disp of continuous phase light_phase
 ||| stage 11
 
 Compartment stage11_light_coal of continuous phase light_phase  
-    volume : 5.03*10**-4 * 0.17 * 0.50 | V_coal = V_stage * holdup * xScale
+    volume : 5.03*10**-4 * 0.08 * 0.50 | V_coal = V_stage * holdup * xScale
     IncompressiblePhase light_phase to stage11_light_coal 
-        light : 5.03*10**-4 * 0.17 * 0.50 * 867 / 0.09214 | n_coal = V_coal * density / mr
+        light : 5.03*10**-4 * 0.08 * 0.50 * 867 / 0.09214 | n_coal = V_coal * density / mr
         solute : 0
         |tracer_light : 0
         density : 867 
 
 Compartment stage11_light_disp of continuous phase light_phase   
-    volume : 5.03*10**-4 * 0.17 * 0.50 | V_disp = V_stage * holdup * (1 - xScale)
+    volume : 5.03*10**-4 * 0.08 * 0.50 | V_disp = V_stage * holdup * (1 - xScale)
     IncompressiblePhase light_phase to stage11_light_disp
-        light : 5.03*10**-4 * 0.17 * 0.50 * 867 / 0.09214 | n_disp = V_disp * density / mr
+        light : 5.03*10**-4 * 0.08 * 0.50 * 867 / 0.09214 | n_disp = V_disp * density / mr
         solute : 0
         |tracer_light : 0
         density : 867 
@@ -644,17 +644,17 @@ Compartment stage11_light_disp of continuous phase light_phase
 ||| stage 10
 
 Compartment stage10_light_coal of continuous phase light_phase  
-    volume : 5.03*10**-4 * 0.17 * 0.50 | V_coal = V_stage * holdup * xScale
+    volume : 5.03*10**-4 * 0.08 * 0.50 | V_coal = V_stage * holdup * xScale
     IncompressiblePhase light_phase to stage10_light_coal 
-        light : 5.03*10**-4 * 0.17 * 0.50 * 867 / 0.09214 | n_coal = V_coal * density / mr
+        light : 5.03*10**-4 * 0.08 * 0.50 * 867 / 0.09214 | n_coal = V_coal * density / mr
         solute : 0
         |tracer_light : 0
         density : 867 
 
 Compartment stage10_light_disp of continuous phase light_phase   
-    volume : 5.03*10**-4 * 0.17 * 0.50 | V_disp = V_stage * holdup * (1 - xScale)
+    volume : 5.03*10**-4 * 0.08 * 0.50 | V_disp = V_stage * holdup * (1 - xScale)
     IncompressiblePhase light_phase to stage10_light_disp
-        light : 5.03*10**-4 * 0.17 * 0.50 * 867 / 0.09214 | n_disp = V_disp * density / mr
+        light : 5.03*10**-4 * 0.08 * 0.50 * 867 / 0.09214 | n_disp = V_disp * density / mr
         solute : 0
         |tracer_light : 0
         density : 867 
@@ -662,17 +662,17 @@ Compartment stage10_light_disp of continuous phase light_phase
 ||| stage 9
 
 Compartment stage9_light_coal of continuous phase light_phase  
-    volume : 5.03*10**-4 * 0.17 * 0.50 | V_coal = V_stage * holdup * xScale
+    volume : 5.03*10**-4 * 0.08 * 0.50 | V_coal = V_stage * holdup * xScale
     IncompressiblePhase light_phase to stage9_light_coal 
-        light : 5.03*10**-4 * 0.17 * 0.50 * 867 / 0.09214 | n_coal = V_coal * density / mr
+        light : 5.03*10**-4 * 0.08 * 0.50 * 867 / 0.09214 | n_coal = V_coal * density / mr
         solute : 0
         |tracer_light : 0
         density : 867 
 
 Compartment stage9_light_disp of continuous phase light_phase   
-    volume : 5.03*10**-4 * 0.17 * 0.50 | V_disp = V_stage * holdup * (1 - xScale)
+    volume : 5.03*10**-4 * 0.08 * 0.50 | V_disp = V_stage * holdup * (1 - xScale)
     IncompressiblePhase light_phase to stage9_light_disp
-        light : 5.03*10**-4 * 0.17 * 0.50 * 867 / 0.09214 | n_disp = V_disp * density / mr
+        light : 5.03*10**-4 * 0.08 * 0.50 * 867 / 0.09214 | n_disp = V_disp * density / mr
         solute : 0
         |tracer_light : 0
         density : 867 
@@ -680,17 +680,17 @@ Compartment stage9_light_disp of continuous phase light_phase
 ||| stage 8
 
 Compartment stage8_light_coal of continuous phase light_phase  
-    volume : 5.03*10**-4 * 0.17 * 0.50 | V_coal = V_stage * holdup * xScale
+    volume : 5.03*10**-4 * 0.08 * 0.50 | V_coal = V_stage * holdup * xScale
     IncompressiblePhase light_phase to stage8_light_coal 
-        light : 5.03*10**-4 * 0.17 * 0.50 * 867 / 0.09214 | n_coal = V_coal * density / mr
+        light : 5.03*10**-4 * 0.08 * 0.50 * 867 / 0.09214 | n_coal = V_coal * density / mr
         solute : 0
         |tracer_light : 0
         density : 867 
 
 Compartment stage8_light_disp of continuous phase light_phase   
-    volume : 5.03*10**-4 * 0.17 * 0.50 | V_disp = V_stage * holdup * (1 - xScale)
+    volume : 5.03*10**-4 * 0.08 * 0.50 | V_disp = V_stage * holdup * (1 - xScale)
     IncompressiblePhase light_phase to stage8_light_disp
-        light : 5.03*10**-4 * 0.17 * 0.50 * 867 / 0.09214 | n_disp = V_disp * density / mr
+        light : 5.03*10**-4 * 0.08 * 0.50 * 867 / 0.09214 | n_disp = V_disp * density / mr
         solute : 0
         |tracer_light : 0
         density : 867 
@@ -698,17 +698,17 @@ Compartment stage8_light_disp of continuous phase light_phase
 ||| stage 7
 
 Compartment stage7_light_coal of continuous phase light_phase  
-    volume : 5.03*10**-4 * 0.17 * 0.50 | V_coal = V_stage * holdup * xScale
+    volume : 5.03*10**-4 * 0.08 * 0.50 | V_coal = V_stage * holdup * xScale
     IncompressiblePhase light_phase to stage7_light_coal 
-        light : 5.03*10**-4 * 0.17 * 0.50 * 867 / 0.09214 | n_coal = V_coal * density / mr
+        light : 5.03*10**-4 * 0.08 * 0.50 * 867 / 0.09214 | n_coal = V_coal * density / mr
         solute : 0
         |tracer_light : 0
         density : 867 
 
 Compartment stage7_light_disp of continuous phase light_phase   
-    volume : 5.03*10**-4 * 0.17 * 0.50 | V_disp = V_stage * holdup * (1 - xScale)
+    volume : 5.03*10**-4 * 0.08 * 0.50 | V_disp = V_stage * holdup * (1 - xScale)
     IncompressiblePhase light_phase to stage7_light_disp
-        light : 5.03*10**-4 * 0.17 * 0.50 * 867 / 0.09214 | n_disp = V_disp * density / mr
+        light : 5.03*10**-4 * 0.08 * 0.50 * 867 / 0.09214 | n_disp = V_disp * density / mr
         solute : 0
         |tracer_light : 0
         density : 867 
@@ -716,17 +716,17 @@ Compartment stage7_light_disp of continuous phase light_phase
 ||| stage 6
 
 Compartment stage6_light_coal of continuous phase light_phase  
-    volume : 5.03*10**-4 * 0.17 * 0.50 | V_coal = V_stage * holdup * xScale
+    volume : 5.03*10**-4 * 0.08 * 0.50 | V_coal = V_stage * holdup * xScale
     IncompressiblePhase light_phase to stage6_light_coal 
-        light : 5.03*10**-4 * 0.17 * 0.50 * 867 / 0.09214 | n_coal = V_coal * density / mr
+        light : 5.03*10**-4 * 0.08 * 0.50 * 867 / 0.09214 | n_coal = V_coal * density / mr
         solute : 0
         |tracer_light : 0
         density : 867 
 
 Compartment stage6_light_disp of continuous phase light_phase   
-    volume : 5.03*10**-4 * 0.17 * 0.50 | V_disp = V_stage * holdup * (1 - xScale)
+    volume : 5.03*10**-4 * 0.08 * 0.50 | V_disp = V_stage * holdup * (1 - xScale)
     IncompressiblePhase light_phase to stage6_light_disp
-        light : 5.03*10**-4 * 0.17 * 0.50 * 867 / 0.09214 | n_disp = V_disp * density / mr
+        light : 5.03*10**-4 * 0.08 * 0.50 * 867 / 0.09214 | n_disp = V_disp * density / mr
         solute : 0
         |tracer_light : 0
         density : 867 
@@ -734,17 +734,17 @@ Compartment stage6_light_disp of continuous phase light_phase
 ||| stage 5
 
 Compartment stage5_light_coal of continuous phase light_phase  
-    volume : 5.03*10**-4 * 0.17 * 0.50 | V_coal = V_stage * holdup * xScale
+    volume : 5.03*10**-4 * 0.08 * 0.50 | V_coal = V_stage * holdup * xScale
     IncompressiblePhase light_phase to stage5_light_coal 
-        light : 5.03*10**-4 * 0.17 * 0.50 * 867 / 0.09214 | n_coal = V_coal * density / mr
+        light : 5.03*10**-4 * 0.08 * 0.50 * 867 / 0.09214 | n_coal = V_coal * density / mr
         solute : 0
         |tracer_light : 0
         density : 867 
 
 Compartment stage5_light_disp of continuous phase light_phase   
-    volume : 5.03*10**-4 * 0.17 * 0.50 | V_disp = V_stage * holdup * (1 - xScale)
+    volume : 5.03*10**-4 * 0.08 * 0.50 | V_disp = V_stage * holdup * (1 - xScale)
     IncompressiblePhase light_phase to stage5_light_disp
-        light : 5.03*10**-4 * 0.17 * 0.50 * 867 / 0.09214 | n_disp = V_disp * density / mr
+        light : 5.03*10**-4 * 0.08 * 0.50 * 867 / 0.09214 | n_disp = V_disp * density / mr
         solute : 0
         |tracer_light : 0
         density : 867 
@@ -752,17 +752,17 @@ Compartment stage5_light_disp of continuous phase light_phase
 ||| stage 4
 
 Compartment stage4_light_coal of continuous phase light_phase  
-    volume : 5.03*10**-4 * 0.17 * 0.50 | V_coal = V_stage * holdup * xScale
+    volume : 5.03*10**-4 * 0.08 * 0.50 | V_coal = V_stage * holdup * xScale
     IncompressiblePhase light_phase to stage4_light_coal 
-        light : 5.03*10**-4 * 0.17 * 0.50 * 867 / 0.09214 | n_coal = V_coal * density / mr
+        light : 5.03*10**-4 * 0.08 * 0.50 * 867 / 0.09214 | n_coal = V_coal * density / mr
         solute : 0
         |tracer_light : 0
         density : 867 
 
 Compartment stage4_light_disp of continuous phase light_phase   
-    volume : 5.03*10**-4 * 0.17 * 0.50 | V_disp = V_stage * holdup * (1 - xScale)
+    volume : 5.03*10**-4 * 0.08 * 0.50 | V_disp = V_stage * holdup * (1 - xScale)
     IncompressiblePhase light_phase to stage4_light_disp
-        light : 5.03*10**-4 * 0.17 * 0.50 * 867 / 0.09214 | n_disp = V_disp * density / mr
+        light : 5.03*10**-4 * 0.08 * 0.50 * 867 / 0.09214 | n_disp = V_disp * density / mr
         solute : 0
         |tracer_light : 0
         density : 867 
@@ -770,17 +770,17 @@ Compartment stage4_light_disp of continuous phase light_phase
 ||| stage 3
 
 Compartment stage3_light_coal of continuous phase light_phase  
-    volume : 5.03*10**-4 * 0.17 * 0.50 | V_coal = V_stage * holdup * xScale
+    volume : 5.03*10**-4 * 0.08 * 0.50 | V_coal = V_stage * holdup * xScale
     IncompressiblePhase light_phase to stage3_light_coal 
-        light : 5.03*10**-4 * 0.17 * 0.50 * 867 / 0.09214 | n_coal = V_coal * density / mr
+        light : 5.03*10**-4 * 0.08 * 0.50 * 867 / 0.09214 | n_coal = V_coal * density / mr
         solute : 0
         |tracer_light : 0
         density : 867 
 
 Compartment stage3_light_disp of continuous phase light_phase   
-    volume : 5.03*10**-4 * 0.17 * 0.50 | V_disp = V_stage * holdup * (1 - xScale)
+    volume : 5.03*10**-4 * 0.08 * 0.50 | V_disp = V_stage * holdup * (1 - xScale)
     IncompressiblePhase light_phase to stage3_light_disp
-        light : 5.03*10**-4 * 0.17 * 0.50 * 867 / 0.09214 | n_disp = V_disp * density / mr
+        light : 5.03*10**-4 * 0.08 * 0.50 * 867 / 0.09214 | n_disp = V_disp * density / mr
         solute : 0
         |tracer_light : 0
         density : 867 
@@ -788,17 +788,17 @@ Compartment stage3_light_disp of continuous phase light_phase
 ||| stage 2
 
 Compartment stage2_light_coal of continuous phase light_phase  
-    volume : 5.03*10**-4 * 0.17 * 0.50 | V_coal = V_stage * holdup * xScale
+    volume : 5.03*10**-4 * 0.08 * 0.50 | V_coal = V_stage * holdup * xScale
     IncompressiblePhase light_phase to stage2_light_coal 
-        light : 5.03*10**-4 * 0.17 * 0.50 * 867 / 0.09214 | n_coal = V_coal * density / mr
+        light : 5.03*10**-4 * 0.08 * 0.50 * 867 / 0.09214 | n_coal = V_coal * density / mr
         solute : 0
         |tracer_light : 0
         density : 867 
 
 Compartment stage2_light_disp of continuous phase light_phase   
-    volume : 5.03*10**-4 * 0.17 * 0.50 | V_disp = V_stage * holdup * (1 - xScale)
+    volume : 5.03*10**-4 * 0.08 * 0.50 | V_disp = V_stage * holdup * (1 - xScale)
     IncompressiblePhase light_phase to stage2_light_disp
-        light : 5.03*10**-4 * 0.17 * 0.50 * 867 / 0.09214 | n_disp = V_disp * density / mr
+        light : 5.03*10**-4 * 0.08 * 0.50 * 867 / 0.09214 | n_disp = V_disp * density / mr
         solute : 0
         |tracer_light : 0
         density : 867 
@@ -806,17 +806,17 @@ Compartment stage2_light_disp of continuous phase light_phase
 ||| stage 1
 
 Compartment stage1_light_coal of continuous phase light_phase  
-    volume : 5.03*10**-4 * 0.17 * 0.50 | V_coal = V_stage * holdup * xScale
+    volume : 5.03*10**-4 * 0.08 * 0.50 | V_coal = V_stage * holdup * xScale
     IncompressiblePhase light_phase to stage1_light_coal 
-        light : 5.03*10**-4 * 0.17 * 0.50 * 867 / 0.09214 | n_coal = V_coal * density / mr
+        light : 5.03*10**-4 * 0.08 * 0.50 * 867 / 0.09214 | n_coal = V_coal * density / mr
         solute : 0
         |tracer_light : 0
         density : 867 
 
 Compartment stage1_light_disp of continuous phase light_phase   
-    volume : 5.03*10**-4 * 0.17 * 0.50 | V_disp = V_stage * holdup * (1 - xScale)
+    volume : 5.03*10**-4 * 0.08 * 0.50 | V_disp = V_stage * holdup * (1 - xScale)
     IncompressiblePhase light_phase to stage1_light_disp
-        light : 5.03*10**-4 * 0.17 * 0.50 * 867 / 0.09214 | n_disp = V_disp * density / mr
+        light : 5.03*10**-4 * 0.08 * 0.50 * 867 / 0.09214 | n_disp = V_disp * density / mr
         solute : 0
         |tracer_light : 0
         density : 867 
@@ -824,17 +824,17 @@ Compartment stage1_light_disp of continuous phase light_phase
 ||| lower inlet
 
 Compartment lowerInlet_light_coal of continuous phase light_phase  
-    volume : 1.13*10**-3 * 0.17 * 0.50 | V_coal = V_lowerIn * holdup * xScale
+    volume : 1.13*10**-3 * 0.08 * 0.50 | V_coal = V_lowerIn * holdup * xScale
     IncompressiblePhase light_phase to lowerInlet_light_coal 
-        light : 1.13*10**-3 * 0.17 * 0.50 * 867 / 0.09214 | n_coal_lowerIn = V_coal_lowerIn * density / mr
+        light : 1.13*10**-3 * 0.08 * 0.50 * 867 / 0.09214 | n_coal_lowerIn = V_coal_lowerIn * density / mr
         solute : 0
         |tracer_light : 0
         density : 867 
 
 Compartment lowerInlet_light_disp of continuous phase light_phase   
-    volume : 1.13*10**-3 * 0.17 * 0.50 | V_disp = V_lowerIn_disp * holdup * (1 - xScale)
+    volume : 1.13*10**-3 * 0.08 * 0.50 | V_disp = V_lowerIn_disp * holdup * (1 - xScale)
     IncompressiblePhase light_phase to lowerInlet_light_disp
-        light : 1.13*10**-3 * 0.17 * 0.50 * 867 / 0.09214 | n_disp_lowerIn = V_lowerIn_disp * density / mr
+        light : 1.13*10**-3 * 0.08 * 0.50 * 867 / 0.09214 | n_disp_lowerIn = V_lowerIn_disp * density / mr
         solute : 0
         |tracer_light : 0
         density : 867 
@@ -846,7 +846,7 @@ Surroundings light_source_store of continuous phase light_phase
     pressure : 101325 * 2
     IncompressiblePhase light_phase to light_source_store 
         light : 94100
-        solute : 925   | value from average of two runs
+        solute : 463   | value from average of two runs
         density : 867
 
 |Surroundings light_pulse_source of continuous phase light_phase  
@@ -865,14 +865,14 @@ Surroundings light_source_store of continuous phase light_phase
 ConvectiveTransport heavy_feed_to_upper_inlet from heavy_source_store to upper_inlet_heavy 
     fixed flow : True
     area : 1
-    velocity : 72 / 1000/ 3600
+    velocity : 40.0 / 1000 / 3600
 |    activation_times : 0, 200, 200.1
 |    activation_response : 1, 0, 1
 |
 |ConvectiveTransport tracer_heavy from heavy_pulse_source to upper_inlet_heavy 
 |    fixed flow : True
 |    area : 1
-|    velocity : 72 / 1000/ 3600
+|    velocity : 40.0 / 1000 / 3600
 |    activation_times : 0, 200, 200.1
 |    activation_response : 0, 1, 0
 
@@ -881,165 +881,165 @@ ConvectiveTransport heavy_feed_to_upper_inlet from heavy_source_store to upper_i
 ConvectiveTransport heavy_upper_sep_to_upper_inlet from upper_separator_heavy to upper_inlet_heavy 
     fixed flow : True
     area : 1
-    velocity : 72 / 1000/ 3600
+    velocity : 40.0 / 1000 / 3600
 
 ||| upper inlet
 
 ConvectiveTransport heavy_upper_inlet_to_upper_sep from upper_inlet_heavy to upper_separator_heavy 
     fixed flow : True
     area : 1
-    velocity : 72 / 1000/ 3600
+    velocity : 40.0 / 1000 / 3600
 
 ConvectiveTransport heavy_upper_inlet_to_stage26 from upper_inlet_heavy to stage_26_heavy 
     fixed flow : True
     area : 1
-    velocity : 72 / 1000/ 3600
+    velocity : 40.0 / 1000 / 3600
 
 ||| column stage
 
 ConvectiveTransport heavy_s26_s25 from stage_26_heavy to stage_25_heavy
     fixed flow : True
     area : 1
-    velocity : 72 / 1000/ 3600
+    velocity : 40.0 / 1000 / 3600
 
 ConvectiveTransport heavy_s25_s24 from stage_25_heavy to stage_24_heavy
     fixed flow : True
     area : 1
-    velocity : 72 / 1000/ 3600
+    velocity : 40.0 / 1000 / 3600
 
 ConvectiveTransport heavy_s24_s23 from stage_24_heavy to stage_23_heavy
     fixed flow : True
     area : 1
-    velocity : 72 / 1000/ 3600
+    velocity : 40.0 / 1000 / 3600
 
 ConvectiveTransport heavy_s23_s22 from stage_23_heavy to stage_22_heavy
     fixed flow : True
     area : 1
-    velocity : 72 / 1000/ 3600
+    velocity : 40.0 / 1000 / 3600
 
 ConvectiveTransport heavy_s22_s21 from stage_22_heavy to stage_21_heavy
     fixed flow : True
     area : 1
-    velocity : 72 / 1000/ 3600
+    velocity : 40.0 / 1000 / 3600
 
 ConvectiveTransport heavy_s21_s20 from stage_21_heavy to stage_20_heavy
     fixed flow : True
     area : 1
-    velocity : 72 / 1000/ 3600
+    velocity : 40.0 / 1000 / 3600
 
 ConvectiveTransport heavy_s20_s19 from stage_20_heavy to stage_19_heavy
     fixed flow : True
     area : 1
-    velocity : 72 / 1000/ 3600
+    velocity : 40.0 / 1000 / 3600
 
 ConvectiveTransport heavy_s19_s18 from stage_19_heavy to stage_18_heavy
     fixed flow : True
     area : 1
-    velocity : 72 / 1000/ 3600
+    velocity : 40.0 / 1000 / 3600
 
 ConvectiveTransport heavy_s18_s17 from stage_18_heavy to stage_17_heavy
     fixed flow : True
     area : 1
-    velocity : 72 / 1000/ 3600
+    velocity : 40.0 / 1000 / 3600
 
 ConvectiveTransport heavy_s17_s16 from stage_17_heavy to stage_16_heavy
     fixed flow : True
     area : 1
-    velocity : 72 / 1000/ 3600
+    velocity : 40.0 / 1000 / 3600
 
 ConvectiveTransport heavy_s16_s15 from stage_16_heavy to stage_15_heavy
     fixed flow : True
     area : 1
-    velocity : 72 / 1000/ 3600
+    velocity : 40.0 / 1000 / 3600
 
 ConvectiveTransport heavy_s15_s14 from stage_15_heavy to stage_14_heavy
     fixed flow : True
     area : 1
-    velocity : 72 / 1000/ 3600
+    velocity : 40.0 / 1000 / 3600
 
 ConvectiveTransport heavy_s14_s13 from stage_14_heavy to stage_13_heavy
     fixed flow : True
     area : 1
-    velocity : 72 / 1000/ 3600
+    velocity : 40.0 / 1000 / 3600
 
 ConvectiveTransport heavy_s13_s12 from stage_13_heavy to stage_12_heavy
     fixed flow : True
     area : 1
-    velocity : 72 / 1000/ 3600
+    velocity : 40.0 / 1000 / 3600
 
 ConvectiveTransport heavy_s12_s11 from stage_12_heavy to stage_11_heavy
     fixed flow : True
     area : 1
-    velocity : 72 / 1000/ 3600
+    velocity : 40.0 / 1000 / 3600
 
 ConvectiveTransport heavy_s11_s10 from stage_11_heavy to stage_10_heavy
     fixed flow : True
     area : 1
-    velocity : 72 / 1000/ 3600
+    velocity : 40.0 / 1000 / 3600
 
 ConvectiveTransport heavy_s10_s9 from stage_10_heavy to stage_9_heavy
     fixed flow : True
     area : 1
-    velocity : 72 / 1000/ 3600
+    velocity : 40.0 / 1000 / 3600
 
 ConvectiveTransport heavy_s9_s8 from stage_9_heavy to stage_8_heavy
     fixed flow : True
     area : 1
-    velocity : 72 / 1000/ 3600
+    velocity : 40.0 / 1000 / 3600
 
 ConvectiveTransport heavy_s8_s7 from stage_8_heavy to stage_7_heavy
     fixed flow : True
     area : 1
-    velocity : 72 / 1000/ 3600
+    velocity : 40.0 / 1000 / 3600
 
 ConvectiveTransport heavy_s7_s6 from stage_7_heavy to stage_6_heavy
     fixed flow : True
     area : 1
-    velocity : 72 / 1000/ 3600
+    velocity : 40.0 / 1000 / 3600
 
 ConvectiveTransport heavy_s6_s5 from stage_6_heavy to stage_5_heavy
     fixed flow : True
     area : 1
-    velocity : 72 / 1000/ 3600
+    velocity : 40.0 / 1000 / 3600
 
 ConvectiveTransport heavy_s5_s4 from stage_5_heavy to stage_4_heavy
     fixed flow : True
     area : 1
-    velocity : 72 / 1000/ 3600
+    velocity : 40.0 / 1000 / 3600
 
 ConvectiveTransport heavy_s4_s3 from stage_4_heavy to stage_3_heavy
     fixed flow : True
     area : 1
-    velocity : 72 / 1000/ 3600
+    velocity : 40.0 / 1000 / 3600
 
 ConvectiveTransport heavy_s3_s2 from stage_3_heavy to stage_2_heavy
     fixed flow : True
     area : 1
-    velocity : 72 / 1000/ 3600
+    velocity : 40.0 / 1000 / 3600
 
 ConvectiveTransport heavy_s2_s1 from stage_2_heavy to stage_1_heavy
     fixed flow : True
     area : 1
-    velocity : 72 / 1000/ 3600
+    velocity : 40.0 / 1000 / 3600
 
 ConvectiveTransport heavy_s1_lowerInlet from stage_1_heavy to lower_inlet_heavy
     fixed flow : True
     area : 1
-    velocity : 72 / 1000/ 3600
+    velocity : 40.0 / 1000 / 3600
 
 ||| lower inlet
 
 ConvectiveTransport lowerInlet_lowerSeperator from lower_inlet_heavy to lower_seperator_heavy
     fixed flow : True
     area : 1
-    velocity : 72 / 1000/ 3600
+    velocity : 40.0 / 1000 / 3600
 
 ||| lower separator
 
 ConvectiveTransport heavy_outlet from lower_seperator_heavy to heavy_sink_store
     fixed flow : True
     area : 1
-    velocity : 72 / 1000/ 3600
+    velocity : 40.0 / 1000 / 3600
 
 
 |||-----------------------------|||
@@ -1051,357 +1051,357 @@ ConvectiveTransport heavy_outlet from lower_seperator_heavy to heavy_sink_store
 ConvectiveTransport uppserSep_coal_to_lightSink from upperSep_light_coal to light_sink_store
     fixed flow : True
     area : 1
-    velocity : 86.8 / 1000/ 3600 
+    velocity : 48 / 1000 / 3600 
     
 ConvectiveTransport upperSep_disp_to_upperSep_coal from upperSep_light_disp to upperSep_light_coal
     fixed flow : True
     area : 1
-    velocity : 86.8 / 1000/ 3600 
+    velocity : 48 / 1000 / 3600 
 
 ||| upper inlet
 
 ConvectiveTransport upper_inlet_light_disp_to_light_sink from upper_inlet_light_disp to upperSep_light_disp
     fixed flow : True
     area : 1
-    velocity : 86.8 / 1000/ 3600 
+    velocity : 48 / 1000 / 3600 
 
 ||| stage 26
 
 ConvectiveTransport stage26_coal_to_stage27_disp from stage26_light_coal to upper_inlet_light_disp
     fixed flow : True
     area : 1
-    velocity : 86.8 / 1000/ 3600 
+    velocity : 48 / 1000 / 3600 
     
 ConvectiveTransport stage26_disp_to_stage26_coal from stage26_light_disp to stage26_light_coal
     fixed flow : True
     area : 1
-    velocity : 86.8 / 1000/ 3600 
+    velocity : 48 / 1000 / 3600 
         
 ||| stage 25
 
 ConvectiveTransport stage25_coal_to_stage26_disp from stage25_light_coal to stage26_light_disp
     fixed flow : True
     area : 1
-    velocity : 86.8 / 1000/ 3600 
+    velocity : 48 / 1000 / 3600 
 
 ConvectiveTransport stage25_disp_to_stage25_coal from stage25_light_disp to stage25_light_coal
     fixed flow : True
     area : 1
-    velocity : 86.8 / 1000/ 3600 
+    velocity : 48 / 1000 / 3600 
         
 ||| stage 24
 
 ConvectiveTransport stage24_coal_to_stage25_disp from stage24_light_coal to stage25_light_disp
     fixed flow : True
     area : 1
-    velocity : 86.8 / 1000/ 3600 
+    velocity : 48 / 1000 / 3600 
 
 ConvectiveTransport stage24_disp_to_stage24_coal from stage24_light_disp to stage24_light_coal
     fixed flow : True
     area : 1
-    velocity : 86.8 / 1000/ 3600 
+    velocity : 48 / 1000 / 3600 
         
 ||| stage 23
 
 ConvectiveTransport stage23_coal_to_stage24_disp from stage23_light_coal to stage24_light_disp
     fixed flow : True
     area : 1
-    velocity : 86.8 / 1000/ 3600 
+    velocity : 48 / 1000 / 3600 
 
 ConvectiveTransport stage23_disp_to_stage23_coal from stage23_light_disp to stage23_light_coal
     fixed flow : True
     area : 1
-    velocity : 86.8 / 1000/ 3600 
+    velocity : 48 / 1000 / 3600 
         
 ||| stage 22
 
 ConvectiveTransport stage22_coal_to_stage23_disp from stage22_light_coal to stage23_light_disp
     fixed flow : True
     area : 1
-    velocity : 86.8 / 1000/ 3600 
+    velocity : 48 / 1000 / 3600 
 
 ConvectiveTransport stage22_disp_to_stage22_coal from stage22_light_disp to stage22_light_coal
     fixed flow : True
     area : 1
-    velocity : 86.8 / 1000/ 3600 
+    velocity : 48 / 1000 / 3600 
         
 ||| stage 21
 
 ConvectiveTransport stage21_coal_to_stage22_disp from stage21_light_coal to stage22_light_disp
     fixed flow : True
     area : 1
-    velocity : 86.8 / 1000/ 3600 
+    velocity : 48 / 1000 / 3600 
 
 ConvectiveTransport stage21_disp_to_stage21_coal from stage21_light_disp to stage21_light_coal
     fixed flow : True
     area : 1
-    velocity : 86.8 / 1000/ 3600 
+    velocity : 48 / 1000 / 3600 
 
 ||| stage 20
 
 ConvectiveTransport stage20_coal_to_stage21_disp from stage20_light_coal to stage21_light_disp
     fixed flow : True
     area : 1
-    velocity : 86.8 / 1000/ 3600 
+    velocity : 48 / 1000 / 3600 
 
 ConvectiveTransport stage20_disp_to_stage20_coal from stage20_light_disp to stage20_light_coal
     fixed flow : True
     area : 1
-    velocity : 86.8 / 1000/ 3600 
+    velocity : 48 / 1000 / 3600 
         
 ||| stage 19
 
 ConvectiveTransport stage19_coal_to_stage20_disp from stage19_light_coal to stage20_light_disp
     fixed flow : True
     area : 1
-    velocity : 86.8 / 1000/ 3600 
+    velocity : 48 / 1000 / 3600 
 
 ConvectiveTransport stage19_disp_to_stage19_coal from stage19_light_disp to stage19_light_coal
     fixed flow : True
     area : 1
-    velocity : 86.8 / 1000/ 3600 
+    velocity : 48 / 1000 / 3600 
         
 ||| stage 18
 
 ConvectiveTransport stage18_coal_to_stage19_disp from stage18_light_coal to stage19_light_disp
     fixed flow : True
     area : 1
-    velocity : 86.8 / 1000/ 3600 
+    velocity : 48 / 1000 / 3600 
 
 ConvectiveTransport stage18_disp_to_stage18_coal from stage18_light_disp to stage18_light_coal
     fixed flow : True
     area : 1
-    velocity : 86.8 / 1000/ 3600 
+    velocity : 48 / 1000 / 3600 
         
 ||| stage 17
 
 ConvectiveTransport stage17_coal_to_stage18_disp from stage17_light_coal to stage18_light_disp
     fixed flow : True
     area : 1
-    velocity : 86.8 / 1000/ 3600 
+    velocity : 48 / 1000 / 3600 
 
 ConvectiveTransport stage17_disp_to_stage17_coal from stage17_light_disp to stage17_light_coal
     fixed flow : True
     area : 1
-    velocity : 86.8 / 1000/ 3600 
+    velocity : 48 / 1000 / 3600 
         
 ||| stage 16
 
 ConvectiveTransport stage16_coal_to_stage17_disp from stage16_light_coal to stage17_light_disp
     fixed flow : True
     area : 1
-    velocity : 86.8 / 1000/ 3600 
+    velocity : 48 / 1000 / 3600 
 
 ConvectiveTransport stage16_disp_to_stage16_coal from stage16_light_disp to stage16_light_coal
     fixed flow : True
     area : 1
-    velocity : 86.8 / 1000/ 3600 
+    velocity : 48 / 1000 / 3600 
         
 ||| stage 15
 
 ConvectiveTransport stage15_coal_to_stage16_disp from stage15_light_coal to stage16_light_disp
     fixed flow : True
     area : 1
-    velocity : 86.8 / 1000/ 3600 
+    velocity : 48 / 1000 / 3600 
 
 ConvectiveTransport stage15_disp_to_stage15_coal from stage15_light_disp to stage15_light_coal
     fixed flow : True
     area : 1
-    velocity : 86.8 / 1000/ 3600 
+    velocity : 48 / 1000 / 3600 
         
 ||| stage 14
 
 ConvectiveTransport stage14_coal_to_stage15_disp from stage14_light_coal to stage15_light_disp
     fixed flow : True
     area : 1
-    velocity : 86.8 / 1000/ 3600 
+    velocity : 48 / 1000 / 3600 
 
 ConvectiveTransport stage14_disp_to_stage14_coal from stage14_light_disp to stage14_light_coal
     fixed flow : True
     area : 1
-    velocity : 86.8 / 1000/ 3600 
+    velocity : 48 / 1000 / 3600 
         
 ||| stage 13
 
 ConvectiveTransport stage13_coal_to_stage14_disp from stage13_light_coal to stage14_light_disp
     fixed flow : True
     area : 1
-    velocity : 86.8 / 1000/ 3600 
+    velocity : 48 / 1000 / 3600 
 
 ConvectiveTransport stage13_disp_to_stage13_coal from stage13_light_disp to stage13_light_coal
     fixed flow : True
     area : 1
-    velocity : 86.8 / 1000/ 3600 
+    velocity : 48 / 1000 / 3600 
         
 ||| stage 12
 
 ConvectiveTransport stage12_coal_to_stage13_disp from stage12_light_coal to stage13_light_disp
     fixed flow : True
     area : 1
-    velocity : 86.8 / 1000/ 3600 
+    velocity : 48 / 1000 / 3600 
 
 ConvectiveTransport stage12_disp_to_stage12_coal from stage12_light_disp to stage12_light_coal
     fixed flow : True
     area : 1
-    velocity : 86.8 / 1000/ 3600 
+    velocity : 48 / 1000 / 3600 
         
 ||| stage 11
 
 ConvectiveTransport stage11_coal_to_stage12_disp from stage11_light_coal to stage12_light_disp
     fixed flow : True
     area : 1
-    velocity : 86.8 / 1000/ 3600 
+    velocity : 48 / 1000 / 3600 
 
 ConvectiveTransport stage11_disp_to_stage11_coal from stage11_light_disp to stage11_light_coal
     fixed flow : True
     area : 1
-    velocity : 86.8 / 1000/ 3600 
+    velocity : 48 / 1000 / 3600 
            
 ||| stage 10
 
 ConvectiveTransport stage10_coal_to_stage11_disp from stage10_light_coal to stage11_light_disp
     fixed flow : True
     area : 1
-    velocity : 86.8 / 1000/ 3600 
+    velocity : 48 / 1000 / 3600 
     
 ConvectiveTransport stage10_disp_to_stage10_coal from stage10_light_disp to stage10_light_coal
     fixed flow : True
     area : 1
-    velocity : 86.8 / 1000/ 3600 
+    velocity : 48 / 1000 / 3600 
             
 ||| stage 9
 
 ConvectiveTransport stage9_coal_to_stage10_disp from stage9_light_coal to stage10_light_disp
     fixed flow : True
     area : 1
-    velocity : 86.8 / 1000/ 3600 
+    velocity : 48 / 1000 / 3600 
     
 ConvectiveTransport stage9_disp_to_stage9_coal from stage9_light_disp to stage9_light_coal
     fixed flow : True
     area : 1
-    velocity : 86.8 / 1000/ 3600 
+    velocity : 48 / 1000 / 3600 
             
 ||| stage 8
 
 ConvectiveTransport stage8_coal_to_stage9_disp from stage8_light_coal to stage9_light_disp
     fixed flow : True
     area : 1
-    velocity : 86.8 / 1000/ 3600 
+    velocity : 48 / 1000 / 3600 
     
 ConvectiveTransport stage8_disp_to_stage8_coal from stage8_light_disp to stage8_light_coal
     fixed flow : True
     area : 1
-    velocity : 86.8 / 1000/ 3600 
+    velocity : 48 / 1000 / 3600 
             
 ||| stage 7
 
 ConvectiveTransport stage7_coal_to_stage8_disp from stage7_light_coal to stage8_light_disp
     fixed flow : True
     area : 1
-    velocity : 86.8 / 1000/ 3600 
+    velocity : 48 / 1000 / 3600 
     
 ConvectiveTransport stage7_disp_to_stage7_coal from stage7_light_disp to stage7_light_coal
     fixed flow : True
     area : 1
-    velocity : 86.8 / 1000/ 3600 
+    velocity : 48 / 1000 / 3600 
             
 ||| stage 6
 
 ConvectiveTransport stage6_coal_to_stage7_disp from stage6_light_coal to stage7_light_disp
     fixed flow : True
     area : 1
-    velocity : 86.8 / 1000/ 3600 
+    velocity : 48 / 1000 / 3600 
     
 ConvectiveTransport stage6_disp_to_stage6_coal from stage6_light_disp to stage6_light_coal
     fixed flow : True
     area : 1
-    velocity : 86.8 / 1000/ 3600 
+    velocity : 48 / 1000 / 3600 
             
 ||| stage 5
 
 ConvectiveTransport stage5_coal_to_stage6_disp from stage5_light_coal to stage6_light_disp
     fixed flow : True
     area : 1
-    velocity : 86.8 / 1000/ 3600 
+    velocity : 48 / 1000 / 3600 
     
 ConvectiveTransport stage5_disp_to_stage5_coal from stage5_light_disp to stage5_light_coal
     fixed flow : True
     area : 1
-    velocity : 86.8 / 1000/ 3600 
+    velocity : 48 / 1000 / 3600 
             
 ||| stage 4
 
 ConvectiveTransport stage4_coal_to_stage5_disp from stage4_light_coal to stage5_light_disp
     fixed flow : True
     area : 1
-    velocity : 86.8 / 1000/ 3600 
+    velocity : 48 / 1000 / 3600 
     
 ConvectiveTransport stage4_disp_to_stage4_coal from stage4_light_disp to stage4_light_coal
     fixed flow : True
     area : 1
-    velocity : 86.8 / 1000/ 3600 
+    velocity : 48 / 1000 / 3600 
             
 ||| stage 3
 
 ConvectiveTransport stage3_coal_to_stage4_disp from stage3_light_coal to stage4_light_disp
     fixed flow : True
     area : 1
-    velocity : 86.8 / 1000/ 3600 
+    velocity : 48 / 1000 / 3600 
     
 ConvectiveTransport stage3_disp_to_stage3_coal from stage3_light_disp to stage3_light_coal
     fixed flow : True
     area : 1
-    velocity : 86.8 / 1000/ 3600 
+    velocity : 48 / 1000 / 3600 
             
 ||| stage 2
 
 ConvectiveTransport stage2_coal_to_stage3_disp from stage2_light_coal to stage3_light_disp
     fixed flow : True
     area : 1
-    velocity : 86.8 / 1000/ 3600 
+    velocity : 48 / 1000 / 3600 
     
 ConvectiveTransport stage2_disp_to_stage2_coal from stage2_light_disp to stage2_light_coal
     fixed flow : True
     area : 1
-    velocity : 86.8 / 1000/ 3600 
+    velocity : 48 / 1000 / 3600 
             
 ||| stage 1
 
 ConvectiveTransport stage1_coal_to_stage2_disp from stage1_light_coal to stage2_light_disp
     fixed flow : True
     area : 1
-    velocity : 86.8 / 1000/ 3600 
+    velocity : 48 / 1000 / 3600 
     
 ConvectiveTransport stage1_disp_to_stage1_coal from stage1_light_disp to stage1_light_coal
     fixed flow : True
     area : 1
-    velocity : 86.8 / 1000/ 3600 
+    velocity : 48 / 1000 / 3600 
     
 ||| lower inlet
 
 ConvectiveTransport lower_inlet_coal_to_stage1_light_disp from lowerInlet_light_coal to stage1_light_disp
     fixed flow : True
     area : 1
-    velocity : 86.8 / 1000/ 3600 
+    velocity : 48 / 1000 / 3600 
     
 ConvectiveTransport lower_inlet_disp_to_lower_inlet_coal from lowerInlet_light_disp to lowerInlet_light_coal
     fixed flow : True
     area : 1
-    velocity : 86.8 / 1000/ 3600 
+    velocity : 48 / 1000 / 3600 
 
 ||| light source
 
 ConvectiveTransport light_source_to_lower_inlet_disp from light_source_store to lowerInlet_light_disp
     fixed flow : True
     area : 1
-    velocity : 86.8 / 1000/ 3600 
+    velocity : 48 / 1000 / 3600 
 |    activation_times : 0, 200, 200.1
 |    activation_response : 1, 0, 1
 
 |ConvectiveTransport light_tracer_to_lower_inlet_disp from light_pulse_source to lowerInlet_light_disp
 |    fixed flow : True
 |    area : 1
-|    velocity : 86.8 / 1000/ 3600 
+|    velocity : 48 / 1000 / 3600 
 |    activation_times : 0, 200, 200.1
 |    activation_response : 0, 1, 0
 
@@ -1411,183 +1411,183 @@ ConvectiveTransport light_source_to_lower_inlet_disp from light_source_store to 
 
 |||| upper separator
 MassTransfer upperSeparator of species solute from upper_separator_heavy to upperSep_light_disp
-    ks : 5.89*10**-5
-    kt : 4.35*10**-5
-    area : 0.107| A_MT
-    S : 1 / 0.843
+    ks : 8.54*10**-5
+    kt : 4.40*10**-5
+    area : 0.060| A_MT
+    S : 1 / 0.933
 
 ||| upper inlet
 
 MassTransfer upperInlet of species solute from upper_inlet_heavy to upper_inlet_light_disp
-    ks : 5.89*10**-5
-    kt : 4.35*10**-5
-    area : 0.107| A_MT
-    S : 1 / 0.843
+    ks : 8.54*10**-5
+    kt : 4.40*10**-5
+    area : 0.060| A_MT
+    S : 1 / 0.933
 
 ||| column stage
 
 MassTransfer s26 of species solute from stage_26_heavy to stage26_light_disp
-    ks : 5.89*10**-5
-    kt : 4.35*10**-5
-    area : 0.107| A_MT
-    S : 1 / 0.843
+    ks : 8.54*10**-5
+    kt : 4.40*10**-5
+    area : 0.060| A_MT
+    S : 1 / 0.933
 
 MassTransfer s25 of species solute from stage_25_heavy to stage25_light_disp
-    ks : 5.89*10**-5
-    kt : 4.35*10**-5
-    area : 0.107| A_MT
-    S : 1 / 0.843
+    ks : 8.54*10**-5
+    kt : 4.40*10**-5
+    area : 0.060| A_MT
+    S : 1 / 0.933
 
 MassTransfer s24 of species solute from stage_24_heavy to stage24_light_disp
-    ks : 5.89*10**-5
-    kt : 4.35*10**-5
-    area : 0.107| A_MT
-    S : 1 / 0.843
+    ks : 8.54*10**-5
+    kt : 4.40*10**-5
+    area : 0.060| A_MT
+    S : 1 / 0.933
 
 MassTransfer s23 of species solute from stage_23_heavy to stage23_light_disp
-    ks : 5.89*10**-5
-    kt : 4.35*10**-5
-    area : 0.107| A_MT
-    S : 1 / 0.843
+    ks : 8.54*10**-5
+    kt : 4.40*10**-5
+    area : 0.060| A_MT
+    S : 1 / 0.933
 
 MassTransfer s22 of species solute from stage_22_heavy to stage22_light_disp
-    ks : 5.89*10**-5
-    kt : 4.35*10**-5
-    area : 0.107| A_MT
-    S : 1 / 0.843
+    ks : 8.54*10**-5
+    kt : 4.40*10**-5
+    area : 0.060| A_MT
+    S : 1 / 0.933
 
 MassTransfer s21 of species solute from stage_21_heavy to stage21_light_disp
-    ks : 5.89*10**-5
-    kt : 4.35*10**-5
-    area : 0.107| A_MT
-    S : 1 / 0.843
+    ks : 8.54*10**-5
+    kt : 4.40*10**-5
+    area : 0.060| A_MT
+    S : 1 / 0.933
 
 MassTransfer s20 of species solute from stage_20_heavy to stage20_light_disp
-    ks : 5.89*10**-5
-    kt : 4.35*10**-5
-    area : 0.107| A_MT
-    S : 1 / 0.843
+    ks : 8.54*10**-5
+    kt : 4.40*10**-5
+    area : 0.060| A_MT
+    S : 1 / 0.933
 
 MassTransfer s19 of species solute from stage_19_heavy to stage19_light_disp
-    ks : 5.89*10**-5
-    kt : 4.35*10**-5
-    area : 0.107| A_MT
-    S : 1 / 0.843
+    ks : 8.54*10**-5
+    kt : 4.40*10**-5
+    area : 0.060| A_MT
+    S : 1 / 0.933
 
 MassTransfer s18 of species solute from stage_18_heavy to stage18_light_disp
-    ks : 5.89*10**-5
-    kt : 4.35*10**-5
-    area : 0.107| A_MT
-    S : 1 / 0.843
+    ks : 8.54*10**-5
+    kt : 4.40*10**-5
+    area : 0.060| A_MT
+    S : 1 / 0.933
 
 MassTransfer s17 of species solute from stage_17_heavy to stage17_light_disp
-    ks : 5.89*10**-5
-    kt : 4.35*10**-5
-    area : 0.107| A_MT
-    S : 1 / 0.843
+    ks : 8.54*10**-5
+    kt : 4.40*10**-5
+    area : 0.060| A_MT
+    S : 1 / 0.933
 
 MassTransfer s16 of species solute from stage_16_heavy to stage16_light_disp
-    ks : 5.89*10**-5
-    kt : 4.35*10**-5
-    area : 0.107| A_MT
-    S : 1 / 0.843
+    ks : 8.54*10**-5
+    kt : 4.40*10**-5
+    area : 0.060| A_MT
+    S : 1 / 0.933
 
 MassTransfer s15 of species solute from stage_15_heavy to stage15_light_disp
-    ks : 5.89*10**-5
-    kt : 4.35*10**-5
-    area : 0.107| A_MT
-    S : 1 / 0.843
+    ks : 8.54*10**-5
+    kt : 4.40*10**-5
+    area : 0.060| A_MT
+    S : 1 / 0.933
 
 MassTransfer s14 of species solute from stage_14_heavy to stage14_light_disp
-    ks : 5.89*10**-5
-    kt : 4.35*10**-5
-    area : 0.107| A_MT
-    S : 1 / 0.843
+    ks : 8.54*10**-5
+    kt : 4.40*10**-5
+    area : 0.060| A_MT
+    S : 1 / 0.933
 
 MassTransfer s13 of species solute from stage_13_heavy to stage13_light_disp
-    ks : 5.89*10**-5
-    kt : 4.35*10**-5
-    area : 0.107| A_MT
-    S : 1 / 0.843
+    ks : 8.54*10**-5
+    kt : 4.40*10**-5
+    area : 0.060| A_MT
+    S : 1 / 0.933
 
 MassTransfer s12 of species solute from stage_12_heavy to stage12_light_disp
-    ks : 5.89*10**-5
-    kt : 4.35*10**-5
-    area : 0.107| A_MT
-    S : 1 / 0.843
+    ks : 8.54*10**-5
+    kt : 4.40*10**-5
+    area : 0.060| A_MT
+    S : 1 / 0.933
 
 MassTransfer s11 of species solute from stage_11_heavy to stage11_light_disp
-    ks : 5.89*10**-5
-    kt : 4.35*10**-5
-    area : 0.107| A_MT
-    S : 1 / 0.843
+    ks : 8.54*10**-5
+    kt : 4.40*10**-5
+    area : 0.060| A_MT
+    S : 1 / 0.933
 
 MassTransfer s10 of species solute from stage_10_heavy to stage10_light_disp
-    ks : 5.89*10**-5
-    kt : 4.35*10**-5
-    area : 0.107| A_MT
-    S : 1 / 0.843
+    ks : 8.54*10**-5
+    kt : 4.40*10**-5
+    area : 0.060| A_MT
+    S : 1 / 0.933
 
 MassTransfer s9 of species solute from stage_9_heavy to stage9_light_disp
-    ks : 5.89*10**-5
-    kt : 4.35*10**-5
-    area : 0.107| A_MT
-    S : 1 / 0.843
+    ks : 8.54*10**-5
+    kt : 4.40*10**-5
+    area : 0.060| A_MT
+    S : 1 / 0.933
 
 MassTransfer s8 of species solute from stage_8_heavy to stage8_light_disp
-    ks : 5.89*10**-5
-    kt : 4.35*10**-5
-    area : 0.107| A_MT
-    S : 1 / 0.843
+    ks : 8.54*10**-5
+    kt : 4.40*10**-5
+    area : 0.060| A_MT
+    S : 1 / 0.933
 
 MassTransfer s7 of species solute from stage_7_heavy to stage7_light_disp
-    ks : 5.89*10**-5
-    kt : 4.35*10**-5
-    area : 0.107| A_MT
-    S : 1 / 0.843
+    ks : 8.54*10**-5
+    kt : 4.40*10**-5
+    area : 0.060| A_MT
+    S : 1 / 0.933
 
 MassTransfer s6 of species solute from stage_6_heavy to stage6_light_disp
-    ks : 5.89*10**-5
-    kt : 4.35*10**-5
-    area : 0.107| A_MT
-    S : 1 / 0.843
+    ks : 8.54*10**-5
+    kt : 4.40*10**-5
+    area : 0.060| A_MT
+    S : 1 / 0.933
 
 MassTransfer s5 of species solute from stage_5_heavy to stage5_light_disp
-    ks : 5.89*10**-5
-    kt : 4.35*10**-5
-    area : 0.107| A_MT
-    S : 1 / 0.843
+    ks : 8.54*10**-5
+    kt : 4.40*10**-5
+    area : 0.060| A_MT
+    S : 1 / 0.933
 
 MassTransfer s4 of species solute from stage_4_heavy to stage4_light_disp
-    ks : 5.89*10**-5
-    kt : 4.35*10**-5
-    area : 0.107| A_MT
-    S : 1 / 0.843
+    ks : 8.54*10**-5
+    kt : 4.40*10**-5
+    area : 0.060| A_MT
+    S : 1 / 0.933
 
 MassTransfer s3 of species solute from stage_3_heavy to stage3_light_disp
-    ks : 5.89*10**-5
-    kt : 4.35*10**-5
-    area : 0.107| A_MT
-    S : 1 / 0.843
+    ks : 8.54*10**-5
+    kt : 4.40*10**-5
+    area : 0.060| A_MT
+    S : 1 / 0.933
 
 MassTransfer s2 of species solute from stage_2_heavy to stage2_light_disp
-    ks : 5.89*10**-5
-    kt : 4.35*10**-5
-    area : 0.107| A_MT
-    S : 1 / 0.843
+    ks : 8.54*10**-5
+    kt : 4.40*10**-5
+    area : 0.060| A_MT
+    S : 1 / 0.933
 
 MassTransfer s1 of species solute from stage_1_heavy to stage1_light_disp
-    ks : 5.89*10**-5
-    kt : 4.35*10**-5
-    area : 0.107| A_MT
-    S : 1 / 0.843
+    ks : 8.54*10**-5
+    kt : 4.40*10**-5
+    area : 0.060| A_MT
+    S : 1 / 0.933
 
 ||| lower inlet
 
 MassTransfer lowerInlet of species solute from lower_inlet_heavy to lowerInlet_light_disp
-    ks : 5.89*10**-5
-    kt : 4.35*10**-5
-    area : 0.107| A_MT
-    S : 1 / 0.843
+    ks : 8.54*10**-5
+    kt : 4.40*10**-5
+    area : 0.060| A_MT
+    S : 1 / 0.933
 
 end
