@@ -1417,7 +1417,7 @@ MassTransfer upperSeparator of species solute from upper_separator_heavy to uppe
     kt : 4.70*10**-5
     area : 0.065 | A_MT
     |S : 1 / 0.843
-    S : @S_func_conc(self, '', 'heavy_phase', 'solute', '1 / 0.843')
+    S : @S_func_conc(self, 'upper_separator_heavy', 'heavy_phase', 'solute', '1 / 0.843')
 
 ||| upper inlet
 
@@ -1426,7 +1426,7 @@ MassTransfer upperInlet of species solute from upper_inlet_heavy to upper_inlet_
     kt : 4.70*10**-5
     area : 0.065 | A_MT
     |S : 1 / 0.843
-    S : @S_func_conc(self, '', 'heavy_phase', 'solute', '1 / 0.843')
+    S : @S_func_conc(self, 'upper_inlet_heavy', 'heavy_phase', 'solute', '1 / 0.843')
 
 ||| column stage
 
@@ -1435,182 +1435,182 @@ MassTransfer upperInlet of species solute from upper_inlet_heavy to upper_inlet_
 |    kt : 4.70*10**-5
 |    area : 0.065 | A_MT
 |    |S : 1 / 0.843
-|    S : @S_func_conc(self, '', 'heavy_phase', 'solute', '1 / 0.843')
+|    S : @S_func_conc(self, 'stage_26_heavy', 'heavy_phase', 'solute', '1 / 0.843')
 
 MassTransfer s25 of species solute from stage_25_heavy to stage25_light_disp
     ks : 8.65*10**-5
     kt : 4.70*10**-5
     area : 0.065 | A_MT
     |S : 1 / 0.843
-    S : @S_func_conc(self, '', 'heavy_phase', 'solute', '1 / 0.843')
+    S : @S_func_conc(self, 'stage_25_heavy', 'heavy_phase', 'solute', '1 / 0.843')
 
 MassTransfer s24 of species solute from stage_24_heavy to stage24_light_disp
     ks : 8.65*10**-5
     kt : 4.70*10**-5
     area : 0.065 | A_MT
     |S : 1 / 0.843
-    S : @S_func_conc(self, '', 'heavy_phase', 'solute', '1 / 0.843')
+    S : @S_func_conc(self, 'stage_24_heavy', 'heavy_phase', 'solute', '1 / 0.843')
 
 MassTransfer s23 of species solute from stage_23_heavy to stage23_light_disp
     ks : 8.65*10**-5
     kt : 4.70*10**-5
     area : 0.065 | A_MT
     |S : 1 / 0.843
-    S : @S_func_conc(self, '', 'heavy_phase', 'solute', '1 / 0.843')
+    S : @S_func_conc(self, 'stage_23_heavy', 'heavy_phase', 'solute', '1 / 0.843')
 
 MassTransfer s22 of species solute from stage_22_heavy to stage22_light_disp
     ks : 8.65*10**-5
     kt : 4.70*10**-5
     area : 0.065 | A_MT
     |S : 1 / 0.843
-    S : @S_func_conc(self, '', 'heavy_phase', 'solute', '1 / 0.843')
+    S : @S_func_conc(self, 'stage_22_heavy', 'heavy_phase', 'solute', '1 / 0.843')
 
 MassTransfer s21 of species solute from stage_21_heavy to stage21_light_disp
     ks : 8.65*10**-5
     kt : 4.70*10**-5
     area : 0.065 | A_MT
     |S : 1 / 0.843
-    S : @S_func_conc(self, '', 'heavy_phase', 'solute', '1 / 0.843')
+    S : @S_func_conc(self, 'stage_21_heavy', 'heavy_phase', 'solute', '1 / 0.843')
 
 MassTransfer s20 of species solute from stage_20_heavy to stage20_light_disp
     ks : 8.65*10**-5
     kt : 4.70*10**-5
     area : 0.065 | A_MT
     |S : 1 / 0.843
-    S : @S_func_conc(self, '', 'heavy_phase', 'solute', '1 / 0.843')
+    S : @S_func_conc(self, 'stage_20_heavy', 'heavy_phase', 'solute', '1 / 0.843')
 
 MassTransfer s19 of species solute from stage_19_heavy to stage19_light_disp
     ks : 8.65*10**-5
     kt : 4.70*10**-5
     area : 0.065 | A_MT
     |S : 1 / 0.843
-    S : @S_func_conc(self, '', 'heavy_phase', 'solute', '1 / 0.843')
+    S : @S_func_conc(self, 'stage_19_heavy', 'heavy_phase', 'solute', '1 / 0.843')
 
 MassTransfer s18 of species solute from stage_18_heavy to stage18_light_disp
     ks : 8.65*10**-5
     kt : 4.70*10**-5
     area : 0.065 | A_MT
     |S : 1 / 0.843
-    S : @S_func_conc(self, '', 'heavy_phase', 'solute', '1 / 0.843')
+    S : @S_func_conc(self, 'stage_18_heavy', 'heavy_phase', 'solute', '1 / 0.843')
 
 MassTransfer s17 of species solute from stage_17_heavy to stage17_light_disp
     ks : 8.65*10**-5
     kt : 4.70*10**-5
     area : 0.065 | A_MT
     |S : 1 / 0.843
-    S : @S_func_conc(self, '', 'heavy_phase', 'solute', '1 / 0.843')
+    S : @S_func_conc(self, 'stage_17_heavy', 'heavy_phase', 'solute', '1 / 0.843')
 
 MassTransfer s16 of species solute from stage_16_heavy to stage16_light_disp
     ks : 8.65*10**-5
     kt : 4.70*10**-5
     area : 0.065 | A_MT
     |S : 1 / 0.843
-    S : @S_func_conc(self, '', 'heavy_phase', 'solute', '1 / 0.843')
+    S : @S_func_conc(self, 'stage_16_heavy', 'heavy_phase', 'solute', '1 / 0.843')
 
 MassTransfer s15 of species solute from stage_15_heavy to stage15_light_disp
     ks : 8.65*10**-5
     kt : 4.70*10**-5
     area : 0.065 | A_MT
     |S : 1 / 0.843
-    S : @S_func_conc(self, '', 'heavy_phase', 'solute', '1 / 0.843')
+    S : @S_func_conc(self, 'stage_15_heavy', 'heavy_phase', 'solute', '1 / 0.843')
 
 MassTransfer s14 of species solute from stage_14_heavy to stage14_light_disp
     ks : 8.65*10**-5
     kt : 4.70*10**-5
     area : 0.065 | A_MT
     |S : 1 / 0.843
-    S : @S_func_conc(self, '', 'heavy_phase', 'solute', '1 / 0.843')
+    S : @S_func_conc(self, 'stage_14_heavy', 'heavy_phase', 'solute', '1 / 0.843')
 
 MassTransfer s13 of species solute from stage_13_heavy to stage13_light_disp
     ks : 8.65*10**-5
     kt : 4.70*10**-5
     area : 0.065 | A_MT
     |S : 1 / 0.843
-    S : @S_func_conc(self, '', 'heavy_phase', 'solute', '1 / 0.843')
+    S : @S_func_conc(self, 'stage_13_heavy', 'heavy_phase', 'solute', '1 / 0.843')
 
 MassTransfer s12 of species solute from stage_12_heavy to stage12_light_disp
     ks : 8.65*10**-5
     kt : 4.70*10**-5
     area : 0.065 | A_MT
     |S : 1 / 0.843
-    S : @S_func_conc(self, '', 'heavy_phase', 'solute', '1 / 0.843')
+    S : @S_func_conc(self, 'stage_12_heavy', 'heavy_phase', 'solute', '1 / 0.843')
 
 MassTransfer s11 of species solute from stage_11_heavy to stage11_light_disp
     ks : 8.65*10**-5
     kt : 4.70*10**-5
     area : 0.065 | A_MT
     |S : 1 / 0.843
-    S : @S_func_conc(self, '', 'heavy_phase', 'solute', '1 / 0.843')
+    S : @S_func_conc(self, 'stage_11_heavy', 'heavy_phase', 'solute', '1 / 0.843')
 
 MassTransfer s10 of species solute from stage_10_heavy to stage10_light_disp
     ks : 8.65*10**-5
     kt : 4.70*10**-5
     area : 0.065 | A_MT
     |S : 1 / 0.843
-    S : @S_func_conc(self, '', 'heavy_phase', 'solute', '1 / 0.843')
+    S : @S_func_conc(self, 'stage_10_heavy', 'heavy_phase', 'solute', '1 / 0.843')
 
 MassTransfer s9 of species solute from stage_9_heavy to stage9_light_disp
     ks : 8.65*10**-5
     kt : 4.70*10**-5
     area : 0.065 | A_MT
     |S : 1 / 0.843
-    S : @S_func_conc(self, '', 'heavy_phase', 'solute', '1 / 0.843')
+    S : @S_func_conc(self, 'stage_9_heavy', 'heavy_phase', 'solute', '1 / 0.843')
 
 MassTransfer s8 of species solute from stage_8_heavy to stage8_light_disp
     ks : 8.65*10**-5
     kt : 4.70*10**-5
     area : 0.065 | A_MT
     |S : 1 / 0.843
-    S : @S_func_conc(self, '', 'heavy_phase', 'solute', '1 / 0.843')
+    S : @S_func_conc(self, 'stage_8_heavy', 'heavy_phase', 'solute', '1 / 0.843')
 
 MassTransfer s7 of species solute from stage_7_heavy to stage7_light_disp
     ks : 8.65*10**-5
     kt : 4.70*10**-5
     area : 0.065 | A_MT
     |S : 1 / 0.843
-    S : @S_func_conc(self, '', 'heavy_phase', 'solute', '1 / 0.843')
+    S : @S_func_conc(self, 'stage_7_heavy', 'heavy_phase', 'solute', '1 / 0.843')
 
 MassTransfer s6 of species solute from stage_6_heavy to stage6_light_disp
     ks : 8.65*10**-5
     kt : 4.70*10**-5
     area : 0.065 | A_MT
     |S : 1 / 0.843
-    S : @S_func_conc(self, '', 'heavy_phase', 'solute', '1 / 0.843')
+    S : @S_func_conc(self, 'stage_6_heavy', 'heavy_phase', 'solute', '1 / 0.843')
 
 MassTransfer s5 of species solute from stage_5_heavy to stage5_light_disp
     ks : 8.65*10**-5
     kt : 4.70*10**-5
     area : 0.065 | A_MT
     |S : 1 / 0.843
-    S : @S_func_conc(self, '', 'heavy_phase', 'solute', '1 / 0.843')
+    S : @S_func_conc(self, 'stage_5_heavy', 'heavy_phase', 'solute', '1 / 0.843')
 
 MassTransfer s4 of species solute from stage_4_heavy to stage4_light_disp
     ks : 8.65*10**-5
     kt : 4.70*10**-5
     area : 0.065 | A_MT
     |S : 1 / 0.843
-    S : @S_func_conc(self, '', 'heavy_phase', 'solute', '1 / 0.843')
+    S : @S_func_conc(self, 'stage_4_heavy', 'heavy_phase', 'solute', '1 / 0.843')
 
 MassTransfer s3 of species solute from stage_3_heavy to stage3_light_disp
     ks : 8.65*10**-5
     kt : 4.70*10**-5
     area : 0.065 | A_MT
     |S : 1 / 0.843
-    S : @S_func_conc(self, '', 'heavy_phase', 'solute', '1 / 0.843')
+    S : @S_func_conc(self, 'stage_3_heavy', 'heavy_phase', 'solute', '1 / 0.843')
 
 MassTransfer s2 of species solute from stage_2_heavy to stage2_light_disp
     ks : 8.65*10**-5
     kt : 4.70*10**-5
     area : 0.065 | A_MT
     |S : 1 / 0.843
-    S : @S_func_conc(self, '', 'heavy_phase', 'solute', '1 / 0.843')
+    S : @S_func_conc(self, 'stage_2_heavy', 'heavy_phase', 'solute', '1 / 0.843')
 
 MassTransfer s1 of species solute from stage_1_heavy to stage1_light_disp
     ks : 8.65*10**-5
     kt : 4.70*10**-5
     area : 0.065 | A_MT
     |S : 1 / 0.843
-    S : @S_func_conc(self, '', 'heavy_phase', 'solute', '1 / 0.843')
+    S : @S_func_conc(self, 'stage_1_heavy', 'heavy_phase', 'solute', '1 / 0.843')
 
 ||| lower inlet
 
@@ -1619,6 +1619,6 @@ MassTransfer lowerInlet of species solute from lower_inlet_heavy to lowerInlet_l
     kt : 4.70*10**-5
     area : 0.065 | A_MT
     |S : 1 / 0.843
-    S : @S_func_conc(self, '', 'heavy_phase', 'solute', '1 / 0.843')
+    S : @S_func_conc(self, 'lower_inlet_heavy', 'heavy_phase', 'solute', '1 / 0.843')
 
 end
